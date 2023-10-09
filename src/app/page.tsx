@@ -1,3 +1,6 @@
+import styles from './page.module.css';
+import Home from './Home';
+
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>
+  return <Home />;
 }
