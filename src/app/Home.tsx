@@ -6,9 +6,8 @@ export default function Home() {
       <main className={styles['main-container']}>
         <header className={styles['header-container']}>
           <div className={styles['logo']}>
-            <span className={styles['logo-text']}>yoo</span>
+            <span className={styles['logo-text']}>dongbin</span>
             <span className={styles['logo-dot']}>.</span>
-            <span className={styles['logo-text']}>com</span>
           </div>
           <nav className={styles['nav-container']}>
             <a>Project</a>
