@@ -21,9 +21,9 @@
 .main-container {
     margin: 0 auto;
     width: 85vw;
-    height: 98.5vh;
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 5rem;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .header-container {
@@ -66,18 +66,18 @@
 }
 
 .content-section {
-    flex: 1;
-    display: flex;
+    /* flex: 1; */
+    /* display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-bottom: 10rem;
+    flex-direction: column; */
+    margin-top: 10rem;
 }
 
 .content-title {
     font-family: PretendardSemiBold, sans-serif;
     font-size: 8.5em;
     margin-bottom: 0;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 .content-title-dot {
@@ -103,10 +103,11 @@
 
 .bottom-background-color {
     width: 100%;
-    height: 1.5vh;
+    height: 12px;
     margin: 0;
     background-color: #FFE500;
     position: fixed;
+    bottom: 0;
 }
 
 @media screen and (max-width: 750px) {
@@ -138,7 +139,7 @@
     }
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 500px) {
     .content-title {
         font-size: 5em;
     }
