@@ -1,4 +1,5 @@
 import styles from './Home.module.css';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
             <a>About</a>
             <a>Contact</a>
           </nav>
+          <AiOutlineMenu className={styles['nav-hamburger']}></AiOutlineMenu>
         </header>
         <section className={styles['content-section']}>
           <h1 className={styles['content-title']}>
