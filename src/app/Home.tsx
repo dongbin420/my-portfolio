@@ -1,22 +1,9 @@
 import styles from './Home.module.css';
-import { AiOutlineMenu } from 'react-icons/ai';
 
 export default function Home() {
   return (
     <>
       <main className={styles['main-container']}>
-        <header className={styles['header-container']}>
-          <div className={styles['logo']}>
-            <span className={styles['logo-text']}>dongbin</span>
-            <span className={styles['logo-dot']}>.</span>
-          </div>
-          <nav className={styles['nav-container']}>
-            <a>Project</a>
-            <a>About</a>
-            <a>Contact</a>
-          </nav>
-          <AiOutlineMenu className={styles['nav-hamburger']}></AiOutlineMenu>
-        </header>
         <section className={styles['content-section']}>
           <h1 className={styles['content-title']}>
             Frontend Developer

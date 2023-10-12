@@ -1,0 +1,52 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 5rem; */
+    width: 85vw;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.logo {
+    font-family: PretendardBold, sans-serif;
+}
+
+.logo-text {
+    font-size: 3em;
+}
+
+.logo-dot {
+    color: #FFE500;
+    font-size: 4em;
+    line-height: 0;
+}
+
+.nav-container {
+    font-family: PretendardSemiBold, sans-serif;
+    font-size: 1.3em;
+}
+
+.nav-container a {
+    margin-right: 5vw;
+}
+
+.nav-container a:last-child {
+    margin-right: 0;
+}
+
+.nav-hamburger {
+    display: none;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 750px) {
+
+    .nav-container {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+    }
+}
