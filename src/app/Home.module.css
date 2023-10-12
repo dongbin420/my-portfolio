@@ -136,3 +136,9 @@
         font-size: 2em;
     }
 }
+
+@media screen and (max-height: 500px) {
+    .content-title {
+        font-size: 5em;
+    }
+}
