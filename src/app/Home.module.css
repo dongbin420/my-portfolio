@@ -70,14 +70,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 9rem;
+    margin-bottom: 10rem;
 }
 
 .content-title {
     font-family: PretendardSemiBold, sans-serif;
     font-size: 8.5em;
     margin-bottom: 0;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .content-title-dot {
@@ -109,7 +109,7 @@
     position: fixed;
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 750px) {
     .content-title {
         font-size: 5em;
     }
@@ -126,6 +126,7 @@
 @media screen and (max-width: 450px) {
     .content-title {
         font-size: 2.5em;
+        
     }
 
     .content-text-1, .content-text-2 {
@@ -137,7 +138,7 @@
     }
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 650px) {
     .content-title {
         font-size: 5em;
     }
