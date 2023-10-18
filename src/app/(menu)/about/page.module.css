@@ -1,0 +1,128 @@
+.main-container {
+    margin: 0 auto;
+    width: 85vw;
+    /* padding-bottom: 5rem; */
+    color: #17161b;
+}
+
+.about-title {
+    margin-top: 7rem;
+    font-size: 7em;
+    font-family: NeometricExtraBold, sans-serif;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content-container {
+    
+}
+
+.about-content {
+    font-family: NeometricLegular, sans-serif;
+    width: 80%;
+    font-size: 1.5em;
+    opacity: 65%;
+    line-height: 2;
+    margin-top: 2rem;
+    color:#1d1d1d;
+}
+
+.resume-link-container {
+    font-family: PretendardSemiBold, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.3em;
+}
+
+.resume-link-text {
+    margin-right: 0.5rem;
+    padding: 0;
+    border-bottom: 1px solid transparent;
+}
+
+.resume-link-text:hover {
+    border-bottom: 1px solid #000;
+}
+
+.resume-arrow-icon {
+    animation: moveArrow 1s ease-in-out infinite;
+}
+
+.content-img {
+    border-radius: 50%;
+}
+
+.dot {
+    color: #ffe761;
+}
+
+.icon-container {
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.icon {
+    border-radius: 15%;
+    position: absolute;
+    z-index: 1;
+}
+
+.programmer-img {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(250px);
+}
+
+  .icon:nth-child(1) {
+    left: 5%;
+    transform: translateX(-50%) translateY(300px);
+}
+  
+.icon:nth-child(2) {
+    left: 20%;
+    transform: translateX(-50%) translateY(200px);
+}
+  
+.icon:nth-child(3) {
+    left: 35%;
+    transform: translateX(-50%) translateY(100px);
+}
+
+.icon:nth-child(4) {
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.icon:nth-child(5) {
+    left: 65%;
+    transform: translateX(-50%) translateY(100px);
+}
+  
+.icon:nth-child(6) {
+    left: 80%;
+    transform: translateX(-50%) translateY(200px);
+}
+
+.icon:nth-child(7) {
+    left: 95%;
+    transform: translateX(-50%) translateY(300px);
+}
+
+@keyframes moveArrow {
+    0% {
+      transform: translateX(0); /* Start position */
+    }
+    50% {
+      transform: translateX(6px); /* Move 2px to the right */
+    }
+    100% {
+      transform: translateX(0); /* Return to the original position */
+    }
+  }

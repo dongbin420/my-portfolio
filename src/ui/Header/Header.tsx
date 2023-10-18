@@ -10,7 +10,7 @@ export default function Header() {
         <span className={styles['logo-dot']}>.</span>
       </Link>
       <nav className={styles['nav-container']}>
-        <Link href="/project">Project</Link>
+        <Link href="/projects">Projects</Link>
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
       </nav>

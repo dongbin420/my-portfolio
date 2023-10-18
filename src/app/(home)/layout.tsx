@@ -1,5 +1,7 @@
 import './globals.css';
-import Header from '../../ui/header/Header';
+// import LayoutProvider from './LayoutProvider';
+import Header from '@/ui/Header/Header';
+import Footer from '@/ui/Footer/Footer';
 
 export const metadata = {
   title: 'dongbin',
@@ -16,6 +18,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
