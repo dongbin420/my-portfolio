@@ -1,7 +1,11 @@
 import styles from './page.module.css';
 import Image from 'next/image';
 import { HiOutlineArrowLongRight } from 'react-icons/hi2';
-import { imgAddresses } from '../../../../public/data/data';
+import {
+  logoImgAddresses,
+  otherImg,
+  logoName,
+} from '../../../../public/data/data';
 
 export default function Page() {
   return (
@@ -42,23 +46,27 @@ export default function Page() {
           alt="profile"
         />
       </div>
-      <div className={styles['icon-container']}>
-        {imgAddresses.map((url) => {
+      <div className={styles['img-container']}>
+        {logoImgAddresses.map((url, index) => {
           return (
-            <Image
-              key={url}
-              className={styles['icon']}
-              src={url}
-              width={150}
-              height={150}
-              alt="skills"
-            />
+            <div key={url} className={styles['icon-container']}>
+              <Image
+                className={styles['icon']}
+                src={url}
+                width={150}
+                height={150}
+                alt="skills"
+              />
+              <div className={styles['overlay']}>
+                <div className={styles['overlay-text']}>{logoName[index]}</div>
+              </div>
+            </div>
           );
         })}
 
         <Image
           className={styles['programmer-img']}
-          src="https://cdn1.vectorstock.com/i/1000x1000/26/00/man-working-on-computer-icon-vector-15262600.jpg"
+          src={otherImg.person}
           width={300}
           height={300}
           alt="programmer"

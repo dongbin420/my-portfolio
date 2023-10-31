@@ -17,10 +17,6 @@
     align-items: center;
 }
 
-.about-content-container {
-    
-}
-
 .about-content {
     font-family: NeometricLegular, sans-serif;
     width: 80%;
@@ -61,16 +57,60 @@
     color: #ffe761;
 }
 
-.icon-container {
+.img-container {
     text-align: center;
     position: relative;
     margin-top: 4rem;
 }
 
-.icon {
+.icon-container {
     border-radius: 15%;
     position: absolute;
     z-index: 1;
+}
+
+.icon {
+    border-radius: 15%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgb(2, 2, 2);
+  border-radius: 12%;
+  
+}
+
+/* .overlay:nth-child(6) {
+    height: 50%;
+} */
+
+.icon-container:hover .overlay {
+    opacity: 1;
+  }
+
+  .icon-container:hover {
+    z-index: 100;
+  }
+
+.overlay-text {
+  color: white;
+  font-size: 1.3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: PretendardBold, sans-serif;
+  cursor: default;
 }
 
 .programmer-img {
@@ -80,39 +120,45 @@
     transform: translateX(-50%) translateY(250px);
 }
 
-  .icon:nth-child(1) {
+  .icon-container:nth-child(1) {
     left: 5%;
     transform: translateX(-50%) translateY(300px);
 }
   
-.icon:nth-child(2) {
+.icon-container:nth-child(2) {
     left: 20%;
     transform: translateX(-50%) translateY(200px);
+    z-index: 2;
 }
   
-.icon:nth-child(3) {
+.icon-container:nth-child(3) {
     left: 35%;
     transform: translateX(-50%) translateY(100px);
+    z-index: 3;
 }
 
-.icon:nth-child(4) {
+.icon-container:nth-child(4) {
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
   
-.icon:nth-child(5) {
+.icon-container:nth-child(5) {
     left: 65%;
     transform: translateX(-50%) translateY(100px);
+    z-index: 3;
 }
   
-.icon:nth-child(6) {
+.icon-container:nth-child(6) {
     left: 80%;
     transform: translateX(-50%) translateY(200px);
+    z-index: 2;
 }
 
-.icon:nth-child(7) {
+.icon-container:nth-child(7) {
     left: 95%;
     transform: translateX(-50%) translateY(300px);
+    
 }
 
 @keyframes moveArrow {
