@@ -14,6 +14,13 @@ export default function Page() {
         About<span className={styles['dot']}>.</span>
       </h1>
       <div className={styles['content-container']}>
+        <Image
+          className={styles['content-img']}
+          src="/img/yoda1.jpg"
+          width={450}
+          height={450}
+          alt="profile"
+        />
         <div className={styles['about-content-container']}>
           <p className={styles['about-content']}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -37,14 +44,6 @@ export default function Page() {
             <HiOutlineArrowLongRight className={styles['resume-arrow-icon']} />
           </div>
         </div>
-
-        <Image
-          className={styles['content-img']}
-          src="/img/yoda1.jpg"
-          width={450}
-          height={450}
-          alt="profile"
-        />
       </div>
       <div className={styles['img-container']}>
         {logoImgAddresses.map((url, index) => {
