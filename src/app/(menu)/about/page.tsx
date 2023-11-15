@@ -34,7 +34,7 @@ export default function Page() {
           </p>
           <div className={styles['resume-link-container']}>
             <a
-              href="https://drive.google.com/file/d/1B7gR0ik2f4DmDLFyyNZCXEGuNTp2JJYK/view?usp=share_link"
+              href="https://drive.google.com/file/d/1rj8zVc5PrI-AtKfbmCF46z4dcUVqD2up/view"
               target="_blank"
               rel="noopener noreferrer"
               className={styles['resume-link-text']}
