@@ -19,6 +19,7 @@ export default function Page() {
           src="/img/yoda1.jpg"
           width={450}
           height={450}
+          priority={true}
           alt="profile"
         />
         <div className={styles['about-content-container']}>

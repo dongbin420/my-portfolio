@@ -4,13 +4,40 @@ const nextConfig = {
     typedRoutes: true,
   },
   images: {
-    domains: [
-      'i.namu.wiki',
-      'cdn.icon-icons.com',
-      'icons.veryicon.com',
-      'velog.velcdn.com',
-      'cdn1.vectorstock.com',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.namu.wiki',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.icon-icons.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'icons.veryicon.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'velog.velcdn.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn1.vectorstock.com',
+        pathname: '**',
+      },
     ],
+    // domains: [
+    //   'i.namu.wiki',
+    //   'cdn.icon-icons.com',
+    //   'icons.veryicon.com',
+    //   'velog.velcdn.com',
+    //   'cdn1.vectorstock.com',
+    // ],
   },
 };
 
