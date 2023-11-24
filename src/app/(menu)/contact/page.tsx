@@ -12,9 +12,9 @@ export default function Page() {
 
     try {
       await navigator.clipboard.writeText(text);
-      alert('전화번호가 복사되었습니다.');
+      alert('Copied!');
     } catch (e) {
-      alert('복사에 실패하였습니다.');
+      alert('Copy failed!');
     }
   };
 
@@ -23,29 +23,50 @@ export default function Page() {
       <h1 className={styles['contact-title']}>
         Contact<span className={styles['dot']}>.</span>
       </h1>
-      <ul className={styles['contact-container']}>
-        {contact.map((info) => {
-          return (
-            <li key={info.method} className={styles['link-container']}>
-              <a
-                href={info.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles[info.method]}
-                onClick={
-                  info.method === 'phone'
-                    ? (event) => {
-                        handlePhoneClick(event, info.name);
-                      }
-                    : undefined
-                }
-              >
-                {info.name}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
+      <section className={styles['content-container']}>
+        <div className={styles['contact-container']}>
+          <div className={styles['link-container']}>
+            {contact.slice(0, 2).map((info) => {
+              return (
+                <a
+                  key={info.method}
+                  href={info.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles[info.method]}
+                  onClick={
+                    info.method === 'phone'
+                      ? (event) => {
+                          handlePhoneClick(event, info.name);
+                        }
+                      : undefined
+                  }
+                >
+                  {info.name}
+                </a>
+              );
+            })}
+          </div>
+          <div className={styles['link-container']}>
+            {contact.slice(2, 4).map((info) => {
+              return (
+                <a
+                  key={info.method}
+                  href={info.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles[info.method]}
+                >
+                  {info.name}
+                </a>
+              );
+            })}
+          </div>
+        </div>
+        <div className={styles['mail-container']}>
+          Lorem ipsum dolor sit amet consectetur
+        </div>
+      </section>
     </main>
   );
 }

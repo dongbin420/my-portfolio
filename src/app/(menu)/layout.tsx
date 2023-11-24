@@ -1,4 +1,5 @@
 import './globals.css';
+import './contact/page.module.css';
 import Footer from '@/ui/Footer/Footer';
 import MenuHeader from '@/ui/MenuHeader/MenuHeader';
 

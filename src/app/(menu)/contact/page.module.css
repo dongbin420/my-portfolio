@@ -18,10 +18,10 @@
 .github, .email, .phone, .blog {
   background-repeat: no-repeat;
   background-size: contain; /* or cover, or whatever fits your design */
-  padding-left: 6rem; /* Adjust the padding to create space for the image */
+  padding-left: 6.5rem; /* Adjust the padding to create space for the image */
   display: inline-block;
   font-size: 1.5em;
-  line-height: 3em;
+  line-height: 3.2em;
   font-family: proxima nova semibold, sans-serif;
   transition: opacity 0.3s;
 }
@@ -41,17 +41,36 @@
 }
 
 .blog {
-  background-image: url('https://icons.veryicon.com/png/o/education-technology/linear-education-2/notebook-136.png');
-  color: #5fc2dd;
+  background-image: url('https://icons.veryicon.com/png/o/brands/popular-brand-icon-simple-icons/notion.png');
 }
 
 .github:hover, .email:hover, .phone:hover, .blog:hover {
   opacity: 0.6;
 }
 
+.content-container {
+  display: flex;
+  gap: 5rem;
+  margin-top: 8rem;
+}
+
 .contact-container {
-  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  flex: 1;
 }
 
 .link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.link-container:nth-child(1) {
+  padding-right: 3rem;
+}
+
+.mail-container {
+  flex: 1;
 }
