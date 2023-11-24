@@ -1,0 +1,50 @@
+.main-container {
+  margin: 0 auto;
+  width: 85vw;
+  /* padding-bottom: 5rem; */
+  color: #17161b;
+}
+
+.contact-title {
+  margin-top: 7rem;
+  font-size: 7em;
+  font-family: NeometricExtraBold, sans-serif;
+}
+
+.dot {
+  color: #ffe761;
+}
+
+.github, .email, .phone, .blog {
+  background-repeat: no-repeat;
+  background-size: contain; /* or cover, or whatever fits your design */
+  padding-left: 6rem; /* Adjust the padding to create space for the image */
+  display: inline-block;
+  font-size: 1.8em;
+  line-height: 2.5em;
+  font-family: proxima nova semibold, sans-serif;
+  transition: opacity 0.3s;
+}
+
+.github {
+  background-image: url('https://icons.veryicon.com/png/o/miscellaneous/eva-icon-fill/github-41.png');
+}
+
+.email {
+  background-image: url('https://icons.veryicon.com/png/o/business/vscode-program-item-icon/email-205.png');
+  color: #42a5f5;
+}
+
+.phone {
+  background-image: url('https://icons.veryicon.com/png/o/business/circular-multi-color-function-icon/phone-phone.png');
+  color: #57e087;
+}
+
+.blog {
+  background-image: url('https://icons.veryicon.com/png/o/education-technology/linear-education-2/notebook-136.png');
+  color: #5fc2dd;
+}
+
+.github:hover, .email:hover, .phone:hover, .blog:hover {
+  opacity: 0.6;
+}

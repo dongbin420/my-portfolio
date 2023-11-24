@@ -20,6 +20,21 @@ export const logoName = [
   'Figma',
 ];
 
+export const contact = [
+  {
+    url: 'mailto:dongbin420@gmail.com',
+    method: 'email',
+    name: 'dongbin420@gmail.com',
+  },
+  { url: '/', method: 'phone', name: '010-7362-6762' },
+  { url: 'https://github.com/dongbin420', method: 'github', name: 'Github' },
+  {
+    url: 'https://zonbin.notion.site/66c53c14e28949748e731cd2ccde64a6?v=c84ac5d11c624e3cbe9f277e5abe53fc',
+    method: 'blog',
+    name: 'Blog',
+  },
+];
+
 // 이미지 웹 주소
 // export const imgAddresses1 = [
 //   'https://i.namu.wiki/i/y06O65SqwaO5UIDG6xc3fb_KdcZajgR0gORms0rIFZXsZnPD1olJ1s44Fc6cH4k1IeI1TcXGLsZPB899um1hbYR83ezdMu8MoG2qEjPjCSREhuTqL5orXm_PUIWOV8NJrQ4B2v4FMUCjDSsbyFDEAA.svg',
