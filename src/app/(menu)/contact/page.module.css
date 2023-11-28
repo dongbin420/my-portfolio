@@ -73,6 +73,7 @@
 
 .mail-container {
   flex: 1;
+  margin-bottom: 5rem;
 }
 
 .mail-title {
@@ -170,4 +171,65 @@
 .mail-btn:hover {
   border: #ffe761 1px solid;
   color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .content-container {
+    flex-direction: column;
+    gap: 10rem;
+  }
+
+  .contact-container {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .contact-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-title {
+    font-size: 5em;
+  }
+
+  .github, .email, .phone, .blog {
+    font-size: 1.3em;
+    line-height: 3em;
+  }
+
+  .mail-title {
+    font-size: 3.5em;
+  }
+
+  .form-row-1 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-title {
+    font-size: 3.5em;
+  }
+
+  .github, .email, .phone, .blog {
+    font-size: 1em;
+    line-height: 3em;
+    padding-left: 4.5rem;
+  }
+
+  .mail-title {
+    font-size: 3em;
+  }
+
+  .mail-btn {
+    padding: 1rem 6rem;
+  }
 }
