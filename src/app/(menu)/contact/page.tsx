@@ -2,7 +2,8 @@
 
 import styles from './page.module.css';
 import { contact } from '../../../../public/data/data';
-import { useState } from 'react';
+import { useState, useRef, FormEvent } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Page() {
   const [focusedInput, setFocusedInput] = useState<string | null>(null);
@@ -26,6 +27,32 @@ export default function Page() {
       alert('Copied!');
     } catch (e) {
       alert('Copy failed!');
+    }
+  };
+
+  const form = useRef<HTMLFormElement | null>(null);
+
+  const sendEmail = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    if (form.current) {
+      emailjs
+        .sendForm(
+          'service_ja8o0fe',
+          'template_3ucpvo9',
+          form.current,
+          'oSGR11mjuXVcpLpWD'
+        )
+        .then(() => {
+          alert('이메일이 전송되었습니다.');
+
+          if (form.current) {
+            form.current.reset();
+          }
+        })
+        .catch((err) => {
+          alert(`에러가 발생했습니다.: ${err}`);
+        });
     }
   };
 
@@ -76,7 +103,7 @@ export default function Page() {
         </div>
         <div className={styles['mail-container']}>
           <h2 className={styles['mail-title']}>Send me a message!</h2>
-          <form className={styles['mail-form']}>
+          <form ref={form} onSubmit={sendEmail} className={styles['mail-form']}>
             <div className={styles['form-row-1']}>
               <div className={styles['input-container']}>
                 <label htmlFor="name">Name</label>
@@ -84,7 +111,7 @@ export default function Page() {
                   id="name"
                   className={styles['name-input']}
                   type="text"
-                  name="name"
+                  name="from_name"
                   placeholder={focusedInput === 'name' ? '' : 'Enter your name'}
                   onFocus={() => handleInputFocus('name')}
                   onBlur={handleInputBlur}
@@ -97,7 +124,7 @@ export default function Page() {
                   id="email"
                   className={styles['email-input']}
                   type="email"
-                  name="email"
+                  name="from_email"
                   placeholder={
                     focusedInput === 'email' ? '' : 'Enter your email address'
                   }
@@ -115,7 +142,7 @@ export default function Page() {
                 <textarea
                   id="message"
                   className={styles['message-input']}
-                  name="message"
+                  name="user_message"
                   placeholder={
                     focusedInput === 'message' ? '' : 'Enter your message'
                   }
