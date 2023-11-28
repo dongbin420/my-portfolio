@@ -22,7 +22,7 @@
   display: inline-block;
   font-size: 1.5em;
   line-height: 3.2em;
-  font-family: proxima nova semibold, sans-serif;
+  font-family: PretendardSemiBold, sans-serif;
   transition: opacity 0.3s;
 }
 
@@ -50,11 +50,11 @@
 
 .content-container {
   display: flex;
-  gap: 5rem;
-  margin-top: 8rem;
+  gap: 10rem;
 }
 
 .contact-container {
+  margin-top: 8rem;
   display: flex;
   justify-content: space-between;
   white-space: nowrap;
@@ -73,4 +73,57 @@
 
 .mail-container {
   flex: 1;
+}
+
+.mail-title {
+  font-family: PretendardSemiBold, sans-serif;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 4.7rem;
+}
+
+.input-container {
+  color: rgba(23, 22, 27, 0.4);
+  font-family: PretendardSemiBold, sans-serif;
+  font-size: 1.5em;
+  flex: 1;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.textarea-container label {
+  margin-bottom: 2rem;
+}
+
+.name-input, .email-input, .message-input {
+  border: none;
+  border-bottom: 1.5px solid rgba(23, 22, 27, 0.2);
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+
+.name-input, .email-input {
+  padding-bottom: 0.5rem;
+}
+
+.name-input:focus, .email-input:focus, .message-input:focus {
+  border-bottom: 1.5px solid #000000;
+  color: #17161b;
+}
+
+.input-container:focus-within label {
+  color: #17161b;
+}
+
+.form-row-1, .form-row-2 {
+  display: flex;
+  gap: 3rem;
+}
+
+.form-row-1 {
+  margin-bottom: 3rem;
 }

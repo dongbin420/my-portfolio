@@ -2,8 +2,19 @@
 
 import styles from './page.module.css';
 import { contact } from '../../../../public/data/data';
+import { useState } from 'react';
 
 export default function Page() {
+  const [focusedInput, setFocusedInput] = useState<string | null>(null);
+
+  const handleInputFocus = (inputId: string) => {
+    setFocusedInput(inputId);
+  };
+
+  const handleInputBlur = () => {
+    setFocusedInput(null);
+  };
+
   const handlePhoneClick = async (
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
     text: string
@@ -64,7 +75,59 @@ export default function Page() {
           </div>
         </div>
         <div className={styles['mail-container']}>
-          Lorem ipsum dolor sit amet consectetur
+          <h2 className={styles['mail-title']}>Send me a message!</h2>
+          <form className={styles['mail-form']}>
+            <div className={styles['form-row-1']}>
+              <div className={styles['input-container']}>
+                <label htmlFor="name">Name</label>
+                <input
+                  id="name"
+                  className={styles['name-input']}
+                  type="text"
+                  name="name"
+                  placeholder={focusedInput === 'name' ? '' : 'Enter your name'}
+                  onFocus={() => handleInputFocus('name')}
+                  onBlur={handleInputBlur}
+                  required
+                />
+              </div>
+              <div className={styles['input-container']}>
+                <label htmlFor="email">Email</label>
+                <input
+                  id="email"
+                  className={styles['email-input']}
+                  type="email"
+                  name="email"
+                  placeholder={
+                    focusedInput === 'email' ? '' : 'Enter your email address'
+                  }
+                  onFocus={() => handleInputFocus('email')}
+                  onBlur={handleInputBlur}
+                  required
+                />
+              </div>
+            </div>
+            <div className={styles['form-row-2']}>
+              <div
+                className={`${styles['input-container']} ${styles['textarea-container']}`}
+              >
+                <label htmlFor="message">Message</label>
+                <textarea
+                  id="message"
+                  className={styles['message-input']}
+                  name="message"
+                  placeholder={
+                    focusedInput === 'message' ? '' : 'Enter your message'
+                  }
+                  onFocus={() => handleInputFocus('message')}
+                  onBlur={handleInputBlur}
+                  rows={3}
+                  required
+                />
+              </div>
+            </div>
+            <button type="submit">Send</button>
+          </form>
         </div>
       </section>
     </main>

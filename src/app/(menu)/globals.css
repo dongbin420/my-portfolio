@@ -58,3 +58,8 @@ ul, ol {
     border-bottom: 3.5px solid rgba(23, 22, 27, 0.1);
     margin-top: 3rem;
 }
+
+input::placeholder, textarea::placeholder {
+    color: rgba(23, 22, 27, 0.2);
+    font-family: PretendardMedium, sans-serif;
+}
