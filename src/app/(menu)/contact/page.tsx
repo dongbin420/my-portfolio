@@ -126,7 +126,11 @@ export default function Page() {
                 />
               </div>
             </div>
-            <button type="submit">Send</button>
+            <div className={styles['mail-btn-container']}>
+              <button type="submit" className={styles['mail-btn']}>
+                Send
+              </button>
+            </div>
           </form>
         </div>
       </section>

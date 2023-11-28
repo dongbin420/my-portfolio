@@ -127,3 +127,47 @@
 .form-row-1 {
   margin-bottom: 3rem;
 }
+
+.form-row-2 {
+  margin-bottom: 2rem;
+}
+
+.mail-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mail-btn {
+  padding: 1rem 8rem;
+  font-family: PretendardSemiBold, sans-serif;
+  background: none;
+  border: rgba(23, 22, 27, 0.2) 1px solid;
+  color: rgba(23, 22, 27, 0.4);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: border 0.2s ease, color 0.2s ease;
+
+  position: relative;
+}
+
+.mail-btn::before {
+  position: absolute;
+
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ffe761; /* rgba(23, 22, 27) #ffe761 */
+  transition: width 0.2s ease;
+  z-index: -1;
+}
+
+.mail-btn:hover::before {
+  width: 100%;
+}
+
+.mail-btn:hover {
+  border: #ffe761 1px solid;
+  color: white;
+}
