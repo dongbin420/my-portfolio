@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 750px) {
     .content-title {
         font-size: 6em;
     }
