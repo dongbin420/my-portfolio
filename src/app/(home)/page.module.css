@@ -76,4 +76,8 @@
     .content-text-1, .content-text-2 {
         font-size: 1.3em;
     }
+
+    .content-section {
+        margin-top: 10rem;
+    }
 }

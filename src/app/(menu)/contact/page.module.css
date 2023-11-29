@@ -173,7 +173,7 @@
   color: white;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
   .content-container {
     flex-direction: column;
     gap: 10rem;
