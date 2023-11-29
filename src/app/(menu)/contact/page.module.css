@@ -176,7 +176,7 @@
 @media screen and (max-width: 1450px) {
   .content-container {
     flex-direction: column;
-    gap: 10rem;
+    gap: 8rem;
   }
 
   .contact-container {
