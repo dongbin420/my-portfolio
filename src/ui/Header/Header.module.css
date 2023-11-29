@@ -10,11 +10,11 @@
 
 .logo {
     font-family: PretendardBold, sans-serif;
+    color: rgb(23, 22, 27);
 }
 
 .logo-text {
     font-size: 3em;
-    color: #17161b;
 }
 
 .logo-dot {
@@ -26,6 +26,11 @@
 .nav-container {
     font-family: PretendardMedium, sans-serif;
     font-size: 1.3em;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.nav-container a:hover {
+    color: rgb(0, 0, 0);
 }
 
 .nav-container a {

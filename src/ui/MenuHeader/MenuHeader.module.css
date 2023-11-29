@@ -16,6 +16,11 @@
 .nav-container {
     font-family: PretendardMedium, sans-serif;
     font-size: 1.1em;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.nav-container a:hover {
+    color: rgb(0, 0, 0);
 }
 
 .nav-container a {
