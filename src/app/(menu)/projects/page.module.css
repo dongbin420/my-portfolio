@@ -31,6 +31,18 @@
   /* margin-bottom: 2rem; */
 }
 
+.project-container {
+  box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.2rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-container:hover {
+  transform: translateY(-10px);
+  /* box-shadow: 0px 14px 20px 5px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.15);
+}
+
 @media (max-width: 800px) {
   .project {
     flex-basis: 80%;
@@ -47,21 +59,13 @@
   }
 }
 
-.project-container {
-  box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 0.2rem
-}
-
 .project-top {
-  /* background-color: rgb(253, 253, 253); */
-  background-color: #fbe353;
   border-radius: 0.2rem 0.2rem 0 0;
   padding: 3rem 2rem;
   text-align: center;
 }
 
 .project-bottom {
-  /* background-color: rgb(255, 251, 231); */
   border-radius: 0 0 0.2rem 0.2rem;
   padding: 2rem;
 }
@@ -74,4 +78,16 @@
 .project-summary {
   font-size: 0.9em;
   color: rgb(23, 22, 27, 0.5);
+}
+
+.movielog-bg {
+  background-color: #fbe353;
+}
+
+.stackoverflow-bg {
+  background-color: #f8f8f8;
+}
+
+.portfolio-bg {
+  background-color: #ffffff;
 }

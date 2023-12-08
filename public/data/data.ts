@@ -8,7 +8,7 @@ export const logoImgAddresses = [
   '/img/figma.png',
 ];
 
-export const otherImg = { person: '/img/person.jpg' };
+export const otherImg = { person: '/img/person.png' };
 
 export const logoName = [
   'JavaScript',
@@ -32,6 +32,27 @@ export const contact = [
     url: 'https://zonbin.notion.site/66c53c14e28949748e731cd2ccde64a6?v=c84ac5d11c624e3cbe9f277e5abe53fc',
     method: 'blog',
     name: 'Blog',
+  },
+];
+
+export const projects = [
+  {
+    img: 'movielog.svg',
+    name: 'MovieLog',
+    summary: '영화리뷰 웹사이트',
+    bgClass: 'movielog-bg',
+  },
+  {
+    img: 'stackoverflow.svg',
+    name: 'Stack Overflow',
+    summary: 'Stack Overflow 클론 웹사이트',
+    bgClass: 'stackoverflow-bg',
+  },
+  {
+    img: 'dongbin.svg',
+    name: 'Portfolio',
+    summary: '개인 포트폴리오 웹사이트',
+    bgClass: 'portfolio-bg',
   },
 ];
 
