@@ -1,7 +1,7 @@
 import './globals.css';
 import './contact/page.module.css';
 import Footer from '@/ui/Footer/Footer';
-import MenuHeader from '@/ui/MenuHeader/MenuHeader';
+// import MenuHeader from '@/ui/MenuHeader/MenuHeader';
 
 export const metadata = {
   title: 'dongbin',
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <MenuHeader />
+        {/* <MenuHeader /> */}
         {children}
         <Footer />
       </body>

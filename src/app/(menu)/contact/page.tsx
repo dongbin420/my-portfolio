@@ -4,6 +4,7 @@ import styles from './page.module.css';
 import { contact } from '../../../../public/data/data';
 import { useState, useRef, FormEvent } from 'react';
 import emailjs from '@emailjs/browser';
+import MenuHeader from '@/ui/MenuHeader/MenuHeader';
 
 export default function Page() {
   const [focusedInput, setFocusedInput] = useState<string | null>(null);
@@ -57,110 +58,119 @@ export default function Page() {
   };
 
   return (
-    <main className={styles['main-container']}>
-      <h1 className={styles['contact-title']}>
-        Contact<span className={styles['dot']}>.</span>
-      </h1>
-      <section className={styles['content-container']}>
-        <div className={styles['contact-container']}>
-          <div className={styles['link-container']}>
-            {contact.slice(0, 2).map((info) => {
-              return (
-                <a
-                  key={info.method}
-                  href={info.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles[info.method]}
-                  onClick={
-                    info.method === 'phone'
-                      ? (event) => {
-                          handlePhoneClick(event, info.name);
-                        }
-                      : undefined
-                  }
-                >
-                  {info.name}
-                </a>
-              );
-            })}
+    <>
+      <MenuHeader />
+      <main className={styles['main-container']}>
+        <h1 className={styles['contact-title']}>
+          Contact<span className={styles['dot']}>.</span>
+        </h1>
+        <section className={styles['content-container']}>
+          <div className={styles['contact-container']}>
+            <div className={styles['link-container']}>
+              {contact.slice(0, 2).map((info) => {
+                return (
+                  <a
+                    key={info.method}
+                    href={info.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles[info.method]}
+                    onClick={
+                      info.method === 'phone'
+                        ? (event) => {
+                            handlePhoneClick(event, info.name);
+                          }
+                        : undefined
+                    }
+                  >
+                    {info.name}
+                  </a>
+                );
+              })}
+            </div>
+            <div className={styles['link-container']}>
+              {contact.slice(2, 4).map((info) => {
+                return (
+                  <a
+                    key={info.method}
+                    href={info.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles[info.method]}
+                  >
+                    {info.name}
+                  </a>
+                );
+              })}
+            </div>
           </div>
-          <div className={styles['link-container']}>
-            {contact.slice(2, 4).map((info) => {
-              return (
-                <a
-                  key={info.method}
-                  href={info.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles[info.method]}
+          <div className={styles['mail-container']}>
+            <h2 className={styles['mail-title']}>Send me a message!</h2>
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className={styles['mail-form']}
+            >
+              <div className={styles['form-row-1']}>
+                <div className={styles['input-container']}>
+                  <label htmlFor="name">Name</label>
+                  <input
+                    id="name"
+                    className={styles['name-input']}
+                    type="text"
+                    name="from_name"
+                    placeholder={
+                      focusedInput === 'name' ? '' : 'Enter your name'
+                    }
+                    onFocus={() => handleInputFocus('name')}
+                    onBlur={handleInputBlur}
+                    required
+                  />
+                </div>
+                <div className={styles['input-container']}>
+                  <label htmlFor="email">Email</label>
+                  <input
+                    id="email"
+                    className={styles['email-input']}
+                    type="email"
+                    name="from_email"
+                    placeholder={
+                      focusedInput === 'email' ? '' : 'Enter your email address'
+                    }
+                    onFocus={() => handleInputFocus('email')}
+                    onBlur={handleInputBlur}
+                    required
+                  />
+                </div>
+              </div>
+              <div className={styles['form-row-2']}>
+                <div
+                  className={`${styles['input-container']} ${styles['textarea-container']}`}
                 >
-                  {info.name}
-                </a>
-              );
-            })}
+                  <label htmlFor="message">Message</label>
+                  <textarea
+                    id="message"
+                    className={styles['message-input']}
+                    name="user_message"
+                    placeholder={
+                      focusedInput === 'message' ? '' : 'Enter your message'
+                    }
+                    onFocus={() => handleInputFocus('message')}
+                    onBlur={handleInputBlur}
+                    rows={3}
+                    required
+                  />
+                </div>
+              </div>
+              <div className={styles['mail-btn-container']}>
+                <button type="submit" className={styles['mail-btn']}>
+                  Send
+                </button>
+              </div>
+            </form>
           </div>
-        </div>
-        <div className={styles['mail-container']}>
-          <h2 className={styles['mail-title']}>Send me a message!</h2>
-          <form ref={form} onSubmit={sendEmail} className={styles['mail-form']}>
-            <div className={styles['form-row-1']}>
-              <div className={styles['input-container']}>
-                <label htmlFor="name">Name</label>
-                <input
-                  id="name"
-                  className={styles['name-input']}
-                  type="text"
-                  name="from_name"
-                  placeholder={focusedInput === 'name' ? '' : 'Enter your name'}
-                  onFocus={() => handleInputFocus('name')}
-                  onBlur={handleInputBlur}
-                  required
-                />
-              </div>
-              <div className={styles['input-container']}>
-                <label htmlFor="email">Email</label>
-                <input
-                  id="email"
-                  className={styles['email-input']}
-                  type="email"
-                  name="from_email"
-                  placeholder={
-                    focusedInput === 'email' ? '' : 'Enter your email address'
-                  }
-                  onFocus={() => handleInputFocus('email')}
-                  onBlur={handleInputBlur}
-                  required
-                />
-              </div>
-            </div>
-            <div className={styles['form-row-2']}>
-              <div
-                className={`${styles['input-container']} ${styles['textarea-container']}`}
-              >
-                <label htmlFor="message">Message</label>
-                <textarea
-                  id="message"
-                  className={styles['message-input']}
-                  name="user_message"
-                  placeholder={
-                    focusedInput === 'message' ? '' : 'Enter your message'
-                  }
-                  onFocus={() => handleInputFocus('message')}
-                  onBlur={handleInputBlur}
-                  rows={3}
-                  required
-                />
-              </div>
-            </div>
-            <div className={styles['mail-btn-container']}>
-              <button type="submit" className={styles['mail-btn']}>
-                Send
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </>
   );
 }
