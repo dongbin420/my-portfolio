@@ -51,11 +51,42 @@
   .projects-container {
     justify-content: center;
   }
+
+  .contact-title {
+    text-align: center;
+    font-size: 6em;
+  }
 }
 
 @media (min-width: 801px) and (max-width: 1200px) {
   .project {
     flex-basis: calc((100% - 3rem) / 2);
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-title {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-title {
+    font-size: 4em;
+  }
+
+  .content-img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-title {
+    font-size: 3.5em;
+  }
+
+  .content-img {
+    width: 180px;
   }
 }
 
