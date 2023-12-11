@@ -1,3 +1,11 @@
+import ProjectsHeader from '@/ui/ProjectsHeader/ProjectsHeader';
+
 export default function Page() {
-  return;
+  return (
+    <main>
+      <section>
+        <ProjectsHeader />
+      </section>
+    </main>
+  );
 }
