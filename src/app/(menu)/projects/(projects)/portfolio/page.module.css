@@ -1,5 +1,5 @@
 .top-section {
-  background-color: #f8f8f8;
+  background-color: #fff;
   color: #17161b;
 }
 
@@ -14,9 +14,20 @@
   font-family: PretendardMedium, sans-serif;
 }
 
-.logo-img {
+.logo {
+  font-family: 'PretendardBold', sans-serif;
+  margin-bottom: 2.5rem;
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  color: rgb(23, 22, 27);
+}
+
+.logo-text {
+  font-size: 5em;
+}
+
+.logo-dot {
+  color: #ffe761;
+  font-size: 6em;
 }
 
 .top-content-text {
