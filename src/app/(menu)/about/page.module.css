@@ -197,10 +197,10 @@
     }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 800px) {
     .content-img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         float: none;
         text-align: center;
         margin-left: 0;
@@ -234,6 +234,11 @@
 }
 
 @media screen and (max-width: 450px) {
+    .content-img {
+        width: 200px;
+        height: 200px;
+    }
+
     .about-title {
         font-size: 5em;
     }

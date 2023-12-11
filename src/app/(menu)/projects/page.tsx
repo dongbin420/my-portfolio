@@ -16,7 +16,12 @@ export default function Page() {
         <ul className={styles['projects-container']}>
           {projects.map((project, index) => {
             return (
-              <Link key={index} href="/projects" className={styles['project']}>
+              <Link
+                key={index}
+                href={{ pathname: `/projects/${project.route}` }}
+                // href={`/projects/${project.route}`}
+                className={styles['project']}
+              >
                 <li className={styles['project-container']}>
                   <div
                     className={`${styles['project-top']} ${

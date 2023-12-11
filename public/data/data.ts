@@ -41,18 +41,21 @@ export const projects = [
     name: 'MovieLog',
     summary: '영화리뷰 웹사이트',
     bgClass: 'movielog-bg',
+    route: 'movielog',
   },
   {
     img: 'stackoverflow.svg',
     name: 'Stack Overflow',
     summary: 'Stack Overflow 클론 웹사이트',
     bgClass: 'stackoverflow-bg',
+    route: 'stackoverflow',
   },
   {
     img: 'dongbin.svg',
     name: 'Portfolio',
     summary: '개인 포트폴리오 웹사이트',
     bgClass: 'portfolio-bg',
+    route: 'portfolio',
   },
 ];
 

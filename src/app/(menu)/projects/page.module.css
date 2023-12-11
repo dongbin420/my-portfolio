@@ -64,7 +64,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 499px) {
   .contact-title {
     font-size: 5em;
   }
