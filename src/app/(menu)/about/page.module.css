@@ -198,6 +198,10 @@
 }
 
 @media screen and (max-width: 800px) {
+    .about-title {
+        margin-bottom: 4rem;
+    }
+
     .content-img {
         width: 300px;
         height: 300px;
