@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
+
 .top-section {
   background-color: #fbe353;
   color: #17161b;
@@ -14,13 +16,20 @@
   font-family: PretendardMedium, sans-serif;
 }
 
-.logo-img {
-  margin-bottom: 1rem;
+/* .logo-img {
+  margin-bottom: 2rem;
+} */
+
+.logo {
+  font-family: 'SUIT', sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+  margin-bottom: 2rem;
 }
 
 .top-content-text {
   font-size: 1.2em;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   line-height: 2.5rem;
 }
 
