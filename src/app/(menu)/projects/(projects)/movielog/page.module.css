@@ -11,7 +11,7 @@
   padding: 3rem 3rem 7rem 3rem;
   margin: 0 auto;
   text-align: center;
-  font-family: PretendardSemiBold, sans-serif;
+  font-family: PretendardMedium, sans-serif;
 }
 
 .logo-img {
@@ -19,8 +19,9 @@
 }
 
 .top-content-text {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-bottom: 3rem;
+  line-height: 2.5rem;
 }
 
 .project-links {

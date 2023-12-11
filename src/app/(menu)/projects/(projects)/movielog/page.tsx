@@ -17,10 +17,11 @@ export default function Page() {
             alt="projectLogo"
           />
           <p className={styles['top-content-text']}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-            repellat mollitia dolore temporibus, alias iste illum cupiditate
-            tempore culpa laudantium earum vitae nisi cumque facilis nostrum
-            voluptatum veniam accusantium fuga.
+            한 가을 날, 나뭇잎은 마치 화가의 팔레트에서 골라진 듯 다양한
+            색상으로 물들어 있었다. 바람은 가을의 서곡을 연주하며 나뭇가지를
+            스치고 지나가고, 노란 잎사귀들은 춤추듯 공중을 떠돌았다. 작은 공원
+            안에는 어린이들이 놀이터에서 웃음소리를 내며 즐거운 시간을 보내고
+            있었다.
           </p>
           <div className={styles['project-links']}>
             <div className={styles['project-link-container']}>
