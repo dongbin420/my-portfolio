@@ -1,0 +1,14 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 5rem; */
+  width: 85vw;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+.back {
+  font-size: 1.8em;
+  color: #17161b;
+}
