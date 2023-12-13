@@ -27,7 +27,7 @@ export default function Page() {
             <div className={styles['project-link-container']}>
               <a
                 className={styles['project-link']}
-                href="http://code-main-24.s3-website.ap-northeast-2.amazonaws.com/"
+                href="https://dongbin.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -38,7 +38,7 @@ export default function Page() {
             <div className={styles['project-link-container']}>
               <a
                 className={styles['project-link']}
-                href="https://github.com/codestates-seb/seb44_main_024"
+                href="https://github.com/dongbin420/my-portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
               >
