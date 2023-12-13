@@ -8,14 +8,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2.5rem 3rem 4rem 3rem;
+  padding: 2.5rem 3rem 6rem 3rem;
   margin: 0 auto;
   text-align: center;
   font-family: PretendardMedium, sans-serif;
 }
 
 .logo-img {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 .top-content-text {
