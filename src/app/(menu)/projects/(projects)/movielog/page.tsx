@@ -4,7 +4,7 @@ import { HiOutlineArrowLongRight } from 'react-icons/hi2';
 
 export default function Page() {
   return (
-    <main>
+    <main className={styles['container']}>
       <section className={styles['top-section']}>
         <ProjectsHeader />
         <div className={styles['top-content-container']}>
@@ -42,6 +42,38 @@ export default function Page() {
               <HiOutlineArrowLongRight className={styles['arrow']} />
             </div>
           </div>
+        </div>
+      </section>
+      <section className={styles['bottom-section']}>
+        <div className={styles['overview-container']}>
+          <h1 className={styles['overview-title']}>개요</h1>
+          <ul className={styles['project-info-container']}>
+            <div className={styles['project-infos']}>
+              <li className={styles['project-info']}>
+                <p className={styles['project-info-title']}>Timeline</p>
+                <p className={styles['project-info-content']}>2023/06~07</p>
+              </li>
+              <li className={styles['project-info']}>
+                <p className={styles['project-info-title']}>Team/Solo</p>
+                <p className={styles['project-info-content']}>Team</p>
+              </li>
+            </div>
+            <div className={styles['project-infos']}>
+              <li className={styles['project-info']}>
+                <p className={styles['project-info-title']}>My Role</p>
+                <p className={styles['project-info-content']}>
+                  기획, FE(상세페이지, 검색페이지), CI/CD, Deployment
+                </p>
+              </li>
+              <li className={styles['project-info']}>
+                <p className={styles['project-info-title']}>Skills</p>
+                <p className={styles['project-info-content']}>
+                  React, TypeScript, Tailwind, Redux Toolkit, Github Actions,
+                  AWS S3
+                </p>
+              </li>
+            </div>
+          </ul>
         </div>
       </section>
     </main>

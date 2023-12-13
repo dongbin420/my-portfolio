@@ -1,8 +1,12 @@
 @import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
 
+.container {
+  color: #17161b;
+}
+
 .top-section {
   background-color: #fbe353;
-  color: #17161b;
+  margin-bottom: 4rem;
 }
 
 .top-content-container {
@@ -37,7 +41,7 @@
 .project-links {
   display: flex;
   gap: 2rem;
-  font-family: PretendardBold;
+  font-family: PretendardBold, sans-serif;
   font-size: 1.3em;
 }
 
@@ -58,6 +62,52 @@
 
 .project-link:hover {
   border-bottom: 1px solid #000;
+}
+
+.bottom-section {
+  max-width: 1380px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  padding: 0 3rem;
+  font-family: PretendardMedium, sans-serif;
+}
+
+.overview-container {
+  margin-bottom: 2rem;
+}
+
+.overview-title {
+  font-size: 3em;
+  font-family: PretendardBold, sans-serif;
+  border-bottom: 2px solid rgb(23, 22, 27);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-info-container {
+  display: flex;
+  /* gap: 6rem; */
+  text-align: left;
+  margin-bottom: 4rem;
+  font-family: PretendardSemiBold;
+}
+
+.project-infos {
+  flex: 1;
+}
+
+.project-info:nth-of-type(1) {
+  margin-bottom: 3rem;
+}
+
+.project-info-title {
+  font-size: 1.4em;
+  margin-bottom: 1.3rem;
+  color: rgb(23, 22, 27, 0.5);
+  font-family: PretendardSemiBold;
+}
+
+.project-info-content {
 }
 
 @keyframes moveArrow {

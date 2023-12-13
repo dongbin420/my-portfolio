@@ -58,7 +58,7 @@
   }
 }
 
-@media (min-width: 801px) and (max-width: 1200px) {
+@media (min-width: 801px) and (max-width: 1221px) {
   .project {
     flex-basis: calc((100% - 3rem) / 2);
   }
