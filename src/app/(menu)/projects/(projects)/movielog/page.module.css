@@ -72,11 +72,11 @@
   font-family: PretendardMedium, sans-serif;
 }
 
-.overview-container {
-  margin-bottom: 2rem;
+.page-container {
+  margin-bottom: 6rem;
 }
 
-.overview-title {
+.page-title {
   font-size: 3em;
   font-family: PretendardBold, sans-serif;
   border-bottom: 2px solid rgb(23, 22, 27);
@@ -88,7 +88,6 @@
   display: flex;
   /* gap: 6rem; */
   text-align: left;
-  margin-bottom: 4rem;
   font-family: PretendardSemiBold;
 }
 
@@ -104,10 +103,43 @@
   font-size: 1.4em;
   margin-bottom: 1.3rem;
   color: rgb(23, 22, 27, 0.5);
-  font-family: PretendardSemiBold;
+  font-family: PretendardSemiBold, sans-serif;
 }
 
-.project-info-content {
+.project-capture {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  border: rgb(23, 22, 27, 0.1) 1px solid;
+  border-radius: 10px;
+}
+
+.description-title {
+  font-family: PretendardMedium, sans-serif;
+  color: rgb(23, 22, 27, 0.5);
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1.2em;
+  line-height: 2.2rem;
+}
+
+.detail-1 {
+  margin-bottom: 6rem;
+}
+
+.detail-2 {
+  margin-bottom: 6rem;
+}
+
+.extra-1 {
+  margin-bottom: 4rem;
+}
+
+.extra-2 {
+  margin-bottom: 4rem;
 }
 
 @keyframes moveArrow {

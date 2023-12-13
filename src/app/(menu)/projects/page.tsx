@@ -34,6 +34,7 @@ export default function Page() {
                       width={250}
                       height={100}
                       alt="projectLogo"
+                      priority={project.name === 'MovieLog' ? true : false}
                     />
                   </div>
                   <div className={styles['project-bottom']}>
