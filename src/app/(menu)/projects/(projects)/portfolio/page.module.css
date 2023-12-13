@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 3rem 7rem 3rem;
+  padding: 2rem 3rem 4rem 3rem;
   margin: 0 auto;
   text-align: center;
   font-family: PretendardMedium, sans-serif;
@@ -16,8 +16,7 @@
 
 .logo {
   font-family: 'PretendardBold', sans-serif;
-  margin-bottom: 2.5rem;
-  margin-top: 1rem;
+  margin-bottom: 3rem;
   color: rgb(23, 22, 27);
 }
 
@@ -32,7 +31,7 @@
 
 .top-content-text {
   font-size: 1.2em;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   line-height: 2.5rem;
 }
 
