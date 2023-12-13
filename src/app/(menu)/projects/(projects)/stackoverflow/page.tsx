@@ -12,7 +12,7 @@ export default function Page() {
           <Image
             className={styles['logo-img']}
             src="/img/stackoverflow.svg"
-            width={400}
+            width={500}
             height={100}
             alt="projectLogo"
           />

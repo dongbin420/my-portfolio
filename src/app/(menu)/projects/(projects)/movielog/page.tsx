@@ -1,6 +1,5 @@
 import ProjectsHeader from '@/ui/ProjectsHeader/ProjectsHeader';
 import styles from './page.module.css';
-// import Image from 'next/image';
 import { HiOutlineArrowLongRight } from 'react-icons/hi2';
 
 export default function Page() {
@@ -9,13 +8,6 @@ export default function Page() {
       <section className={styles['top-section']}>
         <ProjectsHeader />
         <div className={styles['top-content-container']}>
-          {/* <Image
-            className={styles['logo-img']}
-            src="/img/movielog.svg"
-            width={400}
-            height={100}
-            alt="projectLogo"
-          /> */}
           <h1 className={styles['logo']}>MOVIE LOG</h1>
           <p className={styles['top-content-text']}>
             한 가을 날, 나뭇잎은 마치 화가의 팔레트에서 골라진 듯 다양한
