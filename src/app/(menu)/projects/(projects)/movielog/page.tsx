@@ -82,27 +82,23 @@ export default function Page() {
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture1.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
             />
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture2.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
             />
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture3.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
-              priority={true}
             />
             <p className={styles['description-title']}>
               Redux Toolkit을 활용한 상태 관리
@@ -123,17 +119,15 @@ export default function Page() {
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture4.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
             />
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture5.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
             />
             <p className={styles['description-title']}>리뷰 기능 구현</p>
@@ -153,17 +147,15 @@ export default function Page() {
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture6.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
             />
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture7.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
             />
             <p className={styles['description-title']}>페이지네이션 구현</p>
@@ -186,9 +178,8 @@ export default function Page() {
             <Image
               className={styles['project-capture']}
               src="/img/movielog/project-capture8.png"
-              width={0}
-              height={0}
-              sizes="100vw"
+              width={1300}
+              height={650}
               alt="projectCapture"
             />
             <p className={styles['description-title']}>검색 기능 구현</p>
