@@ -1,14 +1,19 @@
-.top-section {
+.top-section-container {
   background-color: #f8f8f8;
+  width: 100%;
+  padding: 0 7%;
+}
+
+.top-section {
   color: #17161b;
 }
 
 .top-content-container {
-  max-width: 800px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 3rem 5rem 3rem;
+  padding: 6rem 4rem 5rem 4rem;
   margin: 0 auto;
   text-align: center;
   font-family: PretendardMedium, sans-serif;
@@ -16,6 +21,7 @@
 
 .logo-img {
   margin-bottom: 3.5rem;
+  width: 100%;
 }
 
 .top-content-text {
@@ -48,6 +54,11 @@
 
 .project-link:hover {
   border-bottom: 1px solid #000;
+}
+
+.bottom-section-container {
+  width: 100%;
+  padding: 0 7%;
 }
 
 @keyframes moveArrow {
