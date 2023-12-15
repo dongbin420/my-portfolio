@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-top: 5rem; */
-    width: 85vw;
-    margin: 0 auto;
+    width: 100%; 
+    padding: 0 7%;
     padding-top: 4rem;
 }
 
