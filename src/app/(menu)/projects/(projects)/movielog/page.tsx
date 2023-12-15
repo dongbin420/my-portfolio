@@ -53,20 +53,20 @@ export default function Page() {
             <ul className={styles['project-info-container']}>
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
-                  <p className={styles['project-info-title']}>기간</p>
+                  <p className={styles['project-info-title']}>프로젝트 기간</p>
                   <p className={styles['project-info-content']}>2023/06~07</p>
                 </li>
-                <li className={styles['project-info']}>
-                  <p className={styles['project-info-title']}>팀/솔로</p>
-                  <p className={styles['project-info-content']}>팀(FE & BE)</p>
-                </li>
-              </div>
-              <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
                   <p className={styles['project-info-content']}>
                     기획, FE(영화 상세 페이지, 검색 페이지), CI/CD, Deployment
                   </p>
+                </li>
+              </div>
+              <div className={styles['project-infos']}>
+                <li className={styles['project-info']}>
+                  <p className={styles['project-info-title']}>팀 / 솔로</p>
+                  <p className={styles['project-info-content']}>팀(FE & BE)</p>
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>기술 스택</p>
