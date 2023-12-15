@@ -1,4 +1,3 @@
-import ProjectsHeader from '@/ui/ProjectsHeader/ProjectsHeader';
 import styles from './page.module.css';
 
 import { HiOutlineArrowLongRight } from 'react-icons/hi2';
@@ -7,7 +6,6 @@ export default function Page() {
   return (
     <main>
       <section className={styles['top-section']}>
-        <ProjectsHeader />
         <div className={styles['top-content-container']}>
           <div className={styles['logo']}>
             <span className={styles['logo-text']}>dongbin</span>
