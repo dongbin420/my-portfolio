@@ -92,7 +92,7 @@
   font-family: PretendardBold, sans-serif;
   border-bottom: 2px solid rgb(23, 22, 27);
   padding-bottom: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .project-info-container {
@@ -107,7 +107,7 @@
 }
 
 .project-info:nth-of-type(1) {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .project-info-title {
@@ -123,6 +123,10 @@
   margin-bottom: 1.5rem;
   border: rgb(23, 22, 27, 0.1) 1px solid;
   border-radius: 10px;
+}
+
+.project-capture.last-capture {
+  margin-bottom: 1rem;
 }
 
 .description-title {

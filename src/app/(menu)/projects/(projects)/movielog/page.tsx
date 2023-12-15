@@ -53,23 +53,23 @@ export default function Page() {
             <ul className={styles['project-info-container']}>
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
-                  <p className={styles['project-info-title']}>Timeline</p>
+                  <p className={styles['project-info-title']}>기간</p>
                   <p className={styles['project-info-content']}>2023/06~07</p>
                 </li>
                 <li className={styles['project-info']}>
-                  <p className={styles['project-info-title']}>Team/Solo</p>
-                  <p className={styles['project-info-content']}>Team</p>
+                  <p className={styles['project-info-title']}>팀/솔로</p>
+                  <p className={styles['project-info-content']}>팀(FE & BE)</p>
                 </li>
               </div>
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
-                  <p className={styles['project-info-title']}>My Role</p>
+                  <p className={styles['project-info-title']}>역할</p>
                   <p className={styles['project-info-content']}>
                     기획, FE(영화 상세 페이지, 검색 페이지), CI/CD, Deployment
                   </p>
                 </li>
                 <li className={styles['project-info']}>
-                  <p className={styles['project-info-title']}>Skills</p>
+                  <p className={styles['project-info-title']}>기술 스택</p>
                   <p className={styles['project-info-content']}>
                     React, TypeScript, Tailwind, Redux Toolkit, Github Actions,
                     AWS S3
@@ -96,7 +96,7 @@ export default function Page() {
                 alt="projectCapture"
               />
               <Image
-                className={styles['project-capture']}
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
                 src="/img/movielog/project-capture3.png"
                 width={1300}
                 height={650}
@@ -126,7 +126,7 @@ export default function Page() {
                 alt="projectCapture"
               />
               <Image
-                className={styles['project-capture']}
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
                 src="/img/movielog/project-capture5.png"
                 width={1300}
                 height={650}
@@ -154,7 +154,7 @@ export default function Page() {
                 alt="projectCapture"
               />
               <Image
-                className={styles['project-capture']}
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
                 src="/img/movielog/project-capture7.png"
                 width={1300}
                 height={650}
@@ -178,7 +178,7 @@ export default function Page() {
             <h1 className={styles['page-title']}>검색 페이지</h1>
             <div className={styles['search-1']}>
               <Image
-                className={styles['project-capture']}
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
                 src="/img/movielog/project-capture8.png"
                 width={1300}
                 height={650}
