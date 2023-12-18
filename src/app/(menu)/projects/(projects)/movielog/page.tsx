@@ -51,7 +51,9 @@ export default function Page() {
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>프로젝트 기간</p>
-                  <p className={styles['project-info-content']}>2023/06~07</p>
+                  <p className={styles['project-info-content']}>
+                    2023/06 ~ 2023/07
+                  </p>
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
