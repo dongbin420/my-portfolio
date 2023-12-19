@@ -52,7 +52,7 @@ export default function Page() {
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>프로젝트 기간</p>
                   <p className={styles['project-info-content']}>
-                    2023/06 ~ 2023/07
+                    2023/06 ~ 2023/07 (약 4주)
                   </p>
                 </li>
                 <li className={styles['project-info']}>
@@ -79,24 +79,24 @@ export default function Page() {
           </div>
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>영화 상세 페이지</h1>
-            <div className={styles['detail-1']}>
+            <div className={styles['page-element']}>
               <Image
                 className={styles['project-capture']}
-                src="/img/movielog/project-capture1.png"
+                src="/img/movielog/movielog-capture1.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
               />
               <Image
                 className={styles['project-capture']}
-                src="/img/movielog/project-capture2.png"
+                src="/img/movielog/movielog-capture2.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
               />
               <Image
                 className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/project-capture3.png"
+                src="/img/movielog/movielog-capture3.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
@@ -124,17 +124,17 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            <div className={styles['detail-2']}>
+            <div className={styles['page-element']}>
               <Image
                 className={styles['project-capture']}
-                src="/img/movielog/project-capture4.png"
+                src="/img/movielog/movielog-capture4.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
               />
               <Image
                 className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/project-capture5.png"
+                src="/img/movielog/movielog-capture5.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
@@ -161,17 +161,17 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            <div className={styles['detail-3']}>
+            <div>
               <Image
                 className={styles['project-capture']}
-                src="/img/movielog/project-capture6.png"
+                src="/img/movielog/movielog-capture6.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
               />
               <Image
                 className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/project-capture7.png"
+                src="/img/movielog/movielog-capture7.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
@@ -213,10 +213,10 @@ export default function Page() {
           </div>
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>검색 페이지</h1>
-            <div className={styles['search-1']}>
+            <div>
               <Image
                 className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/project-capture8.png"
+                src="/img/movielog/movielog-capture8.png"
                 width={1300}
                 height={650}
                 alt="projectCapture"
@@ -243,7 +243,7 @@ export default function Page() {
           </div>
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>기타</h1>
-            <div className={styles['extra-1']}>
+            <div className={styles['extra-element']}>
               <p className={styles['description-title']}>타입스크립트</p>
               <div className={styles['description']}>
                 <p>
@@ -274,14 +274,14 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className={styles['extra-2']}>
+            <div className={styles['extra-element']}>
               <p className={styles['description-title']}>반응형 웹 구현</p>
               <p className={styles['description']}>
                 미디어쿼리를 이용하여 작은 화면에도 대응하는 반응형 웹 디자인을
                 구현하였습니다.
               </p>
             </div>
-            <div className={styles['extra-3']}>
+            <div className={styles['extra-element']}>
               <p className={styles['description-title']}>CI/CD & Deployment</p>
               <div className={styles['description']}>
                 <p>AWS S3를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</p>
@@ -305,7 +305,7 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className={styles['extra-4']}>
+            <div>
               <p className={styles['description-title']}>프로젝트 회고</p>
               <div className={styles['blog-link-container']}>
                 <a

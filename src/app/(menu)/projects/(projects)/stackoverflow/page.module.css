@@ -1,3 +1,7 @@
+.container {
+  color: #17161b;
+}
+
 .top-section-container {
   background-color: #f8f8f8;
   width: 100%;
@@ -5,7 +9,8 @@
 }
 
 .top-section {
-  color: #17161b;
+  /* color: #17161b; */
+  margin-bottom: 4rem;
 }
 
 .top-content-container {
@@ -59,6 +64,103 @@
 .bottom-section-container {
   width: 100%;
   padding: 0 7%;
+}
+
+.bottom-section {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  padding: 0 4rem;
+  font-family: PretendardMedium, sans-serif;
+}
+
+.page-container {
+  margin-bottom: 6rem;
+}
+
+.page-title {
+  font-size: 3em;
+  font-family: PretendardBold, sans-serif;
+  border-bottom: 2px solid rgb(23, 22, 27);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-info-container {
+  display: flex;
+  /* gap: 6rem; */
+  text-align: left;
+  font-family: PretendardSemiBold;
+}
+
+.project-infos {
+  flex: 1;
+}
+
+.project-info:nth-of-type(1) {
+  margin-bottom: 4rem;
+}
+
+.project-info-title {
+  font-size: 1.4em;
+  margin-bottom: 1.3rem;
+  color: rgb(23, 22, 27, 0.5);
+  font-family: PretendardSemiBold, sans-serif;
+}
+
+.project-capture {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  border: rgb(23, 22, 27, 0.1) 1px solid;
+  border-radius: 10px;
+}
+
+.project-capture.last-capture {
+  margin-bottom: 1rem;
+}
+
+.description-title {
+  font-family: PretendardMedium, sans-serif;
+  color: rgb(23, 22, 27, 0.5);
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1.2em;
+  line-height: 2.2rem;
+}
+
+.page-element {
+  margin-bottom: 6rem;
+}
+
+.extra-element {
+  margin-bottom: 4rem;
+}
+
+.blog-link-container {
+  font-family: PretendardSemiBold, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+  color:rgb(58, 123, 213);
+}
+
+.blog-link-text {
+  margin-right: 0.5rem;
+  padding: 0;
+  border-bottom: 1px solid transparent;
+}
+
+.blog-link-text:hover {
+  border-bottom: 1px solid rgb(58, 123, 213);
+}
+
+.blog-arrow-icon {
+  animation: moveArrow 1s ease-in-out infinite;
 }
 
 @keyframes moveArrow {

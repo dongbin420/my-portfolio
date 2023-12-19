@@ -141,23 +141,11 @@
   line-height: 2.2rem;
 }
 
-.detail-1 {
+.page-element {
   margin-bottom: 6rem;
 }
 
-.detail-2 {
-  margin-bottom: 6rem;
-}
-
-.extra-1 {
-  margin-bottom: 4rem;
-}
-
-.extra-2 {
-  margin-bottom: 4rem;
-}
-
-.extra-3 {
+.extra-element {
   margin-bottom: 4rem;
 }
 
@@ -165,7 +153,7 @@
   font-family: PretendardSemiBold, sans-serif;
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1.3em;
   color:rgb(58, 123, 213);
 }
