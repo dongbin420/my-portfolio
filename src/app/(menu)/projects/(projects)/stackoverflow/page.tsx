@@ -13,6 +13,7 @@ export default function Page() {
               src="/img/stackoverflow.svg"
               width={500}
               height={100}
+              priority={true}
               alt="projectLogo"
             />
             <p className={styles['top-content-text']}>
