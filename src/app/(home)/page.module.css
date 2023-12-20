@@ -9,7 +9,8 @@
 }
 
 .content-title {
-    font-family: PretendardSemiBold, sans-serif;
+    font-family: var(--font-pretendard);
+    font-weight: 400;
     font-size: 8em;
     margin-bottom: 0;
     color: #17161b;
@@ -20,7 +21,7 @@
 }
 
 .content-text-1 {
-    font-family: NeueMontrealMedium, sans-serif;
+    font-family: var(--font-neuemon);
     color: #928D8D;
     font-size: 1.5em;
     margin: 2rem 0 0 0;
@@ -28,7 +29,7 @@
 }
 
 .content-text-2 {
-    font-family: NeueMontrealMedium, sans-serif;
+    font-family: var(--font-neuemon);
     color: #928D8D;
     font-size: 1.5em;
     margin: 1rem 0 0 0;

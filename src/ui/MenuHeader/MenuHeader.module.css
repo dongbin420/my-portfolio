@@ -18,7 +18,8 @@
 }
 
 .nav-container {
-    font-family: PretendardMedium, sans-serif;
+    font-family: var(--font-pretendard);
+    font-weight: 300;
     font-size: 1.1em;
     color: rgb(0, 0, 0, 0.7);
 }

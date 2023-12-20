@@ -9,7 +9,7 @@
   margin-top: 7rem;
   margin-bottom: 7rem;
   font-size: 7em;
-  font-family: NeometricExtraBold, sans-serif;
+  font-family: var(--font-neometric);
 }
 
 .dot {
@@ -22,7 +22,8 @@
   gap: 3rem;
   max-width: 1280px;
   margin: 0 auto;
-  font-family: PretendardSemiBold, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
   margin-bottom: 10rem;
 }
 

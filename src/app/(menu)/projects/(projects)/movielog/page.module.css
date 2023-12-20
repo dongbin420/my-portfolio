@@ -23,7 +23,8 @@
   padding: 6rem 4rem 5rem 4rem;
   margin: 0 auto;
   text-align: center;
-  font-family: PretendardMedium, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 300;
 }
 
 /* .logo-img {
@@ -47,7 +48,8 @@
 .project-links {
   display: flex;
   gap: 2rem;
-  font-family: PretendardBold, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 500;
   font-size: 1.3em;
 }
 
@@ -80,7 +82,8 @@
   margin: 0 auto;
   margin-bottom: 10rem;
   padding: 0 4rem;
-  font-family: PretendardMedium, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 300;
 }
 
 .page-container {
@@ -89,7 +92,8 @@
 
 .page-title {
   font-size: 3em;
-  font-family: PretendardBold, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 500;
   border-bottom: 2px solid rgb(23, 22, 27);
   padding-bottom: 0.5rem;
   margin-bottom: 2.5rem;
@@ -99,7 +103,8 @@
   display: flex;
   /* gap: 6rem; */
   text-align: left;
-  font-family: PretendardSemiBold;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
 }
 
 .project-infos {
@@ -114,7 +119,8 @@
   font-size: 1.4em;
   margin-bottom: 1.3rem;
   color: rgb(23, 22, 27, 0.5);
-  font-family: PretendardSemiBold, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
 }
 
 .project-capture {
@@ -130,7 +136,8 @@
 }
 
 .description-title {
-  font-family: PretendardMedium, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 300;
   color: rgb(23, 22, 27, 0.5);
   font-size: 2em;
   margin-bottom: 0.5rem;
@@ -150,7 +157,8 @@
 }
 
 .blog-link-container {
-  font-family: PretendardSemiBold, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
   display: flex;
   align-items: center;
   margin-top: 1.5rem;

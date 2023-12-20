@@ -1,27 +1,30 @@
-@font-face {
+/* @font-face {
     font-family: "PretendardBold";
-    src: url('/font/Pretendard/Pretendard-Bold.woff2') format('woff2'); /* Modern Browsers */
+    src: url('/font/Pretendard/Pretendard-Bold.woff2') format('woff2'); 
     font-display: swap
 }
 
 @font-face {
     font-family: "PretendardMedium";
-    src: url('/font/Pretendard/Pretendard-Medium.woff2') format('woff2'); /* Modern Browsers */
+    src: url('/font/Pretendard/Pretendard-Medium.woff2') format('woff2'); 
     font-display: swap
 }
 
 @font-face {
     font-family: "PretendardSemiBold";
-    src: url('/font/Pretendard/Pretendard-SemiBold.woff2') format('woff2'); /* Modern Browsers */
+    src: url('/font/Pretendard/Pretendard-SemiBold.woff2') format('woff2'); 
     font-display: swap
 }
 
 @font-face {
     font-family: "NeueMontrealMedium";
-    src: url('/font/Montreal/PPNeueMontreal-Medium.woff') format('woff'); /* Modern Browsers */
+    src: url('/font/Montreal/PPNeueMontreal-Medium.woff') format('woff'); 
     font-display: swap
-  }
+  } */
 
+
+
+/*사용안하는 폰트들*/
 /* @font-face {
     font-family: "NeometricExtraBold";
     src: url('/font/Neometric-Extra-Bold-_Bold_.woff') format('woff');

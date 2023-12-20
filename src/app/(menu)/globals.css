@@ -1,11 +1,6 @@
-@font-face {
+/* @font-face {
     font-family: "PretendardBold";
     src: url('/font/Pretendard/Pretendard-Bold.woff2') format('woff2'); 
-}
-
-@font-face {
-    font-family: "PretendardMedium";
-    src: url('/font/Pretendard/Pretendard-Medium.woff2') format('woff2'); 
 }
 
 @font-face {
@@ -16,8 +11,17 @@
 @font-face {
     font-family: "NeometricExtraBold";
     src: url('/font/Neometric-Extra-Bold-_Bold_.woff') format('woff'); 
+} */
+
+@font-face {
+    font-family: "PretendardMedium";
+    src: url('/font/Pretendard/Pretendard-Medium.woff2') format('woff2'); 
 }
 
+
+
+
+/*안쓰는 폰트들*/
 /* @font-face {
     font-family: "NeometricLegular";
     src: url('/font/Neometric-Regular.woff') format('woff'); 
@@ -71,5 +75,7 @@ ul, ol {
 
 input::placeholder, textarea::placeholder {
     color: rgba(23, 22, 27, 0.2);
-    font-family: PretendardMedium, sans-serif;
+    font-size: 3em;
+    font-family: var(--font-pretendard);
+    font-weight: 300;
 }

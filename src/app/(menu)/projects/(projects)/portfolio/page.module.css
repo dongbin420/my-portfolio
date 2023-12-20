@@ -16,11 +16,13 @@
   padding: 6rem 4rem 5rem 4rem;
   margin: 0 auto;
   text-align: center;
-  font-family: PretendardMedium, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 300;
 }
 
 .logo {
-  font-family: 'PretendardBold', sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 500;
   margin-bottom: 3rem;
   color: rgb(23, 22, 27);
 }
@@ -43,7 +45,8 @@
 .project-links {
   display: flex;
   gap: 2rem;
-  font-family: PretendardBold;
+  font-family: var(--font-pretendard);
+  font-weight: 500;
   font-size: 1.3em;
 }
 

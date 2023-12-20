@@ -8,7 +8,8 @@
 }
 
 .logo {
-    font-family: PretendardBold, sans-serif;
+    font-family: var(--font-pretendard);
+    font-weight: 500;
     color: rgb(23, 22, 27);
 }
 
@@ -23,7 +24,8 @@
 }
 
 .nav-container {
-    font-family: PretendardMedium, sans-serif;
+    font-family: var(--font-pretendard);
+    font-weight: 300;
     font-size: 1.3em;
     color: rgb(0, 0, 0, 0.7);
 }

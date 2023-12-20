@@ -8,7 +8,7 @@
 .about-title {
     margin-top: 7rem;
     font-size: 7em;
-    font-family: NeometricExtraBold, sans-serif;
+    font-family: var(--font-neometric);
 }
 
 .content-container {
@@ -18,7 +18,8 @@
 }
 
 .about-content {
-    font-family: PretendardMedium, sans-serif;
+    font-family: var(--font-pretendard);
+    font-weight: 300;
     width: 80%;
     font-size: 1.5em;
     opacity: 65%;
@@ -28,7 +29,8 @@
 }
 
 .resume-link-container {
-    font-family: PretendardSemiBold, sans-serif;
+    font-family: var(--font-pretendard);
+    font-weight: 400;
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -107,7 +109,8 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: PretendardBold, sans-serif;
+  font-family: var(--font-pretendard);
+  font-weight: 500;
   cursor: default;
 }
 
