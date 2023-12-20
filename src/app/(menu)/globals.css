@@ -75,7 +75,6 @@ ul, ol {
 
 input::placeholder, textarea::placeholder {
     color: rgba(23, 22, 27, 0.2);
-    font-size: 3em;
     font-family: var(--font-pretendard);
     font-weight: 300;
 }
