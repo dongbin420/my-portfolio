@@ -9,12 +9,19 @@
     margin-top: 7rem;
     font-size: 7em;
     font-family: var(--font-neometric);
+    margin-bottom: 4rem;
 }
 
 .content-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.about-name {
+    font-family: var(--font-pretendard);
+    font-weight: 500;
+    font-size: 3em;
 }
 
 .about-content {
@@ -24,7 +31,7 @@
     font-size: 1.5em;
     opacity: 65%;
     line-height: 2;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color:#1d1d1d;
 }
 
