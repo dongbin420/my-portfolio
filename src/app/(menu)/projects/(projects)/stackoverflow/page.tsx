@@ -77,7 +77,7 @@ export default function Page() {
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>기술 스택</p>
                   <p className={styles['project-info-content']}>
-                    React, Tailwind, Rcoil, Netlify
+                    React, Tailwind, Recoil, Netlify
                   </p>
                 </li>
               </div>

@@ -1,5 +1,4 @@
 import './globals.css';
-// import LayoutProvider from './LayoutProvider';
 import Header from '@/ui/Header/Header';
 import Footer from '@/ui/Footer/Footer';
 

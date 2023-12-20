@@ -9,12 +9,13 @@ export default function Page() {
           <span className={styles['content-title-dot']}>.</span>
         </h1>
         <p className={styles['content-text-1']}>
-          Hi, my name is Dongbin, i&apos;m building website which are beautiful
-          and easy to use and i like to work with people.
+          Hi, my name is Dongbin, I&apos;m passionate about solving problems
+          through logical and flexible thinking.
         </p>
         <p className={styles['content-text-2']}>
-          With a mission to build the limitless potential of the web, pursuing
-          new expressions through experiments and thoughts.
+          I love seeing my deep thoughts turn into reality on the web during the
+          problem-solving journey. it&apos;s also bringing me so much joy and a
+          great sense of accomplishment.
         </p>
       </section>
     </main>
