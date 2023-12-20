@@ -1,5 +1,5 @@
 import './globals.css';
-import Header from '@/ui/Header/Header';
+// import Header from '@/ui/Header/Header';
 import Footer from '@/ui/Footer/Footer';
 import localFont from 'next/font/local';
 
@@ -43,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${pretendard.variable} ${neueMon.variable}`}>
       <body>
-        <Header />
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>

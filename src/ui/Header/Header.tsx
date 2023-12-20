@@ -2,7 +2,11 @@ import styles from './Header.module.css';
 import Link from 'next/link';
 import { AiOutlineMenu } from 'react-icons/ai';
 
-export default function Header() {
+interface HeaderProps {
+  toggleMenu: () => void;
+}
+
+export default function Header({ toggleMenu }: HeaderProps) {
   return (
     <header className={styles['header-container']}>
       <Link href="/" className={styles['logo']}>
@@ -14,7 +18,10 @@ export default function Header() {
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
       </nav>
-      <AiOutlineMenu className={styles['nav-hamburger']}></AiOutlineMenu>
+      <AiOutlineMenu
+        onClick={toggleMenu}
+        className={styles['nav-hamburger']}
+      ></AiOutlineMenu>
     </header>
   );
 }

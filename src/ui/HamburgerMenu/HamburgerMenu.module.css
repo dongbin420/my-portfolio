@@ -1,0 +1,51 @@
+.hamburger-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  padding: 0 7%;
+  padding-top: 4rem;
+  color: rgb(23, 22, 27);
+  margin-bottom: 6rem;
+
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: unfold 0.5s ease forwards;
+}
+
+@keyframes unfold {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.link {
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+}
+
+.link-text {
+  font-size: 2.5em;
+}
+
+.close {
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 499px) {
+  .link-text {
+    font-size: 2em;
+  }
+}

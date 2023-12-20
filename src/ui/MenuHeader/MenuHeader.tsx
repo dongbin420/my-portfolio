@@ -1,8 +1,13 @@
 import styles from './MenuHeader.module.css';
 import Link from 'next/link';
 import { AiFillHome } from 'react-icons/ai';
+import { AiOutlineMenu } from 'react-icons/ai';
 
-export default function MenuHeader() {
+interface HeaderProps {
+  toggleMenu: () => void;
+}
+
+export default function MenuHeader({ toggleMenu }: HeaderProps) {
   return (
     <header className={styles['header-container']}>
       <Link href="/">
@@ -13,6 +18,10 @@ export default function MenuHeader() {
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
       </nav>
+      <AiOutlineMenu
+        onClick={toggleMenu}
+        className={styles['nav-hamburger']}
+      ></AiOutlineMenu>
     </header>
   );
 }

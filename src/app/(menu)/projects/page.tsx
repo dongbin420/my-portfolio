@@ -1,13 +1,33 @@
+'use client';
+
 import styles from './page.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import { projects } from '../../../../public/data/data';
 import MenuHeader from '@/ui/MenuHeader/MenuHeader';
+import HamburgerMenu from '@/ui/HamburgerMenu/HamburgerMenu';
+import { useState, useEffect } from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 export default function Page() {
-  return (
+  const [menuOpen, setMenuOpen] = useState(false);
+  const isWideScreen = useMediaQuery({ minWidth: 751 });
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  useEffect(() => {
+    if (isWideScreen) {
+      setMenuOpen(false);
+    }
+  }, [isWideScreen]);
+
+  return menuOpen ? (
+    <HamburgerMenu toggleMenu={toggleMenu} />
+  ) : (
     <>
-      <MenuHeader />
+      <MenuHeader toggleMenu={toggleMenu} />
       <main className={styles['main-container']}>
         <h1 className={styles['contact-title']}>
           Projects<span className={styles['dot']}>.</span>

@@ -2,11 +2,26 @@
 
 import styles from './page.module.css';
 import { contact } from '../../../../public/data/data';
-import { useState, useRef, FormEvent } from 'react';
+import { useState, useEffect, useRef, FormEvent } from 'react';
 import emailjs from '@emailjs/browser';
 import MenuHeader from '@/ui/MenuHeader/MenuHeader';
+import HamburgerMenu from '@/ui/HamburgerMenu/HamburgerMenu';
+import { useMediaQuery } from 'react-responsive';
 
 export default function Page() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const isWideScreen = useMediaQuery({ minWidth: 751 });
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  useEffect(() => {
+    if (isWideScreen) {
+      setMenuOpen(false);
+    }
+  }, [isWideScreen]);
+
   const [focusedInput, setFocusedInput] = useState<string | null>(null);
 
   const handleInputFocus = (inputId: string) => {
@@ -57,9 +72,11 @@ export default function Page() {
     }
   };
 
-  return (
+  return menuOpen ? (
+    <HamburgerMenu toggleMenu={toggleMenu} />
+  ) : (
     <>
-      <MenuHeader />
+      <MenuHeader toggleMenu={toggleMenu} />
       <main className={styles['main-container']}>
         <h1 className={styles['contact-title']}>
           Contact<span className={styles['dot']}>.</span>
