@@ -13,6 +13,7 @@ const neoMetric = localFont({
   src: '../../../public/font/Neometric-Extra-Bold-_Bold_.woff',
   variable: '--font-neometric',
   display: 'swap',
+  preload: true,
 });
 
 const pretendard = localFont({
@@ -32,6 +33,7 @@ const pretendard = localFont({
   ],
   display: 'swap',
   variable: '--font-pretendard',
+  preload: true,
 });
 
 export default function RootLayout({

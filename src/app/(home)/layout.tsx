@@ -12,6 +12,7 @@ const neueMon = localFont({
   src: '../../../public/font/Montreal/PPNeueMontreal-Medium.woff',
   variable: '--font-neuemon',
   display: 'swap',
+  preload: true,
 });
 
 const pretendard = localFont({
@@ -31,6 +32,7 @@ const pretendard = localFont({
   ],
   display: 'swap',
   variable: '--font-pretendard',
+  preload: true,
 });
 
 export default function RootLayout({
