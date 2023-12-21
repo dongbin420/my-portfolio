@@ -2,6 +2,7 @@ import './globals.css';
 // import Header from '@/ui/Header/Header';
 import Footer from '@/ui/Footer/Footer';
 import localFont from 'next/font/local';
+import Head from 'next/head';
 
 export const metadata = {
   title: 'dongbin',
@@ -42,6 +43,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${pretendard.variable} ${neueMon.variable}`}>
+      <Head>
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/png"
+          sizes="32x32"
+        />
+      </Head>
       <body>
         {/* <Header /> */}
         {children}
