@@ -19,7 +19,6 @@ export default function Icon() {
         style={{
           width: '100%',
           height: '100%',
-          borderRadius: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -28,10 +27,9 @@ export default function Icon() {
         <div
           style={{
             background: '#ffe761',
-            width: '60%',
-            height: '60%',
-            borderRadius: '100%',
-            color: '#ffe761',
+            width: '90%',
+            height: '90%',
+            borderRadius: '50%',
           }}
         ></div>
       </div>
