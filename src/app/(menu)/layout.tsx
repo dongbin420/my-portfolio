@@ -2,7 +2,6 @@ import './globals.css';
 import './contact/page.module.css';
 import Footer from '@/ui/Footer/Footer';
 import localFont from 'next/font/local';
-import Head from 'next/head';
 // import MenuHeader from '@/ui/MenuHeader/MenuHeader';
 
 export const metadata = {
@@ -44,14 +43,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${pretendard.variable} ${neoMetric.variable}`}>
-      <Head>
-        <link
-          rel="icon"
-          href="/icon?<generated>"
-          type="image/png"
-          sizes="32x32"
-        />
-      </Head>
       <body>
         {/* <MenuHeader /> */}
         {children}
