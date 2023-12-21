@@ -8,7 +8,11 @@ export default function Page() {
       <div className={styles['top-section-container']}>
         <section className={styles['top-section']}>
           <div className={styles['top-content-container']}>
-            <h1 className={styles['logo']}>MOVIE LOG</h1>
+            <div className={styles['logo']}>
+              <span className={styles['logo-text']}>MOVIE&nbsp;</span>
+              <span className={styles['logo-text']}>LOG</span>
+            </div>
+            {/* <h1 className={styles['logo']}>MOVIE LOG</h1> */}
             <p className={styles['top-content-text']}>
               MOVIELOG는 영화 리뷰 웹사이트 프로젝트입니다. 영화를 좋아하는
               팀원들끼리 모여 시중에 있는 다양한 영화 리뷰 플랫폼에서 영감을
