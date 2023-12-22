@@ -102,12 +102,12 @@ export default function Page() {
                   이용해 사이트를 개발했습니다.
                 </p>
                 <p>
-                  비록, 서버가 필요없는 정적 웹사이트인 포트폴리오를 개발하는
-                  것이었지만 기본적으로 서버 컴포넌트를 사용해 SSR방식을 적용할
-                  수 있으며 use client를 통해 클라이언트 컴포넌트도 사용할 수
-                  있고 이에 더하여 next/font, next/image, next/link 등의
-                  여러가지 최적화를 위한 기능들을 사용할 수 있었기에 많은 이점을
-                  얻을 수 있었습니다.
+                  비록, 백엔드 서버가 필요없는 정적 웹사이트인 포트폴리오를
+                  개발하는 것이었지만 기본적으로 서버 컴포넌트를 사용해
+                  SSR방식을 적용할 수 있으며, use client를 통해 클라이언트
+                  컴포넌트도 사용할 수 있고, 이에 더하여 next/font, next/image,
+                  next/link 등 여러가지 웹사이트 최적화를 위한 기능들을 사용할
+                  수 있었기에 많은 이점을 얻을 수 있었습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
