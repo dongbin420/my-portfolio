@@ -106,11 +106,17 @@
   margin-bottom: 6rem;
 }
 
-.page-element-vertical {
+.page-element-vertical-1 {
   display: flex;
   margin-bottom: 1rem;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.page-element-vertical-2 {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
 }
 
 .extra-element {

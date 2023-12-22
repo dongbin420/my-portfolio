@@ -14,13 +14,12 @@ export default function Page() {
             </div>
 
             <p className={styles['top-content-text']}>
-              한 가을 날, 나뭇잎은 마치 화가의 팔레트에서 골라진 듯 다양한
-              색상으로 물들어 있었다. 바람은 가을의 서곡을 연주하며 나뭇가지를
-              스치고 지나가고, 노란 잎사귀들은 춤추듯 공중을 떠돌았다. 작은 공원
-              안에는 어린이들이 놀이터에서 웃음소리를 내며 즐거운 시간을 보내고
-              있었다. 공원 한 쪽의 벤치에는 한 남성이 혼자 앉아 책을 읽고
-              있었다. 머리카락 사이로 가을 햇살이 스며들어 얼굴을 비추면서, 책
-              속 세계에 빠져들었다.
+              수행했던 프로젝트를 소개하는 개인 포트폴리오 웹사이트를
+              제작했습니다. 혼자서 기획부터 디자인, 개발, 배포까지 수행하며
+              프론트엔드 개발의 전반적인 프로세스를 경험했던 프로젝트입니다.
+              정적 웹사이트이지만, 사용자 경험을 최적화하고 Next.js와
+              타입스크립트를 이용한 간단한 동적 기능들 또한 추가하여 프론트엔드
+              개발자에게 필요한 역량을 향상시킬 수 있었습니다.
             </p>
             <div className={styles['project-links']}>
               <div className={styles['project-link-container']}>
@@ -125,7 +124,7 @@ export default function Page() {
               </div>
             </div>
             <div className={styles['page-element']}>
-              <div className={styles['page-element-vertical']}>
+              <div className={styles['page-element-vertical-1']}>
                 <Image
                   className={styles['project-capture-vertical-1']}
                   src="/img/portfolio/portfolio-capture2.png"
@@ -158,7 +157,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className={styles['page-element-vertical']}>
+              <div className={styles['page-element-vertical-2']}>
                 <Image
                   className={styles['project-capture-vertical']}
                   src="/img/portfolio/portfolio-capture4.png"
@@ -168,14 +167,14 @@ export default function Page() {
                 />
                 <Image
                   className={styles['project-capture-vertical']}
-                  src="/img/portfolio/portfolio-capture5.png"
+                  src="/img/portfolio/portfolio-video1.gif"
                   width={700}
                   height={1700}
                   alt="projectCapture"
                 />
                 <Image
                   className={styles['project-capture-vertical']}
-                  src="/img/portfolio/portfolio-capture5.png"
+                  src="/img/portfolio/portfolio-video1.gif"
                   width={700}
                   height={1700}
                   alt="projectCapture"
