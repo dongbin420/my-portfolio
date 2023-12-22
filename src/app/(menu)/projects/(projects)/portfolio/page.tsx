@@ -88,8 +88,11 @@ export default function Page() {
               <Image
                 className={`${styles['project-capture']} ${styles['last-capture']}`}
                 src="/img/portfolio/portfolio-capture1.png"
-                width={1300}
-                height={650}
+                // width={1300}
+                // height={650}
+                width={0}
+                height={0}
+                sizes="100vw"
                 alt="projectCapture"
               />
               <p className={styles['description-title']}>Next.js 도입</p>
@@ -129,15 +132,21 @@ export default function Page() {
                 <Image
                   className={styles['project-capture-vertical-1']}
                   src="/img/portfolio/portfolio-capture2.png"
-                  width={650}
-                  height={325}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  // width={650}
+                  // height={325}
                   alt="projectCapture"
                 />
                 <Image
                   className={styles['project-capture-vertical-2']}
                   src="/img/portfolio/portfolio-capture3.png"
-                  width={650}
-                  height={325}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  // width={1300}
+                  // height={650}
                   alt="projectCapture"
                 />
               </div>
@@ -162,22 +171,31 @@ export default function Page() {
                 <Image
                   className={styles['project-capture-vertical']}
                   src="/img/portfolio/portfolio-capture4.png"
-                  width={650}
-                  height={325}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  // width={650}
+                  // height={325}
                   alt="projectCapture"
                 />
                 <Image
                   className={styles['project-capture-vertical']}
                   src="/img/portfolio/portfolio-capture5.png"
-                  width={650}
-                  height={325}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  // width={650}
+                  // height={325}
                   alt="projectCapture"
                 />
                 <Image
                   className={styles['project-capture-vertical']}
                   src="/img/portfolio/portfolio-capture5.png"
-                  width={650}
-                  height={325}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  // width={650}
+                  // height={325}
                   alt="projectCapture"
                 />
               </div>
