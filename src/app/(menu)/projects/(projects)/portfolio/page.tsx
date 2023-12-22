@@ -182,7 +182,7 @@ export default function Page() {
               </div>
 
               <p className={styles['description-title']}>
-                동적 기능 구현(사진 gif로 변경)
+                동적 기능 구현(다크모드 사진 gif로)
               </p>
               <div className={styles['description']}>
                 <p>

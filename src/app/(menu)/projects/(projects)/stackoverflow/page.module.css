@@ -183,3 +183,63 @@
     transform: translateX(0); /* Return to the original position */
   }
 }
+
+@media screen and (max-width: 600px) {
+  .top-content-text {
+    font-size: 1.1em;
+  }
+
+  .page-title {
+    font-size: 2em;
+  }
+
+  .project-info-title {
+    font-size: 1.1em;
+  }
+
+  .description-title {
+    font-size: 1.7em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .blog-link-container {
+    font-size: 1.1em;
+  }
+
+  .project-info-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .top-content-text {
+    font-size: 1em;
+  }
+
+  /* .project-info-container {
+    flex-direction: column;
+    gap: 4rem;
+  } */
+}
+
+@media screen and (max-width: 400px) {
+  .top-content-text {
+    font-size: 0.9em;
+  }
+
+  .project-links {
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .top-content-text {
+    font-size: 0.8em;
+  }
+}
