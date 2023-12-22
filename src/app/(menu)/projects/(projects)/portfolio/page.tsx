@@ -105,18 +105,20 @@ export default function Page() {
                   개발하는 것이었지만 기본적으로 서버 컴포넌트를 사용해
                   SSR방식을 적용할 수 있으며, use client를 통해 클라이언트
                   컴포넌트도 사용할 수 있고, 이에 더하여 next/font, next/image,
-                  next/link 등 여러가지 웹사이트 최적화를 위한 기능들을 사용할
-                  수 있었기에 많은 이점을 얻을 수 있었습니다.
+                  next/link 등 여러가지 웹사이트 최적화를 위한 기능들과 Next.js
+                  13부터 도입된 App Router를 사용함으로써 Route Groups와 같은
+                  Next.js의 최신 기능들도 사용할 수 있었기에 많은 이점을 얻을 수
+                  있었습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
                 <a
-                  href="https://zonbin.notion.site/fe85020f2a9a405ca4e735cf6ee68128?pvs=4"
+                  href="https://zonbin.notion.site/66c53c14e28949748e731cd2ccde64a6?v=c84ac5d11c624e3cbe9f277e5abe53fc"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles['blog-link-text']}
                 >
-                  블로그 글: (수정필요)
+                  블로그 글: (작성예정)
                 </a>
                 <HiOutlineArrowLongRight
                   className={styles['blog-arrow-icon']}
@@ -181,9 +183,7 @@ export default function Page() {
                 />
               </div>
 
-              <p className={styles['description-title']}>
-                동적 기능 구현(다크모드 사진 gif로)
-              </p>
+              <p className={styles['description-title']}>동적 기능 구현</p>
               <div className={styles['description']}>
                 <p>
                   정적 웹사이트를 개발하였지만, HTML과 CSS만을 이용한 웹
@@ -207,14 +207,9 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <p className={styles['description-title']}>
-                도메인 구매(예정)(수정필요)
-              </p>
+              <p className={styles['description-title']}>도메인 구매(예정)</p>
               <div className={styles['description']}>
-                <p>
-                  Netlify를 활용하여 정적 웹 사이트 호스팅을
-                  구성하였습니다.(수정필요)
-                </p>
+                <p>(예정)</p>
               </div>
             </div>
           </div>
