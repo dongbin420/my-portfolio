@@ -17,9 +17,9 @@ export default function Page() {
               alt="projectLogo"
             />
             <p className={styles['top-content-text']}>
-              개발자 커뮤니티 Stackoverflow를 클론코딩한 팀 프로젝트입니다. 실제
-              웹 서비스를 벤치마킹하여 다른 방식으로 재해석하고 개발하는 연습을
-              통해 실제 상용 서비스 개발 경험을 쌓는데 도움이 되었던
+              개발자 커뮤니티 Stack overflow를 클론코딩한 팀 프로젝트입니다.
+              실제 웹 서비스를 벤치마킹하여 다른 방식으로 재해석하고 개발하는
+              연습을 통해 실제 상용 서비스 개발 경험을 쌓는 데 도움이 되었던
               프로젝트입니다.
             </p>
             <div className={styles['project-links']}>
