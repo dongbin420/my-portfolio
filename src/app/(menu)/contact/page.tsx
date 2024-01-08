@@ -141,6 +141,7 @@ export default function Page() {
                     }
                     onFocus={() => handleInputFocus('name')}
                     onBlur={handleInputBlur}
+                    autoComplete="name"
                     required
                   />
                 </div>
@@ -156,6 +157,7 @@ export default function Page() {
                     }
                     onFocus={() => handleInputFocus('email')}
                     onBlur={handleInputBlur}
+                    autoComplete="email"
                     required
                   />
                 </div>
@@ -175,6 +177,7 @@ export default function Page() {
                     onFocus={() => handleInputFocus('message')}
                     onBlur={handleInputBlur}
                     rows={3}
+                    autoComplete="off"
                     required
                   />
                 </div>
