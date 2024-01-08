@@ -5,7 +5,7 @@
 }
 
 .content-section {
-    margin-top: 11.5rem;
+    margin-top: 17rem;
 }
 
 .content-title {
@@ -35,6 +35,12 @@
     margin: 1rem 0 0 0;
     opacity: 0.7;
     padding-bottom: 1rem;
+}
+
+@media screen and (max-height: 1100px) {
+    .content-section {
+        margin-top: 12rem;
+    }
 }
 
 @media screen and (max-height: 750px) {
