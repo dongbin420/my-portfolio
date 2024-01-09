@@ -113,12 +113,25 @@ export default function Page() {
               </div>
               <div className={styles['blog-link-container']}>
                 <a
-                  href="https://zonbin.notion.site/66c53c14e28949748e731cd2ccde64a6?v=c84ac5d11c624e3cbe9f277e5abe53fc"
+                  href="https://zonbin.notion.site/Next-js-0142a44ff2914c20912f633f4d11b96f"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles['blog-link-text']}
                 >
-                  블로그 글: (작성예정)
+                  블로그 글: 프로젝트 도입을 위한 Next.js 학습하기
+                </a>
+                <HiOutlineArrowLongRight
+                  className={styles['blog-arrow-icon']}
+                />
+              </div>
+              <div className={styles['blog-link-container']}>
+                <a
+                  href="https://zonbin.notion.site/Next-js-Route-groups-b82c39e4e01d45f9951d8b64379f7b62"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles['blog-link-text']}
+                >
+                  블로그 글: Next.js 사용기 (Route groups, 최적화 등)
                 </a>
                 <HiOutlineArrowLongRight
                   className={styles['blog-arrow-icon']}
