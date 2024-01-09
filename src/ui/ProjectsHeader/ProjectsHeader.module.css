@@ -1,0 +1,21 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  padding: 1.5rem 7%;
+  z-index: 9999;
+}
+
+.back {
+  font-size: 2em;
+  color: #17161b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}

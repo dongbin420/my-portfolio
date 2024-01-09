@@ -1,0 +1,259 @@
+.main-container {
+  margin: 0 auto;
+  width: 85vw;
+  /* padding-bottom: 5rem; */
+  color: #17161b;
+}
+
+.contact-title {
+  margin-top: 7rem;
+  font-size: 7em;
+  font-family: var(--font-neometric);
+}
+
+.dot {
+  color: #ffe761;
+}
+
+.github, .email, .phone, .blog {
+  background-repeat: no-repeat;
+  background-size: contain; /* or cover, or whatever fits your design */
+  padding-left: 6.5rem; /* Adjust the padding to create space for the image */
+  display: inline-block;
+  font-size: 1.5em;
+  line-height: 3.2em;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+  transition: opacity 0.3s;
+}
+
+.github {
+  background-image: url('https://icons.veryicon.com/png/o/miscellaneous/eva-icon-fill/github-41.png');
+}
+
+.email {
+  background-image: url('https://icons.veryicon.com/png/o/business/vscode-program-item-icon/email-205.png');
+  color: #42a5f5;
+}
+
+.phone {
+  background-image: url('https://icons.veryicon.com/png/o/business/circular-multi-color-function-icon/phone-phone.png');
+  color: #57e087;
+}
+
+.blog {
+  background-image: url('https://icons.veryicon.com/png/o/brands/popular-brand-icon-simple-icons/notion.png');
+}
+
+.github:hover, .email:hover, .phone:hover, .blog:hover {
+  opacity: 0.6;
+}
+
+.content-container {
+  display: flex;
+  gap: 10rem;
+  margin-top: 5rem;
+}
+
+.contact-container {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.link-container:nth-child(1) {
+  padding-right: 3rem;
+}
+
+.mail-container {
+  flex: 1;
+  margin-bottom: 5rem;
+}
+
+.mail-title {
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 4.7rem;
+}
+
+.input-container {
+  color: rgba(23, 22, 27, 0.4);
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+  font-size: 1.5em;
+  flex: 1;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.textarea-container label {
+  margin-bottom: 2rem;
+}
+
+.name-input, .email-input, .message-input {
+  border: none;
+  border-bottom: 1.5px solid rgba(23, 22, 27, 0.2);
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+
+.name-input, .email-input {
+  padding-bottom: 0.5rem;
+}
+
+.name-input:focus, .email-input:focus, .message-input:focus {
+  border-bottom: 1.5px solid #000000;
+  color: #17161b;
+}
+
+.input-container:focus-within label {
+  color: #17161b;
+}
+
+.form-row-1, .form-row-2 {
+  display: flex;
+  gap: 3rem;
+}
+
+.form-row-1 {
+  margin-bottom: 3rem;
+}
+
+.form-row-2 {
+  margin-bottom: 3rem;
+}
+
+.mail-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mail-btn {
+  padding: 1rem 8rem;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+  background: none;
+  border: rgba(23, 22, 27, 0.2) 1px solid;
+  color: rgba(23, 22, 27, 0.4);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: border 0.2s ease, color 0.2s ease;
+
+  position: relative;
+}
+
+.mail-btn::before {
+  position: absolute;
+
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ffe761; /* rgba(23, 22, 27) #ffe761 */
+  transition: width 0.2s ease;
+  z-index: -1;
+}
+
+.mail-btn:hover::before {
+  width: 100%;
+}
+
+.mail-btn:hover {
+  border: #ffe761 1px solid;
+  color: white;
+}
+
+@media screen and (max-height: 1100px) {
+  .content-container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .content-container {
+    flex-direction: column;
+    gap: 8rem;
+    margin-top: 0;
+  }
+
+  .contact-container {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .contact-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-title {
+    font-size: 6em;
+  }
+
+  .github, .email, .phone, .blog {
+    font-size: 1.3em;
+    line-height: 3em;
+  }
+
+  .mail-title {
+    font-size: 3.5em;
+  }
+
+  .form-row-1 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .contact-title {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-title {
+    font-size: 4em;
+  }
+
+  .github, .email, .phone, .blog {
+    font-size: 1em;
+    line-height: 3em;
+    padding-left: 4.5rem;
+  }
+
+  .mail-title {
+    font-size: 3em;
+  }
+
+  .mail-btn {
+    padding: 1rem 6rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact-title {
+    font-size: 3.5em;
+  }
+}

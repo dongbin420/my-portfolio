@@ -1,0 +1,126 @@
+.main-container {
+  margin: 0 auto;
+  width: 85vw;
+  /* padding-bottom: 5rem; */
+  color: #17161b;
+}
+
+.contact-title {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  font-size: 7em;
+  font-family: var(--font-neometric);
+}
+
+.dot {
+  color: #ffe761;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  /* max-width: 1280px; */
+  max-width: 1500px;
+  margin: 0 auto;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+  margin-bottom: 10rem;
+}
+
+.project {
+  flex-basis: calc((100% - 6rem) / 3);
+  /* margin-bottom: 2rem; */
+}
+
+.project-container {
+  box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.2rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-container:hover {
+  transform: translateY(-10px);
+  /* box-shadow: 0px 14px 20px 5px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 800px) {
+  .project {
+    flex-basis: 80%;
+  }
+
+  .projects-container {
+    justify-content: center;
+  }
+
+  .contact-title {
+    text-align: center;
+    font-size: 6em;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1221px) {
+  .project {
+    flex-basis: calc((100% - 3rem) / 2);
+  }
+}
+
+@media (max-width: 499px) {
+  .contact-title {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-title {
+    font-size: 4em;
+  }
+
+  .content-img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-title {
+    font-size: 3.5em;
+  }
+
+  .content-img {
+    width: 180px;
+  }
+}
+
+.project-top {
+  border-radius: 0.2rem 0.2rem 0 0;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.project-bottom {
+  border-radius: 0 0 0.2rem 0.2rem;
+  padding: 2rem;
+}
+
+.project-title {
+  font-size: 1.4em;
+  margin-bottom: 0.5rem;
+}
+
+.project-summary {
+  font-size: 0.9em;
+  color: rgb(23, 22, 27, 0.5);
+}
+
+.movielog-bg {
+  background-color: #fbe353;
+}
+
+.stackoverflow-bg {
+  background-color: #f8f8f8;
+}
+
+.portfolio-bg {
+  background-color: #ffffff;
+}

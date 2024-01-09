@@ -1,0 +1,80 @@
+/* @font-face {
+    font-family: "PretendardBold";
+    src: url('/font/Pretendard/Pretendard-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: "PretendardSemiBold";
+    src: url('/font/Pretendard/Pretendard-SemiBold.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: "NeometricExtraBold";
+    src: url('/font/Neometric-Extra-Bold-_Bold_.woff') format('woff'); 
+} */
+
+@font-face {
+    font-family: "PretendardMedium";
+    src: url('/font/Pretendard/Pretendard-Medium.woff2') format('woff2'); 
+}
+
+
+
+
+/*안쓰는 폰트들*/
+/* @font-face {
+    font-family: "NeometricLegular";
+    src: url('/font/Neometric-Regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: "NeueMontrealMedium";
+    src: url('/font/Montreal/PPNeueMontreal-Medium.woff') format('woff'); 
+  }
+
+@font-face {
+    font-family: "proxima nova semibold";
+    src: url('/font/FontsFree-Net-Proxima-Nova-Sbold.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: "SFUIText-Semibold";
+    src: url('/font/SFUIText-Semibold.woff') format('woff'); 
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    /* background-color: #fefefe; */
+    /* background-color: #f7f3e9; */
+    /* background-color: #f8f8f8; */
+    /* background-color: #fffafa; */
+    /* background-color: #f5f5f7; */
+    background-color: #ffffff;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-border {
+    border-bottom: 3.5px solid rgba(23, 22, 27, 0.1);
+    margin-top: 3rem;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(23, 22, 27, 0.2);
+    font-family: var(--font-pretendard);
+    font-weight: 300;
+}

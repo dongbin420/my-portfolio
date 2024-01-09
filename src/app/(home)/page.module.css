@@ -1,0 +1,91 @@
+.main-container {
+    margin: 0 auto;
+    width: 85vw;
+    padding-bottom: 5rem;
+}
+
+.content-section {
+    margin-top: 17rem;
+}
+
+.content-title {
+    font-family: var(--font-pretendard);
+    font-weight: 400;
+    font-size: 8em;
+    margin-bottom: 0;
+    color: #17161b;
+}
+
+.content-title-dot {
+    color: #ffe761;
+}
+
+.content-text-1 {
+    font-family: var(--font-neuemon);
+    color: #928D8D;
+    font-size: 1.5em;
+    margin: 2rem 0 0 0;
+    opacity: 0.7;
+}
+
+.content-text-2 {
+    font-family: var(--font-neuemon);
+    color: #928D8D;
+    font-size: 1.5em;
+    margin: 1rem 0 0 0;
+    opacity: 0.7;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-height: 1100px) {
+    .content-section {
+        margin-top: 12rem;
+    }
+}
+
+@media screen and (max-height: 750px) {
+    .content-title {
+        font-size: 6em;
+    }
+
+    .content-text-1, .content-text-2 {
+        font-size: 1.3em;
+    }
+
+    .content-section {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .content-title {
+        font-size: 5.8em;
+    }
+
+    .content-text-1, .content-text-2 {
+        font-size: 1.3em;
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .content-title {
+        font-size: 3.5em;
+        
+    }
+
+    .content-text-1, .content-text-2 {
+        font-size: 1em;
+    }
+
+    .logo-text, .logo-dot {
+        font-size: 2em;
+    }
+}
