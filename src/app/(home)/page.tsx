@@ -37,8 +37,8 @@ export default function Page() {
           </p>
           <p className={styles['content-text-2']}>
             I enjoy seeing my deep thoughts turn into reality on the web during
-            the problem-solving journey. it&apos;s also bringing me so much joy
-            and a great sense of accomplishment.
+            the problem-solving journey. It also brings me so much joy and a
+            great sense of accomplishment.
           </p>
         </section>
       </main>
