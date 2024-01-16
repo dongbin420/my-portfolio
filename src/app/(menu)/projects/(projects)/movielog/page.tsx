@@ -34,7 +34,7 @@ export default function Page() {
               <div className={styles['project-link-container']}>
                 <a
                   className={styles['project-link']}
-                  href="https://github.com/codestates-seb/seb44_main_024"
+                  href="https://github.com/dongbin420/seb44_main_024"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
