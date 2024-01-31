@@ -75,7 +75,7 @@ export default function Page() {
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>기술 스택</p>
                   <p className={styles['project-info-content']}>
-                    Next.js, Vercel
+                    Next.js, TypeScript, Vercel
                   </p>
                 </li>
               </div>
