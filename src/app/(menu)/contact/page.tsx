@@ -52,13 +52,24 @@ export default function Page() {
     event.preventDefault();
 
     if (form.current) {
+      let serviceId;
+      let templateId;
+      let publicKey;
+
+      // Check if in development environment
+      if (process.env.NODE_ENV === 'development') {
+        serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
+        templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
+        publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+      } else {
+        // Use production variables
+        serviceId = process.env.EMAILJS_SERVICE_ID!;
+        templateId = process.env.EMAILJS_TEMPLATE_ID!;
+        publicKey = process.env.EMAILJS_PUBLIC_KEY;
+      }
+
       emailjs
-        .sendForm(
-          'service_ja8o0fe',
-          'template_3ucpvo9',
-          form.current,
-          'oSGR11mjuXVcpLpWD'
-        )
+        .sendForm(serviceId, templateId, form.current, publicKey)
         .then(() => {
           alert('이메일이 전송되었습니다.');
 
