@@ -3,7 +3,7 @@
 import styles from './page.module.css';
 import { contact } from '../../../../public/data/data';
 import { useState, useEffect, useRef, FormEvent } from 'react';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import MenuHeader from '@/ui/MenuHeader/MenuHeader';
 import HamburgerMenu from '@/ui/HamburgerMenu/HamburgerMenu';
 import { useMediaQuery } from 'react-responsive';
@@ -51,25 +51,27 @@ export default function Page() {
   const sendEmail = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    if (form.current) {
-      emailjs
-        .sendForm(
-          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-          form.current,
-          process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-        )
-        .then(() => {
-          alert('이메일이 전송되었습니다.');
+    alert('에러가 발생했습니다.');
 
-          if (form.current) {
-            form.current.reset();
-          }
-        })
-        .catch((err) => {
-          alert(`에러가 발생했습니다.: ${err}`);
-        });
-    }
+    // if (form.current) {
+    //   emailjs
+    //     .sendForm(
+    //       process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+    //       process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+    //       form.current,
+    //       process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+    //     )
+    //     .then(() => {
+    //       alert('이메일이 전송되었습니다.');
+
+    //       if (form.current) {
+    //         form.current.reset();
+    //       }
+    //     })
+    //     .catch((err) => {
+    //       alert(`에러가 발생했습니다.: ${err}`);
+    //     });
+    // }
   };
 
   return menuOpen ? (
