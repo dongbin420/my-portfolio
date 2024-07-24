@@ -10,6 +10,6 @@ export const ImageCarouselContainer = styled.div<{
   /* max-height: ${({ height }) => height}; */
 
   @media (max-width: 768px) {
-    margin: 0 -4rem;
+    margin: 0 -1.4rem;
   }
 `;

@@ -8,6 +8,10 @@
   background-color: #fff6ed;
   width: 100%;
   padding: 0 7%;
+
+  @media (max-width: 800px) {
+    padding: 0;
+  }
 }
 
 .top-section {
@@ -74,6 +78,10 @@
 .bottom-section-container {
   width: 100%;
   padding: 0 7%;
+
+  @media (max-width: 800px) {
+    padding: 0;
+  }
 }
 
 .bottom-section {
@@ -202,11 +210,19 @@
   .logo {
     font-size: 4em;
   }
+
+  .joahair-logo {
+    font-size: 6em;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .logo {
     font-size: 3em;
+  }
+
+  .joahair-logo {
+    font-size: 5em;
   }
 
   .top-content-text {
@@ -244,6 +260,10 @@
     font-size: 2em;
   }
 
+  .joahair-logo {
+    font-size: 4em;
+  }
+
   .top-content-text {
     font-size: 1em;
   }
@@ -257,6 +277,10 @@
 @media screen and (max-width: 400px) {
   .logo {
     font-size: 1.5em;
+  }
+
+  .joahair-logo {
+    font-size: 2.7em;
   }
 
   .top-content-text {
@@ -273,6 +297,10 @@
 @media screen and (max-width: 300px) {
   .logo {
     font-size: 1.2em;
+  }
+
+  .joahair-logo {
+    font-size: 2.3em;
   }
 
   .top-content-text {

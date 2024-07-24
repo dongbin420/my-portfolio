@@ -15,7 +15,7 @@ export default function Page() {
       <div className={styles['top-section-container']}>
         <section className={styles['top-section']}>
           <div className={styles['top-content-container']}>
-            <div className={styles['logo']}>
+            <div className={`${styles['logo']} ${styles['joahair-logo']}`}>
               <span className={styles['logo-text']}>JOA&nbsp;</span>
               <span className={styles['logo-text']}>HAIR</span>
             </div>

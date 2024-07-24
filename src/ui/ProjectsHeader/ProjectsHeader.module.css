@@ -5,9 +5,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; 
+  width: 100%;
   padding: 1.5rem 7%;
   z-index: 9999;
+
+  @media (max-width: 800px) {
+    padding: 1.5rem 2%;
+  }
 }
 
 .back {
