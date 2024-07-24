@@ -413,9 +413,10 @@ export default function Page() {
             <div className={styles['page-element']}>
               <div className={styles['description']}>
                 <p>
-                  핵심적인 프론트엔드 툴들의 프로젝트 환경을 자체적으로 구성했습니다. 이를 통해 웹
-                  배포 이전의 빌드, 번들링, 트랜스파일링 등과 관련된 프로세스에 대한 심층적인 이해를
-                  얻었습니다.
+                  많이 사용되는 사전 설정 번들링 툴들인 vite, CRA 등에서 벗어나, webpack, Babel을
+                  기반으로 핵심적인 프론트엔드 툴들의 프로젝트 환경 설정을 자체적으로 구성했습니다.
+                  이를 통해 웹 배포 이전의 빌드, 번들링, 트랜스파일링 등과 관련된 프로세스에 대한
+                  심층적인 이해를 얻었습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
