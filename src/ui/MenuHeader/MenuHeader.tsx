@@ -18,10 +18,7 @@ export default function MenuHeader({ toggleMenu }: HeaderProps) {
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
       </nav>
-      <AiOutlineMenu
-        onClick={toggleMenu}
-        className={styles['nav-hamburger']}
-      ></AiOutlineMenu>
+      <AiOutlineMenu onClick={toggleMenu} className={styles['nav-hamburger']}></AiOutlineMenu>
     </header>
   );
 }

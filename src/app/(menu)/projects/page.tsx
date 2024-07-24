@@ -43,11 +43,7 @@ export default function Page() {
                 className={styles['project']}
               >
                 <li className={styles['project-container']}>
-                  <div
-                    className={`${styles['project-top']} ${
-                      styles[project.bgClass]
-                    }`}
-                  >
+                  <div className={`${styles['project-top']} ${styles[project.bgClass]}`}>
                     <Image
                       className={styles['content-img']}
                       src={`/img/${project.img}`}
@@ -59,9 +55,7 @@ export default function Page() {
                   </div>
                   <div className={styles['project-bottom']}>
                     <p className={styles['project-title']}>{project.name}</p>
-                    <p className={styles['project-summary']}>
-                      {project.summary}
-                    </p>
+                    <p className={styles['project-summary']}>{project.summary}</p>
                   </div>
                 </li>
               </Link>
