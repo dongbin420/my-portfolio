@@ -34,7 +34,7 @@ export default function Page() {
 
   const handlePhoneClick = async (
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
-    text: string
+    text: string,
   ) => {
     event.preventDefault();
 
@@ -125,11 +125,7 @@ export default function Page() {
           </div>
           <div className={styles['mail-container']}>
             <h2 className={styles['mail-title']}>Send me a message!</h2>
-            <form
-              ref={form}
-              onSubmit={sendEmail}
-              className={styles['mail-form']}
-            >
+            <form ref={form} onSubmit={sendEmail} className={styles['mail-form']}>
               <div className={styles['form-row-1']}>
                 <div className={styles['input-container']}>
                   <label htmlFor="name">Name</label>
@@ -138,9 +134,7 @@ export default function Page() {
                     className={styles['name-input']}
                     type="text"
                     name="from_name"
-                    placeholder={
-                      focusedInput === 'name' ? '' : 'Enter your name'
-                    }
+                    placeholder={focusedInput === 'name' ? '' : 'Enter your name'}
                     onFocus={() => handleInputFocus('name')}
                     onBlur={handleInputBlur}
                     autoComplete="name"
@@ -154,9 +148,7 @@ export default function Page() {
                     className={styles['email-input']}
                     type="email"
                     name="from_email"
-                    placeholder={
-                      focusedInput === 'email' ? '' : 'Enter your email address'
-                    }
+                    placeholder={focusedInput === 'email' ? '' : 'Enter your email address'}
                     onFocus={() => handleInputFocus('email')}
                     onBlur={handleInputBlur}
                     autoComplete="email"
@@ -165,17 +157,13 @@ export default function Page() {
                 </div>
               </div>
               <div className={styles['form-row-2']}>
-                <div
-                  className={`${styles['input-container']} ${styles['textarea-container']}`}
-                >
+                <div className={`${styles['input-container']} ${styles['textarea-container']}`}>
                   <label htmlFor="message">Message</label>
                   <textarea
                     id="message"
                     className={styles['message-input']}
                     name="user_message"
-                    placeholder={
-                      focusedInput === 'message' ? '' : 'Enter your message'
-                    }
+                    placeholder={focusedInput === 'message' ? '' : 'Enter your message'}
                     onFocus={() => handleInputFocus('message')}
                     onBlur={handleInputBlur}
                     rows={3}

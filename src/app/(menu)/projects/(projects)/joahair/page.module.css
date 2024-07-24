@@ -1,0 +1,285 @@
+@import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
+
+.container {
+  color: #17161b;
+}
+
+.top-section-container {
+  background-color: #fff6ed;
+  width: 100%;
+  padding: 0 7%;
+}
+
+.top-section {
+  /* background-color: #fbe353; */
+  margin-bottom: 4rem;
+}
+
+.top-content-container {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 4rem 5rem 4rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--font-pretendard);
+  font-weight: 300;
+}
+
+/* .logo-img {
+  margin-bottom: 2rem;
+} */
+
+.logo {
+  font-family: var(--font-themunday);
+  font-size: 6.5em;
+  color: rgb(26, 26, 26);
+  width: 100%;
+}
+
+.top-content-text {
+  font-size: 1.2em;
+  margin-bottom: 4rem;
+  line-height: 2.5rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 2rem;
+  font-family: var(--font-pretendard);
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.project-link-container {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.project-link {
+  border-bottom: 1px solid transparent;
+}
+
+.arrow {
+  font-size: 1.4em;
+  animation: moveArrow 1s ease-in-out infinite;
+}
+
+.project-link:hover {
+  border-bottom: 1px solid #000;
+}
+
+.bottom-section-container {
+  width: 100%;
+  padding: 0 7%;
+}
+
+.bottom-section {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  padding: 0 4rem;
+  font-family: var(--font-pretendard);
+  font-weight: 300;
+}
+
+.page-container {
+  margin-bottom: 6rem;
+}
+
+.page-title {
+  font-size: 3em;
+  font-family: var(--font-pretendard);
+  font-weight: 500;
+  border-bottom: 2px solid rgb(23, 22, 27);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-info-container {
+  display: flex;
+  gap: 6rem;
+  text-align: left;
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+}
+
+.project-infos {
+  flex: 1;
+}
+
+.project-info:nth-of-type(1) {
+  margin-bottom: 4rem;
+}
+
+.project-info-title {
+  font-size: 1.4em;
+  margin-bottom: 1.3rem;
+  color: rgb(23, 22, 27, 0.5);
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+}
+
+.project-capture {
+  width: 70%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  border: rgb(23, 22, 27, 0.1) 1px solid;
+  border-radius: 10px;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+.project-capture.last-capture {
+  margin-bottom: 1rem;
+}
+
+.description-title {
+  font-family: var(--font-pretendard);
+  font-weight: 300;
+  color: rgb(23, 22, 27, 0.5);
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1.2em;
+  line-height: 2.2rem;
+}
+
+.page-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.extra-element {
+  margin-bottom: 4rem;
+}
+
+.blog-link-container {
+  font-family: var(--font-pretendard);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+  color: rgb(58, 123, 213);
+}
+
+.blog-link-text {
+  margin-right: 0.5rem;
+  padding: 0;
+  border-bottom: 1px solid transparent;
+}
+
+.blog-link-text:hover {
+  border-bottom: 1px solid rgb(58, 123, 213);
+}
+
+.blog-arrow-icon {
+  animation: moveArrow 1s ease-in-out infinite;
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  50% {
+    transform: translateX(6px); /* Move 2px to the right */
+  }
+  100% {
+    transform: translateX(0); /* Return to the original position */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 3em;
+  }
+
+  .top-content-text {
+    font-size: 1.1em;
+  }
+
+  .page-title {
+    font-size: 2em;
+  }
+
+  .project-info-title {
+    font-size: 1.1em;
+  }
+
+  .description-title {
+    font-size: 1.7em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .blog-link-container {
+    font-size: 1.1em;
+  }
+
+  .project-info-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .logo {
+    font-size: 2em;
+  }
+
+  .top-content-text {
+    font-size: 1em;
+  }
+
+  /* .project-info-container {
+    flex-direction: column;
+    gap: 4rem;
+  } */
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    font-size: 1.5em;
+  }
+
+  .top-content-text {
+    font-size: 0.9em;
+  }
+
+  .project-links {
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .logo {
+    font-size: 1.2em;
+  }
+
+  .top-content-text {
+    font-size: 0.8em;
+  }
+}
+
+.preload-text {
+  font-size: 1.2em;
+}

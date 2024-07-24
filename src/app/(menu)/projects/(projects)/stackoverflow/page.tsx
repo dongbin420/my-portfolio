@@ -17,10 +17,9 @@ export default function Page() {
               alt="projectLogo"
             />
             <p className={styles['top-content-text']}>
-              개발자 커뮤니티 Stack overflow를 클론코딩한 팀 프로젝트입니다.
-              실제 웹 서비스를 벤치마킹하여 다른 방식으로 재해석하고 개발하는
-              연습을 통해 실제 상용 서비스 개발 경험을 쌓는 데 도움이 되었던
-              프로젝트입니다.
+              개발자 커뮤니티 Stack overflow를 클론코딩한 팀 프로젝트입니다. 실제 웹 서비스를
+              벤치마킹하여 다른 방식으로 재해석하고 개발하는 연습을 통해 실제 상용 서비스 개발
+              경험을 쌓는 데 도움이 되었던 프로젝트입니다.
             </p>
             <div className={styles['project-links']}>
               <div className={styles['project-link-container']}>
@@ -58,9 +57,7 @@ export default function Page() {
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>프로젝트 기간</p>
-                  <p className={styles['project-info-content']}>
-                    2023/06 (약 2주)
-                  </p>
+                  <p className={styles['project-info-content']}>2023/06 (약 2주)</p>
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
@@ -76,9 +73,7 @@ export default function Page() {
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>기술 스택</p>
-                  <p className={styles['project-info-content']}>
-                    React, Tailwind, Recoil, Netlify
-                  </p>
+                  <p className={styles['project-info-content']}>React, Tailwind, Recoil, Netlify</p>
                 </li>
               </div>
             </ul>
@@ -98,14 +93,12 @@ export default function Page() {
               </p>
               <div className={styles['description']}>
                 <p>
-                  질문 생성시 웹 에디터 라이브러리인 TipTap을 이용해 다양한
-                  서식, 스타일, 레이아웃 등의 요소를 적용할 수 있도록
-                  구현했습니다.
+                  질문 생성시 웹 에디터 라이브러리인 TipTap을 이용해 다양한 서식, 스타일, 레이아웃
+                  등의 요소를 적용할 수 있도록 구현했습니다.
                 </p>
                 <p>
-                  해당 웹 에디터를 공통 컴포넌트로 제작하여, 질문
-                  상세페이지에서도 질문 수정, 답변 등록, 답변 수정에 이용할 수
-                  있도록 구현하였습니다.
+                  해당 웹 에디터를 공통 컴포넌트로 제작하여, 질문 상세페이지에서도 질문 수정, 답변
+                  등록, 답변 수정에 이용할 수 있도록 구현하였습니다.
                 </p>
               </div>
             </div>
@@ -127,13 +120,12 @@ export default function Page() {
               <p className={styles['description-title']}>질문 태그 구현</p>
               <div className={styles['description']}>
                 <p>
-                  질문 작성 시, 질문과 관련된 프로그래밍 언어 및 기술 등의
-                  태그를 달 수 있는 기능을 구현했습니다.
+                  질문 작성 시, 질문과 관련된 프로그래밍 언어 및 기술 등의 태그를 달 수 있는 기능을
+                  구현했습니다.
                 </p>
                 <p>
-                  이러한 태그 데이터는 질문을 태그별로 분류하여 질문을
-                  검색하거나, 태그별로 정리된 목록을 확인하는 등 다양한 기능에
-                  활용할 수 있습니다.
+                  이러한 태그 데이터는 질문을 태그별로 분류하여 질문을 검색하거나, 태그별로 정리된
+                  목록을 확인하는 등 다양한 기능에 활용할 수 있습니다.
                 </p>
               </div>
             </div>
@@ -155,19 +147,16 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['description-title']}>
-                Recoil을 활용한 상태 관리
-              </p>
+              <p className={styles['description-title']}>Recoil을 활용한 상태 관리</p>
               <div className={styles['description']}>
                 <p>
-                  각 질문의 상세 페이지를 구성하기 위해 필요한 정보인 질문 ID,
-                  답변 데이터, 댓글 데이터 등과 같은 데이터를 백엔드 서버에서
-                  받아와 Recoil을 이용하여 전역상태로 관리했습니다.
+                  각 질문의 상세 페이지를 구성하기 위해 필요한 정보인 질문 ID, 답변 데이터, 댓글
+                  데이터 등과 같은 데이터를 백엔드 서버에서 받아와 Recoil을 이용하여 전역상태로
+                  관리했습니다.
                 </p>
                 <p>
-                  전역 상태를 활용함으로써 동일한 상태를 여러 컴포넌트에서
-                  공유하고 활용할 수 있어 프로젝트의 복잡성을 감소시키고
-                  효율적인 상태 관리를 할 수 있었습니다.
+                  전역 상태를 활용함으로써 동일한 상태를 여러 컴포넌트에서 공유하고 활용할 수 있어
+                  프로젝트의 복잡성을 감소시키고 효율적인 상태 관리를 할 수 있었습니다.
                 </p>
               </div>
             </div>
@@ -179,14 +168,12 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['description-title']}>
-                질문, 답변, 댓글 crud 구현
-              </p>
+              <p className={styles['description-title']}>질문, 답변, 댓글 crud 구현</p>
               <div className={styles['description']}>
                 <p>질문, 답변, 댓글의 CRUD 기능을 구현하였습니다.</p>
                 <p>
-                  질문 및 답변의 등록 및 수정 기능에는 웹 에디터를 이용하여
-                  다양한 서식, 스타일, 레이아웃 등의 요소를 적용할 수 있습니다.
+                  질문 및 답변의 등록 및 수정 기능에는 웹 에디터를 이용하여 다양한 서식, 스타일,
+                  레이아웃 등의 요소를 적용할 수 있습니다.
                 </p>
               </div>
             </div>
@@ -198,18 +185,12 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['description-title']}>
-                CSS Grid를 이용한 레이아웃 구성
-              </p>
+              <p className={styles['description-title']}>CSS Grid를 이용한 레이아웃 구성</p>
               <div className={styles['description']}>
+                <p>CSS Grid를 활용하여 질문 및 답변 컴포넌트들의 레이아웃 디자인에 적용했습니다.</p>
                 <p>
-                  CSS Grid를 활용하여 질문 및 답변 컴포넌트들의 레이아웃
-                  디자인에 적용했습니다.
-                </p>
-                <p>
-                  이전에는 주로 Flex를 사용해왔지만, 위와 같은 디자인의 질문 및
-                  답변 레이아웃에는 Grid가 더 적합하다고 판단하여 해당 디자인에
-                  최적화된 구현을 선택하였습니다.
+                  이전에는 주로 Flex를 사용해왔지만, 위와 같은 디자인의 질문 및 답변 레이아웃에는
+                  Grid가 더 적합하다고 판단하여 해당 디자인에 최적화된 구현을 선택하였습니다.
                 </p>
               </div>
             </div>
@@ -219,9 +200,7 @@ export default function Page() {
             <div className={styles['extra-element']}>
               <p className={styles['description-title']}>Deployment</p>
               <div className={styles['description']}>
-                <p>
-                  Netlify를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.
-                </p>
+                <p>Netlify를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</p>
               </div>
             </div>
             <div>
@@ -235,9 +214,7 @@ export default function Page() {
                 >
                   블로그 글: 첫 팀 프로젝트 회고
                 </a>
-                <HiOutlineArrowLongRight
-                  className={styles['blog-arrow-icon']}
-                />
+                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
             </div>
           </div>

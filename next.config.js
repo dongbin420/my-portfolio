@@ -1,5 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    });
+
+    return config;
+  },
   experimental: {
     typedRoutes: true,
   },
@@ -31,6 +39,7 @@ const nextConfig = {
         pathname: '**',
       },
     ],
+
     // domains: [
     //   'i.namu.wiki',
     //   'cdn.icon-icons.com',

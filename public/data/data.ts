@@ -37,18 +37,18 @@ export const contact = [
 
 export const projects = [
   {
+    img: 'joahair.webp',
+    name: 'JOA HAIR',
+    summary: '헤어살롱 비즈니스 웹사이트',
+    bgClass: 'joahair-bg',
+    route: 'joahair',
+  },
+  {
     img: 'movielog.svg',
     name: 'MovieLog',
     summary: '영화리뷰 웹사이트',
     bgClass: 'movielog-bg',
     route: 'movielog',
-  },
-  {
-    img: 'stackoverflow.svg',
-    name: 'Stack Overflow',
-    summary: 'Stack Overflow 클론 웹사이트',
-    bgClass: 'stackoverflow-bg',
-    route: 'stackoverflow',
   },
   {
     img: 'dongbin.svg',
@@ -57,6 +57,28 @@ export const projects = [
     bgClass: 'portfolio-bg',
     route: 'portfolio',
   },
+  {
+    img: 'stackoverflow.svg',
+    name: 'Stack Overflow',
+    summary: 'Stack Overflow 클론 웹사이트',
+    bgClass: 'stackoverflow-bg',
+    route: 'stackoverflow',
+  },
+];
+
+export const joahairImgCarouselSrc = [
+  '../img/joahair/joahair1.webp',
+  '../img/joahair/joahair2.webp',
+  '../img/joahair/joahair3.webp',
+  '../img/joahair/joahair4.webp',
+  '../img/joahair/joahair5.webp',
+  '../img/joahair/joahair6.webp',
+  '../img/joahair/joahair7.webp',
+  '../img/joahair/joahair8.webp',
+  '../img/joahair/joahair9.webp',
+  '../img/joahair/joahair10.webp',
+  '../img/joahair/joahair11.webp',
+  '../img/joahair/joahair12.webp',
 ];
 
 // 이미지 웹 주소
