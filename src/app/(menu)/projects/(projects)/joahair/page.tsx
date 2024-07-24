@@ -130,7 +130,7 @@ export default function Page() {
                 <p>
                   Google Analytics를 프로젝트와 연동하고, Google Analytics의 통계 분석을 통해, 약
                   85% 이상의 사용자가 호주에 위치해 있음을 반영하여 AWS 인프라와 Firebase 리전을
-                  호주로 설정하고, CDN을 구성하여 S3 버킷 데이터를 캐시해 전달하는 프로세스를
+                  호주로 설정하고, CDN을 구성하여 S3 버킷 데이터를 캐시하여 전달하는 프로세스를
                   구축하여 로딩 속도를 최적화했습니다.
                 </p>
                 <p>
@@ -197,8 +197,8 @@ export default function Page() {
                 </p>
                 <p>
                   디자인 과정을 겪어보며, 디자인 업무와 프론트엔드 업무와의 통합에 대한 심층적인
-                  인사이트를 얻을 수 있었고, 이를 통해 실무에서 커뮤니케이션에 큰 도움이 될 것이라
-                  생각합니다.
+                  인사이트를 얻을 수 있었고, 이 과정을 통해 실무에서 커뮤니케이션에 큰 도움이 될 수
+                  있는 역량을 길렀습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
@@ -330,12 +330,13 @@ export default function Page() {
                   재사용성을 향상시켰습니다.
                 </p>
                 <p>
-                  Accordion, ImageCarousel, InstagramGrid 등 복잡한 컴포넌트를 재사용 가능하게끔
-                  구현하고, Storybook으로 컴포넌트를 관리함으로써 코드의 품질을 높였습니다.
+                  Storybook으로 관리하는 Accordion, ImageCarousel, InstagramGrid 등 복잡한
+                  컴포넌트를 재사용 가능하게끔 구현함으로써 코드의 품질을 높였습니다.
                 </p>
                 <p>
-                  Chromatic을 이용해 Storybook의 UI 문서를 배포했습니다. 이 문서를 통해 컴포넌트에
-                  대한 정보를 시각적으로 정리하여 유지보수성과 협업 효율성을 향상시켰습니다.
+                  추가적으로, Chromatic을 이용해 Storybook의 UI 문서를 배포했습니다. 이 문서를 통해
+                  컴포넌트에 대한 정보를 시각적으로 정리하여 유지보수성과 협업 효율성을
+                  향상시켰습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
@@ -378,18 +379,18 @@ export default function Page() {
                   AWS S3, CloudFront, Route 53을 사용하여 프론트엔드 웹사이트 인프라를 구축했습니다.
                 </p>
                 <p>
-                  Firebase의 Cloud Functions와 Firestore를 사용하여 백엔드 서버리스 인프라를
-                  구축했습니다. 또한, 인스타그램 Display API를 Cloud Functions와 연동하여 데이터를
-                  클라이언트에 전달하는 프로세스를 구성했습니다.
+                  또한, 헤어살롱의 인스타그램 포스트를 사용하기 위해 Firebase의 Cloud Functions와
+                  Firestore를 사용하여 백엔드 서버리스 인프라를 구축했습니다. 인스타그램 Display
+                  API를 Cloud Functions와 연동하여 데이터를 클라이언트에 전달하는 프로세스를
+                  구성했습니다.
                 </p>
                 <p>
-                  클라이언트에서 인스타그램 api 키와 같은 민감한 키들에 대한 노출을 방지하기 위해,
-                  간단한 기능임에도 백엔드 인프라를 서버리스로 구성했습니다.
+                  간단한 기능임에도, 클라이언트에서 인스타그램 api 키와 같은 민감한 키들에 대한
+                  노출을 방지하기 위해, 서버리스 백엔드 인프라를 구성했습니다.
                 </p>
                 <p>
-                  Github Actions 기반의 CI/CD 파이프라인을 구축하여 코드 통합 및 배포 과정의 작업
-                  시간을 단축했습니다. 이 프로세스를 통해, Cloudfront의 캐시를 Invalidate 함으로써
-                  업데이트된 S3 버킷의 에셋들을 가져오도록 구성했습니다.
+                  배포 및 통합의 자동화를 위해서는, Github Actions 기반의 CI/CD 파이프라인을
+                  구축하여 코드 통합 및 배포 과정의 작업 시간을 단축했습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
