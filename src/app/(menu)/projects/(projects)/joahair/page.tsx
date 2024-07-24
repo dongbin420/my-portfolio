@@ -135,8 +135,8 @@ export default function Page() {
                 </p>
                 <p>
                   또한, 모바일 사용자가 약 84%임을 감안하여 모든 디바이스에 대응하는 100% 반응형
-                  웹을 구현하고, keyframes와 transition을 사용해 여러 애니메이션 효과를
-                  구현했습니다.
+                  웹을 구현하고, keyframes와 transition을 사용해 marquee, spin, unfold 등 여러
+                  애니메이션 효과를 구현했습니다.
                 </p>
               </div>
             </div>
