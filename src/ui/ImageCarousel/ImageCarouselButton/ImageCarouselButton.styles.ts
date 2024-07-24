@@ -28,7 +28,7 @@ export const CarouselNextButton = styled.button`
 `;
 
 export const StyledPreviousIcon = styled(PreviousIcon)`
-  fill: #686868;
+  fill: black;
   width: 50px;
   height: 50px;
 
@@ -39,7 +39,7 @@ export const StyledPreviousIcon = styled(PreviousIcon)`
 `;
 
 export const StyledNextIcon = styled(NextIcon)`
-  fill: #686868;
+  fill: black;
   width: 50px;
   height: 50px;
 
