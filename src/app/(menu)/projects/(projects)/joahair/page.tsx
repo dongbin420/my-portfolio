@@ -223,17 +223,6 @@ export default function Page() {
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://www.figma.com/design/zIPi2prACN0tdY4ck12TLM/hair-salon-project-(wire-frame-%26-design-system)?node-id=0-1&t=jZe8VYGshcliqJnK-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글(작성 예정)
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
-              </div>
             </div>
           </div>
 
