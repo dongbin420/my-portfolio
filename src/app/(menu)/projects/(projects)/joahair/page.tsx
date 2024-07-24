@@ -203,7 +203,7 @@ export default function Page() {
               </div>
               <div className={styles['blog-link-container']}>
                 <a
-                  href="https://www.figma.com/design/LLiRquWABeepRm7nPDZWhY/hair-salon-project-prototype?node-id=0-1&t=B4JhVPHuk2MuxWLL-1"
+                  href="https://www.figma.com/design/zIPi2prACN0tdY4ck12TLM/hair-salon-project-(wire-frame-%26-design-system)?node-id=0-1&t=jZe8VYGshcliqJnK-1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles['blog-link-text']}
@@ -214,7 +214,7 @@ export default function Page() {
               </div>
               <div className={styles['blog-link-container']}>
                 <a
-                  href="https://www.figma.com/design/zIPi2prACN0tdY4ck12TLM/hair-salon-project-(wire-frame-%26-design-system)?node-id=0-1&t=jZe8VYGshcliqJnK-1"
+                  href="https://www.figma.com/design/LLiRquWABeepRm7nPDZWhY/hair-salon-project-prototype?node-id=0-1&t=B4JhVPHuk2MuxWLL-1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles['blog-link-text']}
