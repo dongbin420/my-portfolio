@@ -55,7 +55,7 @@ export default function Page() {
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>프로젝트 기간</p>
-                  <p className={styles['project-info-content']}>2023/10~ (진행중)</p>
+                  <p className={styles['project-info-content']}>2023/11 ~ 2023/12</p>
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
@@ -183,8 +183,8 @@ export default function Page() {
               <div className={styles['description']}>
                 <p>
                   정적 웹사이트를 개발하였지만, HTML과 CSS만을 이용한 웹 퍼블리싱뿐만 아니라 이메일
-                  전송 기능, 화면 크기에 반응하여 생성되는 햄버거 메뉴 전환 기능, 다크모드(구현
-                  예정) 등의 기능을 추가함으로써 웹 사이트를 보다 동적으로 구성했습니다.
+                  전송 기능, 화면 크기에 반응하여 생성되는 햄버거 메뉴 전환 기능 등의 기능을
+                  추가함으로써 웹 사이트를 보다 동적으로 구성했습니다.
                 </p>
                 <p>이러한 기능들은 클라이언트 컴포넌트에서 TypeScript를 활용하여 구현하였습니다.</p>
               </div>
@@ -196,12 +196,6 @@ export default function Page() {
               <p className={styles['description-title']}>Deployment</p>
               <div className={styles['description']}>
                 <p>Vercel을 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</p>
-              </div>
-            </div>
-            <div>
-              <p className={styles['description-title']}>도메인 구매(예정)</p>
-              <div className={styles['description']}>
-                <p>(예정)</p>
               </div>
             </div>
           </div>
