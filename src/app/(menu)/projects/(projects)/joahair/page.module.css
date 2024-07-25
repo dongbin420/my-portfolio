@@ -8,10 +8,6 @@
   background-color: #fff6ed;
   width: 100%;
   padding: 0 7%;
-
-  /* @media (max-width: 800px) {
-    padding: 0;
-  } */
 }
 
 .top-section {
@@ -78,10 +74,6 @@
 .bottom-section-container {
   width: 100%;
   padding: 0 7%;
-
-  /* @media (max-width: 800px) {
-    padding: 0;
-  } */
 }
 
 .bottom-section {
@@ -136,10 +128,6 @@
   margin-bottom: 1.5rem;
   border: rgb(23, 22, 27, 0.1) 1px solid;
   border-radius: 10px;
-
-  /* @media (max-width: 1000px) {
-    width: 100%;
-  } */
 }
 
 .project-capture.last-capture {
