@@ -9,6 +9,7 @@ export const ImageCarouselIndicatorContainer = styled.div`
   height: 100%;
   justify-content: center;
   align-items: flex-end;
+  padding: 0 ${({ theme }) => theme.spacing.spacing5};
 `;
 
 export const StyledIndicatorIcon = styled(IndicatorIcon).withConfig({
