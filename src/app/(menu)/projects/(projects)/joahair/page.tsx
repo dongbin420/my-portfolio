@@ -21,11 +21,10 @@ export default function Page() {
             </div>
             {/* <h1 className={styles['logo']}>MOVIE LOG</h1> */}
             <p className={styles['top-content-text']}>
-              테스트
-              {/* 클라이언트의 의뢰를 받아 헤어살롱의 비즈니스 웹사이트를 제작했습니다. 클라이언트의
+              클라이언트의 의뢰를 받아 헤어살롱의 비즈니스 웹사이트를 제작했습니다. 클라이언트의
               요구사항을 분석하고, 이에 맞춰 프로젝트를 기획하고 실행하며, 실무 능력을
               향상시켰습니다. 실제 사용자들이 주기적으로 방문하는 서비스임에 따라, UI & UX에 많은
-              노력을 기울였습니다. */}
+              노력을 기울였습니다.
             </p>
             <div className={styles['project-links']}>
               <div className={styles['project-link-container']}>

@@ -9,9 +9,9 @@
   width: 100%;
   padding: 0 7%;
 
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     padding: 0;
-  }
+  } */
 }
 
 .top-section {
@@ -79,9 +79,9 @@
   width: 100%;
   padding: 0 7%;
 
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     padding: 0;
-  }
+  } */
 }
 
 .bottom-section {
@@ -137,9 +137,9 @@
   border: rgb(23, 22, 27, 0.1) 1px solid;
   border-radius: 10px;
 
-  @media (max-width: 1000px) {
+  /* @media (max-width: 1000px) {
     width: 100%;
-  }
+  } */
 }
 
 .project-capture.last-capture {
@@ -206,6 +206,12 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .project-capture {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .logo {
     font-size: 4em;
@@ -213,6 +219,14 @@
 
   .joahair-logo {
     font-size: 6em;
+  }
+
+  .top-section-container {
+    padding: 0;
+  }
+
+  .bottom-section-container {
+    padding: 0;
   }
 }
 
