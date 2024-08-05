@@ -52,6 +52,7 @@
   font-family: var(--font-pretendard);
   font-weight: 500;
   font-size: 1.3em;
+  align-items: center;
 }
 
 .project-link-container {
@@ -61,7 +62,8 @@
 }
 
 .project-link {
-  border-bottom: 1px solid transparent;
+  flex: 1;
+  text-decoration: none;
 }
 
 .arrow {
@@ -70,7 +72,7 @@
 }
 
 .project-link:hover {
-  border-bottom: 1px solid #000;
+  text-decoration: underline #000;
 }
 
 .bottom-section-container {
@@ -164,7 +166,7 @@
   align-items: center;
   margin-top: 1.5rem;
   font-size: 1.3em;
-  color:rgb(58, 123, 213);
+  color: rgb(58, 123, 213);
 }
 
 .blog-link-text {

@@ -26,7 +26,7 @@ export default function Page() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Website
+                  Website(예산 문제로 백엔드 서버 폐쇄)
                 </a>
                 <HiOutlineArrowLongRight className={styles['arrow']} />
               </div>
