@@ -160,8 +160,8 @@ export default function Page() {
               <div className={styles['description']}>
                 <p>
                   위에서 언급했던 것처럼 사용자 분석 및 사용자 피드백을 바탕으로 성능 최적화,
-                  애니메이션 효과, 반응형 등을 통한 UX 최적화를 통해 약 한 달 만에 고유 방문자 수
-                  600+명(Google Analytics), 검색엔진 노출 1800+번(Google Search Console)의 성과를
+                  애니메이션 효과, 반응형 등을 통한 UX 최적화를 통해 고유 방문자 수 800+명, 이탈률
+                  29.9%(Google Analytics), 검색엔진 노출 2500+번(Google Search Console) 등의 성과를
                   달성했습니다.
                 </p>
               </div>
