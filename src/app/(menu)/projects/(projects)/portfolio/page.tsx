@@ -123,6 +123,17 @@ export default function Page() {
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
+              <div className={styles['blog-link-container']}>
+                <a
+                  href="https://zonbin.notion.site/Next-js-fetching-8e8c2847bc974fe49e3b8f74db347aa7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles['blog-link-text']}
+                >
+                  블로그 글: Next.js의 렌더링 방식, 데이터 fetching 방식, 배포 전략
+                </a>
+                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
+              </div>
             </div>
             <div className={styles['page-element']}>
               <div className={styles['page-element-vertical-1']}>
