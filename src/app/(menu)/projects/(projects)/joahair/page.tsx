@@ -320,7 +320,8 @@ export default function Page() {
                 </p>
                 <p>
                   Storybook으로 관리하는 Accordion, ImageCarousel, InstagramGrid 등 복잡한
-                  컴포넌트를 재사용 가능하게끔 구현함으로써 코드의 품질을 높였습니다.
+                  컴포넌트들을 Compound 컴포넌트 패턴을 적용하고, 재사용 가능하도록 구현함으로써
+                  코드의 품질을 높였습니다.
                 </p>
                 <p>
                   추가적으로, Chromatic을 이용해 Storybook의 UI 문서를 배포했습니다. 이 문서를 통해
