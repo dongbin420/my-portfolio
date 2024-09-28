@@ -293,3 +293,7 @@
 .preload-text {
   font-size: 1.2em;
 }
+
+.bullet {
+  list-style-type: disc;
+}

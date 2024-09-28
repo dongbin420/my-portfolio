@@ -112,7 +112,7 @@ export default function Page() {
             </h1>
             <div className={styles['page-element']}>
               <p className={styles['description-title']}>
-                Google Analytics을 통한 사용자 분석 및 UX 개선
+                Google Analytics을 통한 사용자 분석 및 UI/UX 개선
               </p>
               <Image
                 className={styles['project-capture']}
@@ -128,22 +128,24 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <div className={styles['description']}>
-                <p>
-                  Google Analytics를 프로젝트와 연동하고, Google Analytics의 통계 분석을 통해, 약
-                  85% 이상의 사용자가 호주에 위치해 있음을 반영하여 AWS 인프라와 Firebase 리전을
-                  호주로 설정하고, CDN을 구성하여 S3 버킷 데이터를 캐시하여 전달하는 프로세스를
-                  구축하여 로딩 속도를 최적화했습니다.
-                </p>
-                <p>
-                  또한, 모바일 사용자가 약 84%임을 감안하여 모든 디바이스에 대응하는 100% 반응형
-                  웹을 구현하고, keyframes와 transition을 사용해 marquee, spin, unfold 등 여러
-                  애니메이션 효과를 구현했습니다.
-                </p>
-              </div>
+              <ul className={`${styles['description']} ${styles['bullet']}`}>
+                <li>
+                  Google Analytics의 통계 분석을 통해, 서비스 사용자의 약 95%가 호주에 집중된 상황을
+                  인식했습니다. 따라서, AWS 인프라와 Firebase 리전을 호주로 설정하고, CDN을 구성하여
+                  CDN 서버에 S3 버킷 데이터를 캐시하는 프로세스를 구축하여 글로벌 서비스의 로딩
+                  속도를 최적화했습니다.
+                </li>
+                <li>
+                  모바일 사용자가 약 85%임을 감안하여 모든 디바이스에 대응하는 100% 반응형 웹을
+                  구현하고, keyframes와 transition을 사용해 marquee, spin, unfold 등 여러 애니메이션
+                  효과를 구현했습니다.
+                </li>
+              </ul>
             </div>
             <div className={styles['page-element']}>
-              <p className={styles['description-title']}>UX 개선을 통한 방문자 및 검색 실적 성과</p>
+              <p className={styles['description-title']}>
+                UI/UX 개선을 통한 방문자 및 검색 실적 성과
+              </p>
               <Image
                 className={styles['project-capture']}
                 src="/img/joahair/users.png"
@@ -161,10 +163,9 @@ export default function Page() {
 
               <div className={styles['description']}>
                 <p>
-                  위에서 언급했던 것처럼 사용자 분석 및 사용자 피드백을 바탕으로 성능 최적화,
-                  애니메이션 효과, 반응형 등을 통한 UX 최적화를 통해 고유 방문자 수 1000+명, 이탈률
-                  29.6%(Google Analytics), 검색엔진 노출 3000+번(Google Search Console) 등의 성과를
-                  달성했습니다.
+                  사용자 분석 및 사용자 피드백을 바탕으로 성능 최적화, 애니메이션 효과, 반응형 등을
+                  통한 UI/UX 최적화를 통해 고유 방문자 수 1700+명, 이탈률 30.2%(Google Analytics),
+                  검색엔진 노출 4600+번(Google Search Console) 등의 성과를 달성했습니다.
                 </p>
               </div>
             </div>
