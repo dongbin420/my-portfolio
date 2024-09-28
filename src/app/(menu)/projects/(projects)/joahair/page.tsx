@@ -107,7 +107,9 @@ export default function Page() {
           </div>
 
           <div className={styles['page-container']}>
-            <h1 className={styles['page-title']}>사용자 분석을 통한 UX 최적화</h1>
+            <h1 id="joahair-ui-ux" className={styles['page-title']}>
+              사용자 분석을 통한 UI/UX 최적화
+            </h1>
             <div className={styles['page-element']}>
               <p className={styles['description-title']}>
                 Google Analytics을 통한 사용자 분석 및 UX 개선
