@@ -91,18 +91,18 @@ export default function Page() {
               <p className={styles['description-title']}>
                 TipTap 라이브러리를 이용한 웹 에디터 구현
               </p>
-              <div className={styles['description']}>
-                <p>
+              <ul className={styles['description']}>
+                <li>
                   질문 생성시 웹 에디터 라이브러리인 TipTap을 이용해 다양한 서식, 스타일, 레이아웃
                   등의 요소를 적용할 수 있도록 구현했습니다.
-                </p>
-                <p>
-                  해당 웹 에디터를 공통 컴포넌트로 제작하여, 질문 상세페이지에서도 질문 수정, 답변
-                  등록, 답변 수정에 이용할 수 있도록 구현하였습니다.
-                </p>
-              </div>
+                </li>
+                <li>
+                  웹 에디터를 공통 컴포넌트로 제작하여, 질문 상세페이지에서도 질문 수정, 답변 등록,
+                  답변 수정에 이용할 수 있도록 구현하였습니다.
+                </li>
+              </ul>
             </div>
-            <div>
+            <div className={styles['page-element']}>
               <Image
                 className={styles['project-capture']}
                 src="/img/stackoverflow/stackoverflow-capture2.png"
@@ -118,16 +118,16 @@ export default function Page() {
                 alt="projectCapture"
               />
               <p className={styles['description-title']}>질문 태그 구현</p>
-              <div className={styles['description']}>
-                <p>
+              <ul className={styles['description']}>
+                <li>
                   질문 작성 시, 질문과 관련된 프로그래밍 언어 및 기술 등의 태그를 달 수 있는 기능을
                   구현했습니다.
-                </p>
-                <p>
-                  이러한 태그 데이터는 질문을 태그별로 분류하여 질문을 검색하거나, 태그별로 정리된
-                  목록을 확인하는 등 다양한 기능에 활용할 수 있습니다.
-                </p>
-              </div>
+                </li>
+                <li>
+                  태그 데이터는 질문 검색, 질문 필터링 등 다양한 기능에 활용될 수 있도록 확장성을
+                  고려해 구현했습니다.
+                </li>
+              </ul>
             </div>
           </div>
           <div className={styles['page-container']}>
@@ -148,17 +148,16 @@ export default function Page() {
                 alt="projectCapture"
               />
               <p className={styles['description-title']}>Recoil을 활용한 상태 관리</p>
-              <div className={styles['description']}>
-                <p>
-                  각 질문의 상세 페이지를 구성하기 위해 필요한 정보인 질문 ID, 답변 데이터, 댓글
-                  데이터 등과 같은 데이터를 백엔드 서버에서 받아와 Recoil을 이용하여 전역상태로
-                  관리했습니다.
-                </p>
-                <p>
-                  전역 상태를 활용함으로써 동일한 상태를 여러 컴포넌트에서 공유하고 활용할 수 있어
-                  프로젝트의 복잡성을 감소시키고 효율적인 상태 관리를 할 수 있었습니다.
-                </p>
-              </div>
+              <ul className={styles['description']}>
+                <li>
+                  각 질문의 상세 페이지에서 사용되는 질문 id, 답변 데이터, 댓글 데이터 등을 백엔드
+                  서버에서 받아와 Recoil을 활용하여 전역상태로 관리했습니다.
+                </li>
+                <li>
+                  전역 상태를 활용함으로써 동일한 상태를 여러 컴포넌트에서 공유할 수 있도록 하여
+                  프로젝트의 복잡성을 줄였습니다.
+                </li>
+              </ul>
             </div>
             <div className={styles['page-element']}>
               <Image
@@ -169,15 +168,15 @@ export default function Page() {
                 alt="projectCapture"
               />
               <p className={styles['description-title']}>질문, 답변, 댓글 crud 구현</p>
-              <div className={styles['description']}>
-                <p>질문, 답변, 댓글의 CRUD 기능을 구현하였습니다.</p>
-                <p>
-                  질문 및 답변의 등록 및 수정 기능에는 웹 에디터를 이용하여 다양한 서식, 스타일,
-                  레이아웃 등의 요소를 적용할 수 있습니다.
-                </p>
-              </div>
+              <ul className={styles['description']}>
+                <li>질문, 답변, 댓글의 CRUD 기능을 구현하였습니다.</li>
+                <li>
+                  질문 및 답변의 등록 및 수정 기능에도 TipTap 웹 에디터를 이용하여 다양한 서식,
+                  스타일, 레이아웃 등의 요소를 적용할 수 있습니다.
+                </li>
+              </ul>
             </div>
-            <div>
+            <div className={styles['page-element']}>
               <Image
                 className={`${styles['project-capture']} ${styles['last-capture']}`}
                 src="/img/stackoverflow/stackoverflow-capture6.png"
@@ -187,10 +186,10 @@ export default function Page() {
               />
               <p className={styles['description-title']}>CSS Grid를 이용한 레이아웃 구성</p>
               <div className={styles['description']}>
-                <p>CSS Grid를 활용하여 질문 및 답변 컴포넌트들의 레이아웃 디자인에 적용했습니다.</p>
                 <p>
-                  이전에는 주로 Flex를 사용해왔지만, 위와 같은 디자인의 질문 및 답변 레이아웃에는
-                  Grid가 더 적합하다고 판단하여 해당 디자인에 최적화된 구현을 선택하였습니다.
+                  질문 및 답변 컴포넌트들의 레이아웃은 2차원적인 배치가 요구되었기 때문에, 1차원
+                  레이아웃에 적합한 Flex 대신 2차원 레이아웃을 효율적으로 처리할 수 있는 Grid를
+                  선택하여 디자인에 최적화된 구현을 적용했습니다.
                 </p>
               </div>
             </div>

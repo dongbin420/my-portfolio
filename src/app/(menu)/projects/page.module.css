@@ -34,6 +34,7 @@
 }
 
 .project-container {
+  list-style: none;
   box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 0.2rem;
   transition:

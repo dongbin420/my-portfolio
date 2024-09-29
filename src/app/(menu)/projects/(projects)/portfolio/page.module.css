@@ -136,6 +136,7 @@
 
 .project-infos {
   flex: 1;
+  list-style: none;
 }
 
 .project-info:nth-of-type(1) {
