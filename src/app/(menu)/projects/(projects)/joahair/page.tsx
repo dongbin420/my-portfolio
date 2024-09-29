@@ -21,10 +21,12 @@ export default function Page() {
             </div>
             {/* <h1 className={styles['logo']}>MOVIE LOG</h1> */}
             <p className={styles['top-content-text']}>
-              클라이언트의 의뢰를 받아 헤어살롱의 비즈니스 웹사이트를 제작했습니다. 클라이언트의
-              요구사항을 분석하고, 이에 맞춰 프로젝트를 기획하고 실행하며, 실무 능력을
-              향상시켰습니다. 실제 사용자들이 주기적으로 방문하는 서비스임에 따라, UI & UX에 많은
-              노력을 기울였습니다.
+              클라이언트의 의뢰를 받아 실제 운영 중인 헤어살롱의 브랜드 홍보와 신규 고객 유치를
+              목표로 제작한 헤어살롱 마케팅 웹사이트입니다. 클라이언트의 요구사항을 분석하고, 이에
+              맞춰 프로젝트를 기획하고 실행하며, 실무 능력을 향상시켰습니다. 실제 사용자들이
+              주기적으로 방문하는 서비스임에 따라, UI & UX에 많은 노력을 기울였습니다. 주요
+              기능으로, 예약 시스템과의 통합, 헤어살롱 Instagram 계정의 실시간 포스팅 전시 등이
+              포함되어 있습니다.
             </p>
             <div className={styles['project-links']}>
               <div className={styles['project-link-container']}>
@@ -143,9 +145,7 @@ export default function Page() {
               </ul>
             </div>
             <div className={styles['page-element']}>
-              <p className={styles['description-title']}>
-                UI/UX 개선을 통한 방문자 및 검색 실적 성과
-              </p>
+              <p className={styles['description-title']}>UI/UX 개선을 통한 성과</p>
               <Image
                 className={styles['project-capture']}
                 src="/img/joahair/users.png"
@@ -174,36 +174,6 @@ export default function Page() {
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>디자인 시스템 & 프로젝트 디자인 구축</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={styles['project-capture']}
-                src="/img/joahair/figma1.webp"
-                width={1100}
-                height={650}
-                alt="projectCapture"
-              />
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/joahair/figma2.webp"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <div className={styles['description']}>
-                <p>
-                  Figma를 사용하여 색상 팔레트, 타이포그래피, 스페이싱 등의 디자인 토큰을 포함한
-                  디자인 시스템을 구축하고, 프로젝트 와이어 프레임 및 프로젝트 UI 디자인을 직접
-                  설계했습니다.
-                </p>
-                <p>
-                  또한, 디자인 시스템의 재사용 가능한 디자인 토큰을 styled-components의 theming
-                  기능에 통합하여 프로젝트 UI의 일관성을 높이고 작업 시간을 단축했습니다.
-                </p>
-                <p>
-                  디자인 과정을 겪어보며, 디자인 업무와 프론트엔드 업무와의 통합에 대한 심층적인
-                  인사이트를 얻을 수 있었고, 이 과정을 통해 실무에서 커뮤니케이션에 큰 도움이 될 수
-                  있는 역량을 길렀습니다.
-                </p>
-              </div>
               <div className={styles['blog-link-container']}>
                 <a
                   href="https://www.figma.com/design/zIPi2prACN0tdY4ck12TLM/hair-salon-project-(wire-frame-%26-design-system)?node-id=0-1&t=jZe8VYGshcliqJnK-1"
@@ -226,72 +196,28 @@ export default function Page() {
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
+              <Image
+                className={styles['project-capture']}
+                src="/img/joahair/figma1.webp"
+                width={1100}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['preload-text']}>디자인 시스템 & 와이어 프레임</p>
+              <Image
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
+                src="/img/joahair/figma2.webp"
+                width={1300}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['preload-text']}>프로젝트 디자인 프로토타입</p>
             </div>
           </div>
 
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>웹사이트 성능 최적화</h1>
             <div className={styles['page-element']}>
-              <p className={styles['description-title']}>이미지 및 폰트 최적화</p>
-              <p className={styles['preload-text']}>Preload 적용 전</p>
-              <Image
-                className={styles['project-capture']}
-                src="/img/joahair/preload1.gif"
-                width={1100}
-                height={650}
-                alt="projectCapture"
-              />
-              <p className={styles['preload-text']}>Preload 적용 후</p>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/joahair/preload2.gif"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-
-              <div className={styles['description']}>
-                <p>
-                  이미지 형식을 WebP로 변경하고, imagemagick을 활용한 해상도 축소와 tinyPNG 사이트를
-                  이용한 이미지 압축을 적용하여 이미지 크기를 줄였습니다. 또한,
-                  @vue/preload-webpack-plugin을 활용해 preload를 적용하여 핵심 이미지의 초기 렌더링
-                  시간을 약 1초에서 0초로 줄여 지연을 제거했습니다.
-                </p>
-                <p>
-                  폰트 또한 preload를 적용해 폰트 로드 지연을 해결하여, FOUT 현상이 길게 일어나는
-                  것을 방지했습니다.
-                </p>
-              </div>
-            </div>
-            <div className={styles['page-element']}>
-              <p className={styles['description-title']}>webpack 최적화</p>
-              <p className={styles['preload-text']}>최종 번들 크기(99.6KB + 27.7KB)</p>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/joahair/bundle.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <div className={styles['description']}>
-                <p>
-                  webpack을 활용한 Code Splitting, Tree Shaking, Minification과 CDN 압축을 적용해
-                  JavaScript chunk의 크기를 5.77MB(development) -{'>'} 527KB(production) -{'>'}{' '}
-                  127.3KB(웹사이트 load)로 줄였습니다.
-                </p>
-              </div>
-            </div>
-            <div className={styles['page-element']}>
-              <p className={styles['description-title']}>React 최적화</p>
-
-              <div className={styles['description']}>
-                <p>
-                  React의 useCallback을 활용하여 예기치 않은 함수 재생성에 따른 무한 리렌더링을
-                  방지하고, lazy 및 Suspense를 적용하여 각 페이지 로드 시 필요한 리소스 크기를 줄여
-                  페이지 로딩 성능을 향상시켰습니다.
-                </p>
-              </div>
-
               <div className={styles['blog-link-container']}>
                 <a
                   href="https://zonbin.notion.site/dd34cd2b809a4c12854fb9ffa30f660e"
@@ -303,35 +229,54 @@ export default function Page() {
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
+              <p className={styles['description-title']}>이미지 및 폰트 최적화</p>
+
+              <Image
+                className={styles['project-capture']}
+                src="/img/joahair/preload1.gif"
+                width={1100}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['preload-text']}>Preload 적용 전</p>
+
+              <Image
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
+                src="/img/joahair/preload2.gif"
+                width={1300}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['preload-text']}>Preload 적용 후</p>
+            </div>
+            <div className={styles['page-element']}>
+              <p className={styles['description-title']}>webpack 최적화</p>
+
+              <Image
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
+                src="/img/joahair/bundle.png"
+                width={1300}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['preload-text']}>최적화 후 최종 번들 크기(99.6KB + 27.7KB)</p>
+            </div>
+            <div className={styles['page-element']}>
+              <p className={styles['description-title']}>React 최적화</p>
+
+              <div className={styles['description']}>
+                <p>
+                  React의 useCallback을 활용하여 예기치 않은 함수 재생성에 따른 무한 리렌더링을
+                  방지하고, lazy 및 Suspense를 적용하여 각 페이지 로드 시 필요한 리소스 크기를 줄여
+                  페이지 로딩 성능을 향상시켰습니다.
+                </p>
+              </div>
             </div>
           </div>
 
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>Storybook을 활용한 컴포넌트 개발 & 관리</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={styles['project-capture']}
-                src="/img/joahair/storybook.png"
-                width={1100}
-                height={650}
-                alt="projectCapture"
-              />
-              <div className={styles['description']}>
-                <p>
-                  Storybook을 활용하여 UI 컴포넌트를 독립적으로 개발하여, 컴포넌트의 생산성과
-                  재사용성을 향상시켰습니다.
-                </p>
-                <p>
-                  Storybook으로 관리하는 Accordion, ImageCarousel, InstagramGrid 등 복잡한
-                  컴포넌트들을 Compound 컴포넌트 패턴을 적용하고, 재사용 가능하도록 구현함으로써
-                  코드의 품질을 높였습니다.
-                </p>
-                <p>
-                  추가적으로, Chromatic을 이용해 Storybook의 UI 문서를 배포했습니다. 이 문서를 통해
-                  컴포넌트에 대한 정보를 시각적으로 정리하여 유지보수성과 협업 효율성을
-                  향상시켰습니다.
-                </p>
-              </div>
               <div className={styles['blog-link-container']}>
                 <a
                   href="https://66954a2d20d021b414b40b5e-innammkdsa.chromatic.com/"
@@ -343,38 +288,20 @@ export default function Page() {
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
+              <Image
+                className={styles['project-capture']}
+                src="/img/joahair/storybook.png"
+                width={1100}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['preload-text']}>storybook 배포 문서</p>
             </div>
           </div>
 
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>AWS 및 Firebase 기반 인프라 구축</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={styles['project-capture']}
-                src="/img/joahair/infrastructure.webp"
-                width={1100}
-                height={650}
-                alt="projectCapture"
-              />
-              <div className={styles['description']}>
-                <p>
-                  AWS S3, CloudFront, Route 53을 사용하여 프론트엔드 웹사이트 인프라를 구축했습니다.
-                </p>
-                <p>
-                  또한, 헤어살롱의 인스타그램 포스트를 사용하기 위해 Firebase의 Cloud Functions와
-                  Firestore를 사용하여 백엔드 서버리스 인프라를 구축했습니다. 인스타그램 Display
-                  API를 Cloud Functions와 연동하여 데이터를 클라이언트에 전달하는 프로세스를
-                  구성했습니다.
-                </p>
-                <p>
-                  서버리스 백엔드 인프라를 구성한 이유는 클라이언트에서 인스타그램 api 키와 같은
-                  민감한 키들에 대한 노출을 방지하기 위해 구성하게 되었습니다.
-                </p>
-                <p>
-                  배포 및 통합의 자동화를 위해, Github Actions 기반의 CI/CD 파이프라인을 구축하여
-                  코드 통합 및 배포 과정의 작업 시간을 단축했습니다.
-                </p>
-              </div>
               <div className={styles['blog-link-container']}>
                 <a
                   href="https://zonbin.notion.site/AWS-Firebase-a51ba04d2bb745259ceee4c8463f550a"
@@ -386,6 +313,14 @@ export default function Page() {
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
+              <Image
+                className={styles['project-capture']}
+                src="/img/joahair/infrastructure.webp"
+                width={1100}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['preload-text']}>프로젝트 인프라 구조</p>
             </div>
           </div>
 
@@ -394,14 +329,6 @@ export default function Page() {
               webpack, Babel, TypeScript, ESLint 등 프로젝트 환경 자체 구성
             </h1>
             <div className={styles['page-element']}>
-              <div className={styles['description']}>
-                <p>
-                  많이 사용되는 사전 설정 번들링 툴들인 vite, CRA 등에서 벗어나, webpack, Babel을
-                  기반으로 핵심적인 프론트엔드 툴들의 프로젝트 환경 설정을 자체적으로 구성했습니다.
-                  이를 통해 웹 배포 이전의 빌드, 번들링, 트랜스파일링 등과 관련된 프로세스에 대한
-                  심층적인 이해를 얻었습니다.
-                </p>
-              </div>
               <div className={styles['blog-link-container']}>
                 <a
                   href="https://zonbin.notion.site/webpack-Babel-ts-react-e3b4b987890942a6a933b70d136fac9c"
@@ -412,6 +339,14 @@ export default function Page() {
                   블로그 글: webpack + Babel + ts + react 프로젝트 세팅하기
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
+              </div>
+              <div className={styles['description']}>
+                <p>
+                  많이 사용되는 사전 설정 번들링 툴들인 vite, CRA 등에서 벗어나, webpack, Babel을
+                  기반으로 핵심적인 프론트엔드 툴들의 프로젝트 환경 설정을 자체적으로 구성했습니다.
+                  이를 통해 웹 배포 이전의 빌드, 번들링, 트랜스파일링 등과 관련된 프로세스에 대한
+                  심층적인 이해를 얻었습니다.
+                </p>
               </div>
             </div>
           </div>

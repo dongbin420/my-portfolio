@@ -86,7 +86,7 @@
 }
 
 .page-container {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .page-title {
@@ -125,13 +125,8 @@
 .project-capture {
   width: 70%;
   height: auto;
-  margin-bottom: 1.5rem;
   border: rgb(23, 22, 27, 0.1) 1px solid;
   border-radius: 10px;
-}
-
-.project-capture.last-capture {
-  margin-bottom: 1rem;
 }
 
 .description-title {
@@ -143,6 +138,7 @@
 }
 
 .description {
+  max-width: 1000px;
   font-size: 1.2em;
   line-height: 2.2rem;
 }
@@ -151,7 +147,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .extra-element {
@@ -163,7 +159,7 @@
   font-weight: 400;
   display: flex;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 1.3em;
   color: rgb(58, 123, 213);
 }
@@ -292,6 +288,7 @@
 
 .preload-text {
   font-size: 1.2em;
+  margin-bottom: 1.5rem;
 }
 
 .bullet {

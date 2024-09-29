@@ -79,6 +79,7 @@ export const joahairImgCarouselSrc = [
   '../img/joahair/joahair10.webp',
   '../img/joahair/joahair11.webp',
   '../img/joahair/joahair12.webp',
+  '../img/joahair/joahair13.webp',
 ];
 
 // 이미지 웹 주소
