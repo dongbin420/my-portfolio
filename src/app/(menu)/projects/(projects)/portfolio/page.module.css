@@ -90,7 +90,7 @@
 }
 
 .page-container {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .page-title {
@@ -103,7 +103,10 @@
 }
 
 .page-element {
-  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
 .page-element-vertical-1 {
@@ -148,7 +151,7 @@
 }
 
 .project-capture {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-bottom: 1.5rem;
   border: rgb(23, 22, 27, 0.1) 1px solid;
@@ -191,6 +194,7 @@
 .description {
   font-size: 1.2em;
   line-height: 2.2rem;
+  max-width: 1000px;
 }
 
 .blog-link-container {
@@ -200,7 +204,7 @@
   align-items: center;
   margin-top: 1.5rem;
   font-size: 1.3em;
-  color:rgb(58, 123, 213);
+  color: rgb(58, 123, 213);
 }
 
 .blog-link-text {

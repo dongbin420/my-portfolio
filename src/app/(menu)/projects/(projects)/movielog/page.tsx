@@ -14,9 +14,10 @@ export default function Page() {
             </div>
             {/* <h1 className={styles['logo']}>MOVIE LOG</h1> */}
             <p className={styles['top-content-text']}>
-              MOVIELOG는 영화 리뷰 웹사이트 프로젝트입니다. 영화를 좋아하는 팀원들끼리 모여 시중에
-              있는 다양한 영화 리뷰 플랫폼에서 영감을 받아, 사용자들이 원하는 영화를 찾고, 정보를
-              얻으며, 자유롭게 의견을 나눌 수 있는 웹사이트를 제작했습니다.
+              영화를 좋아하는 팀원들과 함께, 영화에 대한 흥미를 바탕으로 제작한 영화 리뷰 및 정보
+              제공 웹사이트입니다. 주요 기능으로는 영화의 별점, 줄거리, 예고편 링크 등의 정보를
+              제공하며, 로그인 후 리뷰와 별점, 태그를 포함해 사용자가 영화 평가에 참여할 수
+              있습니다.
             </p>
             <div className={styles['project-links']}>
               <div className={styles['project-link-container']}>
@@ -54,7 +55,7 @@ export default function Page() {
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>프로젝트 기간</p>
-                  <p className={styles['project-info-content']}>2023/06 ~ 2023/07 (약 4주)</p>
+                  <p className={styles['project-info-content']}>2023/06 ~ 2023/07</p>
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
@@ -101,23 +102,18 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['description-title']}>Redux Toolkit을 활용한 상태 관리</p>
-              <div className={styles['description']}>
-                <p>
-                  개별 영화의 상세 페이지를 구성하기 위해 필요한 정보인 영화 ID, 영화 제목, 영화
-                  줄거리, 장르, 런타임, 그리고 영화 포스터 등과 같은 데이터를 백엔드 서버에서 받아와
-                  Redux Toolkit을 이용하여 전역 상태로 관리했습니다.
-                </p>
-                <p>
-                  Redux Toolkit을 이용한 전역 상태를 활용한 주요 이유는, 상세 페이지를 형성하는 여러
-                  하위 컴포넌트에 데이터를 전달할 때 발생하는 Props Drilling이 프로젝트의 유지 보수
-                  및 가독성 등에 부정적인 영향을 미칠 수 있다는 인식에서 비롯되었습니다.
-                </p>
-                <p>
-                  전역 상태를 활용함으로써 동일한 상태를 여러 컴포넌트에서 공유하고 활용할 수 있어
-                  프로젝트의 복잡성을 감소시키고 효율적인 상태 관리를 할 수 있었습니다.
-                </p>
-              </div>
+              <p className={styles['description-title']}>디테일한 영화 정보 제공</p>
+              <ul className={styles['description']}>
+                <li>
+                  백엔드 데이터베이스에 저장된 모든 영화의 영화 ID, 영화 제목, 영화 줄거리, 장르,
+                  런타임, 그리고 영화 포스터 등과 같은 데이터를 이용해 유저에게 영화 관련 다양한
+                  정보를 제공할 수 있도록 했습니다.
+                </li>
+                <li>
+                  다양한 컴포넌트에서 사용되는 영화 데이터를 props drilling을 피하기 위해 Redux
+                  Toolkit을 활용해 전역 상태로 관리했습니다.
+                </li>
+              </ul>
             </div>
             <div className={styles['page-element']}>
               <Image
@@ -134,25 +130,19 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['description-title']}>리뷰 기능 구현</p>
+              <p className={styles['description-title']}>
+                자유로운 영화 평가를 위한 리뷰 작성 기능 구현
+              </p>
               <div className={styles['description']}>
-                <p>별점 및 태그 선택이 가능한 리뷰 CRUD 기능을 구현하였습니다.</p>
                 <p>
-                  리뷰 작성 시 사용되는 리뷰 작성 모달은 공통 컴포넌트로 제작되어, 코드의 재사용성을
-                  높였습니다.
-                </p>
-                <p>
-                  프로젝트 기획 초기에 해당 모달이 여러 페이지에서 동일한 기능을 수행하되 다양한
-                  데이터로 구성될 가능성이 고려되었습니다. 이로써 공통 컴포넌트의 제작은 코드의
-                  일관성을 유지하고, 수정 및 업데이트가 용이하도록 만들었습니다.
-                </p>
-                <p>
-                  이 공통 컴포넌트 모달은 새로운 페이지에 리뷰 작성 및 수정 기능을 추가할 때
-                  유연성을 제공하여 효율적으로 활용하는데 도움이 되었습니다.
+                  유저는 로그인 후 0.5점 단위의 세밀한 별점 평가와, 음악, 힐링, 킬링타임 등 흥미로운
+                  태그를 선택하여 리뷰를 작성, 수정, 삭제, 열람할 수 있습니다. 해당 별점과 태그는
+                  웹사이트 전반에 걸쳐 영화의 평점 계산과 태그 필터링에 사용될 수 있도록
+                  설계했습니다.
                 </p>
               </div>
             </div>
-            <div>
+            <div className={styles['page-element']}>
               <Image
                 className={styles['project-capture']}
                 src="/img/movielog/movielog-capture6.png"
@@ -167,23 +157,11 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['description-title']}>페이지네이션 구현</p>
+              <p className={styles['description-title']}>페이지네이션 기능 구현</p>
               <div className={styles['description']}>
                 <p>
-                  리뷰를 효과적으로 열람할 수 있도록 한 페이지당 5개의 리뷰를 보여주는 페이지네이션
+                  효과적인 리뷰 열람에 도움이 되는, 한 페이지당 5개의 리뷰를 보여주는 페이지네이션
                   기능을 구현했습니다.
-                </p>
-                <p>
-                  이 리뷰열람 기능을 위해 무한 스크롤이 아닌 페이지네이션을 구현하게된 이유는,
-                  리뷰에 있어서는 모든 리뷰를 열람하고 싶은 유저도 있을 것이고 아닌 유저도 있을
-                  것이기에 무한 스크롤보다는 유저에게 선택권을 주어 다음 리뷰 목록을 유저가 직접
-                  클릭해서 볼 수 있는 페이지네이션이 더 적절하다고 생각했기에 페이지네이션을
-                  선택하여 구현하게 되었습니다.
-                </p>
-                <p>
-                  페이지네이션 기능을 구현하기 위해 필요한 데이터인 현재 페이지 번호, 각 페이지당
-                  제한 리뷰 수, 총 리뷰 수, 총 페이지 수 등과 관련된 비즈니스 로직을 개발하여 이
-                  기능을 완성했습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
@@ -201,7 +179,7 @@ export default function Page() {
           </div>
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>검색 페이지</h1>
-            <div>
+            <div className={styles['page-element']}>
               <Image
                 className={`${styles['project-capture']} ${styles['last-capture']}`}
                 src="/img/movielog/movielog-capture8.png"
@@ -209,20 +187,20 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['description-title']}>검색 기능 구현</p>
-              <div className={styles['description']}>
-                <p>
-                  검색 시, 사용자가 검색한 내용과 가장 관련있는 20개의 영화를 보여주는 검색 페이지를
-                  구현하였습니다.
-                </p>
-                <p>사용자는 영화 제목, 배우 이름, 감독 이름으로 검색을 수행할 수 있습니다.</p>
-                <p>
-                  유저가 입력한 검색 키워드 수집을 위해 검색 링크를 검색 데이터로 이루어진 쿼리
-                  파라미터로 구성하고 해당 키워드를 서버로 전송하면 서버에서는 구현된 비즈니스
-                  로직을 통해 처리된 결과 데이터를 보내줍니다. 이후, 받아온 결과 데이터를 기반으로
-                  검색 페이지를 동적으로 구성하였습니다.
-                </p>
-              </div>
+              <p className={styles['description-title']}>
+                쿼리 파라미터를 이용한 영화 검색 기능 구현
+              </p>
+              <ul className={styles['description']}>
+                <li>
+                  사용자 테스트에서 영화 탐색이 제한적이라는 피드백을 반영하여, 유저가 검색한 내용과
+                  가장 관련있는 20개의 영화를 보여주는 검색 기능을 구현했습니다. 유저는 영화 제목,
+                  배우 이름, 감독 이름으로도 검색을 수행할 수 있습니다.
+                </li>
+                <li>
+                  사용자가 입력한 검색어를 쿼리 파라미터로 구성해 서버로 전송하고, 해당 키워드와
+                  가장 관련성 높은 20개의 영화 데이터를 받아와 보여주는 검색 페이지를 구현했습니다.
+                </li>
+              </ul>
             </div>
           </div>
           <div className={styles['page-container']}>
@@ -234,12 +212,6 @@ export default function Page() {
                   타입스크립트를 활용하여 백엔드 서버로부터 수신한 영화 데이터의 타입을 미리
                   명시함으로써, 런타임 이전에 컴파일 시점에서 예상치 못한 데이터 유형의 문제를
                   사전에 방지할 수 있도록 하였습니다.
-                </p>
-                <p>
-                  또한, 타입스크립트를 도입함으로써 코드에서 데이터의 타입을 명시적으로 확인하기
-                  쉬워졌습니다. 이를 통해 코드 자체만으로도 데이터 유형에 대한 더 많은 정보를 쉽게
-                  파악할 수 있게 되었습니다. 이러한 접근은 코드에 대한 추가적인 정보 제공을 하는
-                  역할을 하며 유지보수 및 리팩토링 작업에 많은 도움이 될 수 있었습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
@@ -255,20 +227,14 @@ export default function Page() {
               </div>
             </div>
             <div className={styles['extra-element']}>
-              <p className={styles['description-title']}>반응형 웹 구현</p>
-              <p className={styles['description']}>
-                미디어쿼리를 이용하여 작은 화면에도 대응하는 반응형 웹 디자인을 구현하였습니다.
-              </p>
-            </div>
-            <div className={styles['extra-element']}>
               <p className={styles['description-title']}>CI/CD & Deployment</p>
-              <div className={styles['description']}>
-                <p>AWS S3를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</p>
-                <p>
+              <ul className={styles['description']}>
+                <li>AWS S3를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</li>
+                <li>
                   Github Actions를 이용하여 CI/CD 파이프라인을 구축하였습니다. 이를 통해 코드 통합
                   및 배포 과정의 자동화와 효율성을 증가시킬 수 있었습니다.
-                </p>
-              </div>
+                </li>
+              </ul>
               <div className={styles['blog-link-container']}>
                 <a
                   href="https://zonbin.notion.site/github-actions-9ec6ab0c7bda4f7f8ab274d594988619?pvs=4"

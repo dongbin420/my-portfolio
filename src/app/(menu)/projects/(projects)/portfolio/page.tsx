@@ -14,11 +14,9 @@ export default function Page() {
             </div>
 
             <p className={styles['top-content-text']}>
-              수행했던 프로젝트를 소개하는 개인 포트폴리오 웹사이트를 제작했습니다. 혼자서 기획부터
-              디자인, 개발, 배포까지 수행하며 프론트엔드 개발의 전반적인 프로세스를 경험했던
-              프로젝트입니다. 정적 웹사이트이지만, 사용자 경험을 최적화하고 Next.js와 타입스크립트를
-              이용한 간단한 동적 기능들 또한 추가하여 프론트엔드 개발자에게 필요한 역량을 향상시킬
-              수 있었습니다.
+              Next.js를 사용한 개인 포트폴리오 웹사이트로, 작업한 프로젝트들을 시각적으로 소개하기
+              위해 제작했습니다. 랜딩 페이지와 project, about, contact 메뉴로 구성되어 있으며,
+              이메일 전송 기능이 포함되어 있습니다.
             </p>
             <div className={styles['project-links']}>
               <div className={styles['project-link-container']}>
@@ -87,18 +85,9 @@ export default function Page() {
               <p className={styles['description-title']}>Next.js 도입</p>
               <div className={styles['description']}>
                 <p>
-                  SSR(Server Side Rendering)이 점점 인기가 많아지고, 현 시점에서 CSR(Client Side
-                  Rendering)보다 좀 더 많은 장점을 가져다 주는 상황에서, 기본적으로 서버 컴포넌트를
-                  사용하며 SSR 방식으로 렌더링을 하는 Next.js를 경험해보며 학습하기 위해 Next.js를
-                  이용해 사이트를 개발했습니다.
-                </p>
-                <p>
-                  비록, 백엔드 서버가 필요없는 정적 웹사이트인 포트폴리오를 개발하는 것이었지만
-                  기본적으로 서버 컴포넌트를 사용해 SSR방식을 적용할 수 있으며, use client를 통해
-                  클라이언트 컴포넌트도 사용할 수 있고, 이에 더하여 next/font, next/image, next/link
-                  등 여러가지 웹사이트 최적화를 위한 기능들과 Next.js 13부터 도입된 App Router를
-                  사용함으로써 Route Groups와 같은 Next.js의 최신 기능들도 사용할 수 있었기에 많은
-                  이점을 얻을 수 있었습니다.
+                  SSR 및 Next.js 학습을 위해 Next.js 13으로 프로젝트를 진행했습니다. 정적인
+                  웹사이트임에 따라, Static Rendering을 적용하였고, Route Groups, next/link,
+                  next/image, next/font 등의 기능들을 사용했습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
@@ -153,51 +142,29 @@ export default function Page() {
                 />
               </div>
 
-              <p className={styles['description-title']}>모든 기기에 대응하는 반응형 웹 구현</p>
+              <p className={styles['description-title']}>반응형 웹 구현</p>
               <div className={styles['description']}>
                 <p>
                   데스크탑, 태블릿, 모바일 등 모든 기기에 최적화된 반응형 웹 디자인을
                   구현하였습니다.
                 </p>
-                <p>
-                  모든 기기에 최적화된 반응형 디자인은 미디어쿼리를 이용하여 모든 페이지에
-                  구현하였으며, 이에 따라 전반적인 웹 사이트의 사용성을 향상시킬 수 있었습니다.
-                </p>
               </div>
             </div>
-            <div>
-              <div className={styles['page-element-vertical-2']}>
-                <Image
-                  className={styles['project-capture-vertical']}
-                  src="/img/portfolio/portfolio-capture4.png"
-                  width={700}
-                  height={1700}
-                  alt="projectCapture"
-                />
-                <Image
-                  className={styles['project-capture-vertical']}
-                  src="/img/portfolio/portfolio-video1.gif"
-                  width={700}
-                  height={1700}
-                  alt="projectCapture"
-                />
-                <Image
-                  className={styles['project-capture-vertical']}
-                  src="/img/portfolio/portfolio-video1.gif"
-                  width={700}
-                  height={1700}
-                  alt="projectCapture"
-                />
-              </div>
-
-              <p className={styles['description-title']}>동적 기능 구현</p>
+            <div className={styles['page-element']}>
+              <Image
+                className={`${styles['project-capture']} ${styles['last-capture']}`}
+                src="/img/portfolio/portfolio-capture4.png"
+                width={1300}
+                height={650}
+                alt="projectCapture"
+              />
+              <p className={styles['description-title']}>이메일 전송 기능 구현</p>
               <div className={styles['description']}>
                 <p>
-                  정적 웹사이트를 개발하였지만, HTML과 CSS만을 이용한 웹 퍼블리싱뿐만 아니라 이메일
-                  전송 기능, 화면 크기에 반응하여 생성되는 햄버거 메뉴 전환 기능 등의 기능을
-                  추가함으로써 웹 사이트를 보다 동적으로 구성했습니다.
+                  주로 정적인 웹사이트 구조를 유지하면서도, Email.js 라이브러리를 활용하여 동적인
+                  이메일 전송 기능을 구현했습니다. 이를 통해 사용자는 웹사이트 내에서 직접 이메일을
+                  보낼 수 있습니다.
                 </p>
-                <p>이러한 기능들은 클라이언트 컴포넌트에서 TypeScript를 활용하여 구현하였습니다.</p>
               </div>
             </div>
           </div>
