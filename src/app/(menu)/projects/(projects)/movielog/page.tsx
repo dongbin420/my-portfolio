@@ -230,10 +230,7 @@ export default function Page() {
               <p className={styles['description-title']}>CI/CD & Deployment</p>
               <ul className={styles['description']}>
                 <li>AWS S3를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</li>
-                <li>
-                  Github Actions를 이용하여 CI/CD 파이프라인을 구축하였습니다. 이를 통해 코드 통합
-                  및 배포 과정의 자동화와 효율성을 증가시킬 수 있었습니다.
-                </li>
+                <li>Github Actions를 이용하여 CI/CD 파이프라인을 구축하였습니다.</li>
               </ul>
               <div className={styles['blog-link-container']}>
                 <a

@@ -21,12 +21,10 @@ export default function Page() {
             </div>
             {/* <h1 className={styles['logo']}>MOVIE LOG</h1> */}
             <p className={styles['top-content-text']}>
-              클라이언트의 의뢰를 받아 실제 운영 중인 헤어살롱의 브랜드 홍보와 신규 고객 유치를
+              클라이언트의 의뢰를 받아, 실제 운영 중인 헤어살롱의 브랜드 홍보와 신규 고객 유치를
               목표로 제작한 헤어살롱 마케팅 웹사이트입니다. 클라이언트의 요구사항을 분석하고, 이에
-              맞춰 프로젝트를 기획하고 실행하며, 실무 능력을 향상시켰습니다. 실제 사용자들이
-              주기적으로 방문하는 서비스임에 따라, UI & UX 개선에 많은 노력을 기울였습니다. 주요
-              기능으로, 예약 시스템과의 통합, 헤어살롱 Instagram 계정의 실시간 포스팅 전시 등이
-              포함되어 있습니다.
+              맞춰 프로젝트를 기획하고 실행하며, 실무 능력을 향상시켰습니다. 주요 기능으로, 예약
+              시스템과의 통합, 헤어살롱 Instagram 계정의 실시간 포스팅 전시 등이 포함되어 있습니다.
             </p>
             <div className={styles['project-links']}>
               <div className={styles['project-link-container']}>
@@ -295,7 +293,16 @@ export default function Page() {
                 height={650}
                 alt="projectCapture"
               />
-              <p className={styles['preload-text']}>storybook 배포 문서</p>
+              <ul className={styles['description']}>
+                <li>
+                  Storybook을 도입하여 컴포넌트를 독립적으로 개발하고, 시각적 모양과 동작을
+                  문서화했습니다.
+                </li>
+                <li>
+                  특히, 캐러셀, 아코디언과 같이 복잡한 컴포넌트의 개발에, 구성 요소 간 명확한 책임
+                  분리를 추구하는 Compound 패턴을 도입해 컴포넌트를 설계했습니다.
+                </li>
+              </ul>
             </div>
           </div>
 
