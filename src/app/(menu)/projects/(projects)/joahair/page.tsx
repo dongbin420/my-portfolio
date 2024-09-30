@@ -162,7 +162,7 @@ export default function Page() {
               <div className={styles['description']}>
                 <p>
                   사용자 분석 및 사용자 피드백을 바탕으로 성능 최적화, 애니메이션 효과, 반응형 등을
-                  통한 UI/UX 최적화를 통해 고유 방문자 수 1700+명, 이탈률 30.2%(Google Analytics),
+                  통한 UI/UX 최적화를 통해 고유 방문자 수 1700+명, 이탈률 29.9%(Google Analytics),
                   검색엔진 노출 4600+번(Google Search Console) 등의 성과를 달성했습니다.
                 </p>
               </div>
