@@ -137,8 +137,12 @@ export default function Page() {
                 </li>
                 <li>
                   모바일 사용자가 약 85%임을 감안하여 모든 디바이스에 대응하는 100% 반응형 웹을
-                  구현하고, keyframes와 transition을 사용해 marquee, spin, unfold 등 여러 애니메이션
-                  효과를 구현했습니다.
+                  구현했습니다.
+                </li>
+                <li>
+                  그 외, 페이지 뷰, 체류 시간, 이탈률 등의 통계를 참고하여 웹사이트의 전반적인
+                  UI/UX를 개선했습니다.(성능 최적화, 애니메이션 효과, 인터랙티브한 UI 컴포넌트 구현,
+                  디자인의 일관성 등)
                 </li>
               </ul>
             </div>
@@ -161,9 +165,9 @@ export default function Page() {
 
               <div className={styles['description']}>
                 <p>
-                  사용자 분석 및 사용자 피드백을 바탕으로 성능 최적화, 애니메이션 효과, 반응형 등을
-                  통한 UI/UX 최적화를 통해 고유 방문자 수 1700+명, 이탈률 29.9%(Google Analytics),
-                  검색엔진 노출 4600+번(Google Search Console) 등의 성과를 달성했습니다.
+                  사용자 데이터 통계를 기반으로 한 사용자 중심의 UI/UX 최적화를 통해 고유 방문자 수
+                  1700+명, 이탈률 29.9%(Google Analytics), 검색엔진 노출 4600+번(Google Search
+                  Console) 등의 성과를 달성했습니다.
                 </p>
               </div>
             </div>
