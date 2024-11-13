@@ -54,7 +54,7 @@ export default function Page() {
             </p>
             <div className={styles['resume-link-container']}>
               <a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:0943a458-5ead-4b3c-8896-e5a77a3dda9d"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:db71eff2-57a0-4ae5-bbc3-2371d50fe9b0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles['resume-link-text']}
