@@ -43,18 +43,25 @@ export default function Page() {
           />
           <div className={styles['about-content-container']}>
             <h1 className={styles['about-name']}>유동빈 (Dongbin Yoo)</h1>
+            <p className={styles['about-content']}>반갑습니다!</p>
             <p className={styles['about-content']}>
-              대학을 졸업할 때까지 살아오면서 뚜렷한 꿈이 없었습니다. 조금이라도 흥미가 있는 분야를
-              찾지 못했기 때문입니다. 그러던 와중 웹 개발, 특히 프론트엔드라는 분야를 처음으로
-              접하게 된 것은 제 인생에 있어서 큰 행운이었다고 생각합니다. 프론트엔드 개발은 저의
-              무의미한 생각들을 가치 있는 방향으로 활용할 수 있게끔 해주었습니다. 또한, 결과물들을
-              눈으로 확인시켜 주며 큰 즐거움과 성취감까지 주는 분야가 되었습니다. 이렇게 탄생한
-              결과물들이 사람들에게 도움이 되는 가치를 가질 수 있다는 점은 또 하나의 큰 동기부여가
-              되어, 하루하루 프론트엔드 개발자가 되기 위해 노력하고 있습니다.
+              저는 코드를 통해 직관적이고 아름다운 UI/UX를 구현하는 일에 큰 보람을 느껴 프론트엔드
+              개발을 하고 있는 유동빈입니다.
+            </p>
+            <p className={styles['about-content']}>
+              저는 대학을 졸업할 때까지 특별한 꿈이나 목표가 없었습니다.
+            </p>
+            <p className={styles['about-content']}>
+              하지만, 프론트엔드 개발을 만나고 저의 무의미한 생각들이 가치 있는 방향으로 활용될 수
+              있게 되었고, 결과물을 눈으로 확인하며 큰 즐거움과 성취감도 느낄 수 있었습니다.
+            </p>
+            <p className={styles['about-content']}>
+              이렇게 탄생한 결과물들이 많은 사람들에게 도움이 되는 가치를 가질 수 있다는 점은 또
+              하나의 큰 동기부여가 되어, 하루하루 프론트엔드 개발자가 되기 위해 노력하고 있습니다.
             </p>
             <div className={styles['resume-link-container']}>
               <a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:610283c2-9760-427b-82af-bea1be8c9d0d"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:948dab97-7c63-41f6-ace4-d7d3edc6f379"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles['resume-link-text']}

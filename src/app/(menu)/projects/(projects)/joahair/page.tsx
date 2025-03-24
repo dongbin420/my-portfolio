@@ -62,7 +62,7 @@ export default function Page() {
               <div className={styles['project-infos']}>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>프로젝트 기간</p>
-                  <p className={styles['project-info-content']}>2024/05 ~ 2024/07</p>
+                  <p className={styles['project-info-content']}>2024/05 ~ 운영 중</p>
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
@@ -81,7 +81,7 @@ export default function Page() {
                   <p className={styles['project-info-content']}>
                     React, TypeScript, webpack, Babel, styled-components, Storybook, Firebase
                     Firestore, Google Cloud Functions, AWS S3, AWS CloudFront, AWS Route 53, GitHub
-                    Actions, Google Analytics, Figma
+                    Actions, Google Analytics, Figma, Tanstack Query
                   </p>
                 </li>
               </div>
