@@ -34,7 +34,18 @@ export default function Page() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Website
+                  Production(실제 서비스)
+                </a>
+                <HiOutlineArrowLongRight className={styles['arrow']} />
+              </div>
+              <div className={styles['project-link-container']}>
+                <a
+                  className={styles['project-link']}
+                  href="https://joa-hair-showcase.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Development(학습 및 연구용)
                 </a>
                 <HiOutlineArrowLongRight className={styles['arrow']} />
               </div>

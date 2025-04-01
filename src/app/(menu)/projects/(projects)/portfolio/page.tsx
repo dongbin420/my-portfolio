@@ -86,9 +86,20 @@ export default function Page() {
               <div className={styles['description']}>
                 <p>
                   SSR 및 Next.js 학습을 위해 Next.js 13으로 프로젝트를 진행했습니다. 정적인
-                  웹사이트임에 따라, Static Rendering을 적용하였고, Route Groups, next/link,
-                  next/image, next/font 등의 기능들을 사용했습니다.
+                  웹사이트임에 따라, 대부분의 컴포넌트에 Static Rendering을 적용하였고, Route
+                  Groups, next/link, next/image, next/font 등의 기능들을 사용했습니다.
                 </p>
+              </div>
+              <div className={styles['blog-link-container']}>
+                <a
+                  href="https://zonbin.notion.site/CSR-SSR-Next-js-8e8c2847bc974fe49e3b8f74db347aa7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles['blog-link-text']}
+                >
+                  블로그 글: CSR과 SSR 그리고, Next.js의 렌더링 방식과 아키텍처
+                </a>
+                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
               <div className={styles['blog-link-container']}>
                 <a
@@ -109,17 +120,6 @@ export default function Page() {
                   className={styles['blog-link-text']}
                 >
                   블로그 글: Next.js 사용기 (Route groups, 최적화 등)
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
-              </div>
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://zonbin.notion.site/Next-js-fetching-8e8c2847bc974fe49e3b8f74db347aa7"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글: Next.js의 렌더링 방식, 데이터 fetching 방식, 배포 전략
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>

@@ -50,6 +50,7 @@
   font-family: var(--font-pretendard);
   font-weight: 500;
   font-size: 1.3em;
+  align-items: center;
 }
 
 .project-link-container {
@@ -244,6 +245,12 @@
     flex-direction: column;
     gap: 4rem;
   }
+
+  .project-links {
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.3em;
+  }
 }
 
 @media screen and (max-width: 499px) {
@@ -270,11 +277,11 @@
     font-size: 0.9em;
   }
 
-  .project-links {
+  /* .project-links {
     flex-direction: column;
     gap: 2rem;
     font-size: 1.3em;
-  }
+  } */
 }
 
 @media screen and (max-width: 300px) {
