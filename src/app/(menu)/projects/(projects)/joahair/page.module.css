@@ -131,6 +131,10 @@
   border-radius: 10px;
 }
 
+.dv-img {
+  width: 40%;
+}
+
 .description-title {
   font-family: var(--font-pretendard);
   font-weight: 300;
@@ -143,6 +147,7 @@
   max-width: 1000px;
   font-size: 1.2em;
   line-height: 2.2rem;
+  margin-bottom: 2rem;
 }
 
 .page-element {
@@ -164,6 +169,7 @@
   margin-bottom: 2rem;
   font-size: 1.3em;
   color: rgb(58, 123, 213);
+  /* margin-top: 3rem; */
 }
 
 .blog-link-text {
@@ -195,6 +201,10 @@
 @media screen and (max-width: 1000px) {
   .project-capture {
     width: 100%;
+  }
+
+  .dv-img {
+    width: 70%;
   }
 }
 
@@ -296,9 +306,13 @@
 
 .preload-text {
   font-size: 1.2em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .bullet {
   list-style-type: disc;
+}
+
+.small-bullet {
+  margin-left: 1rem;
 }

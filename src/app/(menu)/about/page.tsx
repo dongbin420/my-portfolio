@@ -63,24 +63,24 @@ export default function Page() {
               반갑습니다!
             </p>
             <p className={styles['about-content']}>
-              저는 코드를 통해 직관적이고 아름다운 UI/UX를 구현하는 일에 큰 보람을 느껴 프론트엔드
-              개발을 하고 있는 유동빈입니다.
+              저는 코드를 통해 매력적이고 직관적인 UI/UX를 구현하는 일에 큰 보람을 느껴 프론트엔드
+              개발을 하고 있습니다.
             </p>
             <p className={styles['about-content']}>
-              저는 대학을 졸업할 때까지 특별한 꿈이나 목표가 없었습니다.
+              저는 대학을 졸업한 직후에 특별한 꿈이나 목표가 없었습니다.
             </p>
             <p className={styles['about-content']}>
               하지만, 프론트엔드 개발을 만나고 저의 무의미한 생각들이 가치 있는 방향으로 활용될 수
               있게 되었고, 결과물을 눈으로 확인하며 큰 즐거움과 성취감도 느낄 수 있었습니다.
             </p>
             <p className={styles['about-content']}>
-              이렇게 탄생한 결과물들이 많은 사람들에게 도움이 되는 가치를 가질 수 있다는 점은 또
-              하나의 큰 동기부여가 되어, 하루하루 프론트엔드 개발자가 되기 위해 노력하고 있습니다.
+              이 결과물들이 많은 사람들에게 의미있는 가치를 전달할 수 있다는 점은 저에게 또 하나의
+              큰 동기부여가 됩니다.
             </p>
 
             <div className={styles['resume-link-container']}>
               <a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:1d11a036-21d4-4fea-a02c-04474c79997e"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:4d636081-71e0-4bf0-8708-349d991f56fd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles['resume-link-text']}

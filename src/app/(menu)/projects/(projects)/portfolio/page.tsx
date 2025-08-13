@@ -57,7 +57,9 @@ export default function Page() {
                 </li>
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
-                  <p className={styles['project-info-content']}>기획, FE, Deployment</p>
+                  <p className={styles['project-info-content']}>
+                    FE, 기획, 디자인, Deployment 등 전체
+                  </p>
                 </li>
               </div>
               <div className={styles['project-infos']}>
@@ -85,9 +87,10 @@ export default function Page() {
               <p className={styles['description-title']}>Next.js 도입</p>
               <div className={styles['description']}>
                 <p>
-                  SSR 및 Next.js 학습을 위해 Next.js 13으로 프로젝트를 진행했습니다. 정적인
-                  웹사이트임에 따라, 대부분의 컴포넌트에 Static Rendering을 적용하였고, Route
-                  Groups, next/link, next/image, next/font 등의 기능들을 사용했습니다.
+                  SSR 및 Next.js 학습을 위해 Next.js 13을 활용해 프로젝트를 진행했습니다. CSR, SSR
+                  및 Next.js의 App Router 기반 렌더링 전략과 아키텍처에 대한 분석 및 연구을
+                  진행했고, Route Groups, next/link, next/image, next/font 등의 기능들을
+                  사용했습니다.
                 </p>
               </div>
               <div className={styles['blog-link-container']}>
@@ -98,28 +101,6 @@ export default function Page() {
                   className={styles['blog-link-text']}
                 >
                   블로그 글: CSR과 SSR 그리고, Next.js의 렌더링 방식과 아키텍처
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
-              </div>
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://zonbin.notion.site/Next-js-0142a44ff2914c20912f633f4d11b96f"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글: 프로젝트 도입을 위한 Next.js 학습하기
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
-              </div>
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://zonbin.notion.site/Next-js-Route-groups-b82c39e4e01d45f9951d8b64379f7b62"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글: Next.js 사용기 (Route groups, 최적화 등)
                 </a>
                 <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>

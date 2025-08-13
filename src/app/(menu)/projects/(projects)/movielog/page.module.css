@@ -144,7 +144,7 @@
   font-weight: 300;
   color: rgb(23, 22, 27, 0.5);
   font-size: 2em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .description {
@@ -187,6 +187,10 @@
 
 .blog-arrow-icon {
   animation: moveArrow 1s ease-in-out infinite;
+}
+
+.small-bullet {
+  margin-left: 1rem;
 }
 
 @keyframes moveArrow {

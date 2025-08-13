@@ -62,7 +62,7 @@ export default function Page() {
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
                   <p className={styles['project-info-content']}>
-                    기획, FE(질문 작성 페이지, 질문 상세 페이지), Deployment
+                    FE개발(질문 작성 페이지, 질문 상세 페이지), 배포 담당, 기획·디자인 참여
                   </p>
                 </li>
               </div>

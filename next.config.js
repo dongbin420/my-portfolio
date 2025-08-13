@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -12,6 +13,7 @@ const nextConfig = {
     typedRoutes: true,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
