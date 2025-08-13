@@ -60,7 +60,7 @@ export default function Page() {
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
                   <p className={styles['project-info-content']}>
-                    FE개발(영화 상세 페이지, 검색 페이지), CD 및 배포 담당, 기획·디자인 참여
+                    FE 개발(영화 상세 페이지, 검색 페이지), CD 및 배포 담당, 기획·디자인 참여
                   </p>
                 </li>
               </div>

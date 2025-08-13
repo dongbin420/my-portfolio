@@ -79,7 +79,7 @@ export default function Page() {
                 <li className={styles['project-info']}>
                   <p className={styles['project-info-title']}>역할</p>
                   <p className={styles['project-info-content']}>
-                    FE개발(업무 비중 70%), 기획·디자인·BE(서버리스)·인프라 등 전 과정 경험
+                    FE 개발 & 기획·디자인·BE(서버리스)·인프라 등 전 과정 경험
                   </p>
                 </li>
               </div>
