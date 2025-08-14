@@ -324,9 +324,9 @@ export default function Page() {
                       재요청이 불필요하다고 판단하여, staleTime을 Infinity로, gcTime은 60분으로 설정
                     </li>
                     <li className={styles['small-bullet']}>
-                      자주 변경될 가능성이 높고, 매끄러운 UX를 위해 페이지 재방문마다 재요청이
-                      필요한 갤러리페이지의 동적 데이터에 대해서는 staleTime을 0으로, gcTime은
-                      5분으로 설정
+                      자주 변경될 가능성이 높고, 매끄러운 UX를 위해 페이지 재방문마다 초기화가
+                      필요한 갤러리페이지의 동적 데이터에 대해서는 staleTime은 그대로, gcTime은
+                      0분으로 설정
                     </li>
                   </ul>
                 </li>

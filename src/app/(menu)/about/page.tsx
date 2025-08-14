@@ -80,7 +80,7 @@ export default function Page() {
 
             <div className={styles['resume-link-container']}>
               <a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:701ffc02-130c-4861-adee-aea33a210360"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:fee577b6-7d2c-4be9-81e6-cdfb0294047d"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles['resume-link-text']}
