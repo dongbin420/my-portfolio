@@ -166,7 +166,7 @@ export default function Page() {
                   인터랙티브한 컴포넌트들 구현
                 </li>
                 <li>디자인 시스템(스페이싱, 색, 배치 등)을 적용해 웹사이트 디자인의 일관성 향상</li>
-                <li>성능 개선(이미지, webpack, 리액트)</li>
+                <li>성능 개선(이미지, webpack)</li>
                 <li>
                   그 외
                   <ul>
