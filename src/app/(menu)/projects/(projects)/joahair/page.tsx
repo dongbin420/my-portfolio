@@ -42,18 +42,18 @@ export default function Page() {
               <div className={styles['project-link-container']}>
                 <a
                   className={styles['project-link']}
-                  href="https://joa-hair-showcase.vercel.app/"
+                  href="https://demo.joahair.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Development(학습 및 연구용)
+                  Demo(추가 기능 시연 및 학습용)
                 </a>
                 <HiOutlineArrowLongRight className={styles['arrow']} />
               </div>
               <div className={styles['project-link-container']}>
                 <a
                   className={styles['project-link']}
-                  href="https://github.com/dongbin420/joa-hair-showcase"
+                  href="https://github.com/dongbin420/joa-hair"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
