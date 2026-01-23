@@ -22,6 +22,17 @@ export default function Page() {
               <div className={styles['project-link-container']}>
                 <a
                   className={styles['project-link']}
+                  href="https://dongbin.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Website
+                </a>
+                <HiOutlineArrowLongRight className={styles['arrow']} />
+              </div>
+              <div className={styles['project-link-container']}>
+                <a
+                  className={styles['project-link']}
                   href="https://github.com/dongbin420/my-portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
