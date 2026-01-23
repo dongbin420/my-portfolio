@@ -87,6 +87,14 @@ export default function Page() {
           <div className={styles['contact-container']}>
             <div className={styles['link-container']}>
               {contact.slice(0, 2).map((info) => {
+                if (info.method === 'phone') {
+                  return (
+                    <div key={info.method} className={styles[info.method]}>
+                      {info.name}
+                    </div>
+                  );
+                }
+
                 return (
                   <a
                     key={info.method}
@@ -94,16 +102,25 @@ export default function Page() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles[info.method]}
-                    onClick={
-                      info.method === 'phone'
-                        ? (event) => {
-                            handlePhoneClick(event, info.name);
-                          }
-                        : undefined
-                    }
                   >
                     {info.name}
                   </a>
+                  // <a
+                  //   key={info.method}
+                  //   href={info.url}
+                  //   target="_blank"
+                  //   rel="noopener noreferrer"
+                  //   className={styles[info.method]}
+                  //   onClick={
+                  //     info.method === 'phone'
+                  //       ? (event) => {
+                  //           handlePhoneClick(event, info.name);
+                  //         }
+                  //       : undefined
+                  //   }
+                  // >
+                  //   {info.name}
+                  // </a>
                 );
               })}
             </div>

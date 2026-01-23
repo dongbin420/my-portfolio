@@ -26,7 +26,7 @@ export const contact = [
     method: 'email',
     name: 'dongbin420@gmail.com',
   },
-  { url: '/', method: 'phone', name: '010-7362-6762' },
+  { url: '/', method: 'phone', name: 'Seoul' },
   { url: 'https://github.com/dongbin420', method: 'github', name: 'Github' },
   {
     url: 'https://zonbin.notion.site/66c53c14e28949748e731cd2ccde64a6?v=c84ac5d11c624e3cbe9f277e5abe53fc',
@@ -73,13 +73,6 @@ export const joahairImgCarouselSrc = [
   '../img/joahair/joahair4.webp',
   '../img/joahair/joahair5.webp',
   '../img/joahair/joahair6.webp',
-  '../img/joahair/joahair7.webp',
-  '../img/joahair/joahair8.webp',
-  '../img/joahair/joahair9.webp',
-  '../img/joahair/joahair10.webp',
-  '../img/joahair/joahair11.webp',
-  '../img/joahair/joahair12.webp',
-  '../img/joahair/joahair13.webp',
 ];
 
 // 이미지 웹 주소

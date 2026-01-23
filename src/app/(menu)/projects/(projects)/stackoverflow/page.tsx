@@ -81,13 +81,19 @@ export default function Page() {
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>질문 작성 페이지</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/stackoverflow/stackoverflow-capture1.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a
+                href="/img/stackoverflow/stackoverflow-capture1.png"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/stackoverflow/stackoverflow-capture1.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>
                 TipTap 라이브러리를 이용한 웹 에디터 구현
               </p>
@@ -103,20 +109,32 @@ export default function Page() {
               </ul>
             </div>
             <div className={styles['page-element']}>
-              <Image
-                className={styles['project-capture']}
-                src="/img/stackoverflow/stackoverflow-capture2.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/stackoverflow/stackoverflow-capture3.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a
+                href="/img/stackoverflow/stackoverflow-capture2.png"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className={styles['project-capture']}
+                  src="/img/stackoverflow/stackoverflow-capture2.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
+              <a
+                href="/img/stackoverflow/stackoverflow-capture3.png"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/stackoverflow/stackoverflow-capture3.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>질문 태그 구현</p>
               <ul className={styles['description']}>
                 <li>
@@ -133,20 +151,32 @@ export default function Page() {
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>질문 상세 페이지</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={`${styles['project-capture']}`}
-                src="/img/stackoverflow/stackoverflow-capture4.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/stackoverflow/stackoverflow-capture5.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a
+                href="/img/stackoverflow/stackoverflow-capture4.png"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className={`${styles['project-capture']}`}
+                  src="/img/stackoverflow/stackoverflow-capture4.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
+              <a
+                href="/img/stackoverflow/stackoverflow-capture5.png"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/stackoverflow/stackoverflow-capture5.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>Recoil을 활용한 상태 관리</p>
               <ul className={styles['description']}>
                 <li>
@@ -160,13 +190,15 @@ export default function Page() {
               </ul>
             </div>
             <div className={styles['page-element']}>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/stackoverflow/stackoverflow-video.gif"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a href="/img/stackoverflow/stackoverflow-video.gif" target="_blank" rel="noreferrer">
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/stackoverflow/stackoverflow-video.gif"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>질문, 답변, 댓글 crud 구현</p>
               <ul className={styles['description']}>
                 <li>질문, 답변, 댓글의 CRUD 기능을 구현하였습니다.</li>
@@ -177,13 +209,19 @@ export default function Page() {
               </ul>
             </div>
             <div className={styles['page-element']}>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/stackoverflow/stackoverflow-capture6.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a
+                href="/img/stackoverflow/stackoverflow-capture6.png"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/stackoverflow/stackoverflow-capture6.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>CSS Grid를 이용한 레이아웃 구성</p>
               <div className={styles['description']}>
                 <p>
@@ -200,20 +238,6 @@ export default function Page() {
               <p className={styles['description-title']}>Deployment</p>
               <div className={styles['description']}>
                 <p>Netlify를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</p>
-              </div>
-            </div>
-            <div>
-              <p className={styles['description-title']}>프로젝트 회고</p>
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://zonbin.notion.site/fe85020f2a9a405ca4e735cf6ee68128?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글: 첫 팀 프로젝트 회고
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
               </div>
             </div>
           </div>

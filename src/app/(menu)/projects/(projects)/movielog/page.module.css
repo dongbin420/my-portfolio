@@ -81,7 +81,7 @@
 }
 
 .bottom-section {
-  max-width: 1500px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 10rem;
   padding: 0 4rem;
@@ -94,7 +94,7 @@
 }
 
 .page-title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: var(--font-pretendard);
   font-weight: 500;
   border-bottom: 2px solid rgb(23, 22, 27);
@@ -128,7 +128,7 @@
 }
 
 .project-capture {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-bottom: 1.5rem;
   border: rgb(23, 22, 27, 0.1) 1px solid;

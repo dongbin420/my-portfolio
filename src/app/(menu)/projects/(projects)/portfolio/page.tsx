@@ -22,17 +22,6 @@ export default function Page() {
               <div className={styles['project-link-container']}>
                 <a
                   className={styles['project-link']}
-                  href="https://dongbin.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Website
-                </a>
-                <HiOutlineArrowLongRight className={styles['arrow']} />
-              </div>
-              <div className={styles['project-link-container']}>
-                <a
-                  className={styles['project-link']}
                   href="https://github.com/dongbin420/my-portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -77,18 +66,20 @@ export default function Page() {
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>소개</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/portfolio/portfolio-capture1.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a href="/img/portfolio/portfolio-capture1.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/portfolio/portfolio-capture1.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>Next.js 도입</p>
               <div className={styles['description']}>
                 <p>
                   SSR 및 Next.js 학습을 위해 Next.js 13을 활용해 프로젝트를 진행했습니다. CSR, SSR
-                  및 Next.js의 App Router 기반 렌더링 전략과 아키텍처에 대한 분석 및 연구을
+                  및 Next.js의 App Router 기반 렌더링 전략과 아키텍처에 대한 분석 및 학습을
                   진행했고, Route Groups, next/link, next/image, next/font 등의 기능들을
                   사용했습니다.
                 </p>
@@ -132,13 +123,15 @@ export default function Page() {
               </div>
             </div>
             <div className={styles['page-element']}>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/portfolio/portfolio-capture4.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a href="/img/portfolio/portfolio-capture4.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/portfolio/portfolio-capture4.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>이메일 전송 기능 구현</p>
               <div className={styles['description']}>
                 <p>

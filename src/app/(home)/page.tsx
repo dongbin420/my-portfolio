@@ -32,12 +32,12 @@ export default function Page() {
             <span className={styles['content-title-dot']}>.</span>
           </h1>
           <p className={styles['content-text-1']}>
-            Hello, my name is Dongbin, I&apos;m passionate about solving problems with persistence
+            Hello, my name is Dongbin. I&apos;m passionate about solving problems with persistence
             and dedication.
           </p>
           <p className={styles['content-text-2']}>
-            I enjoy seeing my deep thoughts turn into reality on the web as beautiful interfaces and
-            seamless experiences for users. It also brings me so much joy and a great sense of
+            I enjoy turning deep thoughts into reality on the web, creating beautiful interfaces and
+            seamless experiences for users. This process brings me great joy and a strong sense of
             accomplishment.
           </p>
         </section>

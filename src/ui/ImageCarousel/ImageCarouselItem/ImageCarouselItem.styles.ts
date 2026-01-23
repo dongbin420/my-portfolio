@@ -6,11 +6,11 @@ export const ImageCarouselItemContainer = styled.div`
 
 export const ImageCarouselImage = styled.img`
   width: 100%;
-  height: 750px;
+  height: 650px;
   /* object-fit: contain; */
   /* object-fit: cover; */
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     height: 400px;
   }
 

@@ -77,10 +77,10 @@ export default function Page() {
               이 결과물들이 많은 사람들에게 의미있는 가치를 전달할 수 있다는 점은 저에게 또 하나의
               큰 동기부여가 됩니다.
             </p>
-
+            {/* 이력서 링크 */}
             <div className={styles['resume-link-container']}>
               <a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:fee577b6-7d2c-4be9-81e6-cdfb0294047d"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:270e4f9c-4cf8-4e58-af5c-abd754caedb6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles['resume-link-text']}

@@ -15,7 +15,10 @@
   color: #ffe761;
 }
 
-.github, .email, .phone, .blog {
+.github,
+.email,
+.phone,
+.blog {
   background-repeat: no-repeat;
   background-size: contain; /* or cover, or whatever fits your design */
   padding-left: 6.5rem; /* Adjust the padding to create space for the image */
@@ -37,15 +40,18 @@
 }
 
 .phone {
-  background-image: url('https://icons.veryicon.com/png/o/business/circular-multi-color-function-icon/phone-phone.png');
-  color: #57e087;
+  background-image: url('https://icons.veryicon.com/png/o/business/classic-icon/location-56.png');
+  color: black;
 }
 
 .blog {
   background-image: url('https://icons.veryicon.com/png/o/brands/popular-brand-icon-simple-icons/notion.png');
 }
 
-.github:hover, .email:hover, .phone:hover, .blog:hover {
+.github:hover,
+.email:hover,
+.phone:hover,
+.blog:hover {
   opacity: 0.6;
 }
 
@@ -103,7 +109,9 @@
   margin-bottom: 2rem;
 }
 
-.name-input, .email-input, .message-input {
+.name-input,
+.email-input,
+.message-input {
   border: none;
   border-bottom: 1.5px solid rgba(23, 22, 27, 0.2);
   outline: none;
@@ -111,11 +119,14 @@
   width: 100%;
 }
 
-.name-input, .email-input {
+.name-input,
+.email-input {
   padding-bottom: 0.5rem;
 }
 
-.name-input:focus, .email-input:focus, .message-input:focus {
+.name-input:focus,
+.email-input:focus,
+.message-input:focus {
   border-bottom: 1.5px solid #000000;
   color: #17161b;
 }
@@ -124,7 +135,8 @@
   color: #17161b;
 }
 
-.form-row-1, .form-row-2 {
+.form-row-1,
+.form-row-2 {
   display: flex;
   gap: 3rem;
 }
@@ -151,7 +163,9 @@
   color: rgba(23, 22, 27, 0.4);
   font-size: 1.5rem;
   cursor: pointer;
-  transition: border 0.2s ease, color 0.2s ease;
+  transition:
+    border 0.2s ease,
+    color 0.2s ease;
 
   position: relative;
 }
@@ -159,7 +173,7 @@
 .mail-btn::before {
   position: absolute;
 
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 0;
@@ -212,7 +226,10 @@
     font-size: 6em;
   }
 
-  .github, .email, .phone, .blog {
+  .github,
+  .email,
+  .phone,
+  .blog {
     font-size: 1.3em;
     line-height: 3em;
   }
@@ -237,7 +254,10 @@
     font-size: 4em;
   }
 
-  .github, .email, .phone, .blog {
+  .github,
+  .email,
+  .phone,
+  .blog {
     font-size: 1em;
     line-height: 3em;
     padding-left: 4.5rem;

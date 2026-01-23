@@ -23,22 +23,22 @@ export default function Page() {
               <div className={styles['project-link-container']}>
                 <a
                   className={styles['project-link']}
-                  href="http://code-main-24.s3-website.ap-northeast-2.amazonaws.com/"
+                  href="https://github.com/dongbin420/seb44_main_024"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Website(예산 문제로 백엔드 서버 폐쇄)
+                  GitHub
                 </a>
                 <HiOutlineArrowLongRight className={styles['arrow']} />
               </div>
               <div className={styles['project-link-container']}>
                 <a
                   className={styles['project-link']}
-                  href="https://github.com/dongbin420/seb44_main_024"
+                  href="http://code-main-24.s3-website.ap-northeast-2.amazonaws.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  GitHub
+                  Website(예산 문제로 백엔드 서버 폐쇄)
                 </a>
                 <HiOutlineArrowLongRight className={styles['arrow']} />
               </div>
@@ -81,27 +81,25 @@ export default function Page() {
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>영화 상세 페이지</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={styles['project-capture']}
-                src="/img/movielog/movielog-capture1.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <Image
-                className={styles['project-capture']}
-                src="/img/movielog/movielog-capture2.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/movielog-capture3.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a href="/img/movielog/movielog-capture1.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={styles['project-capture']}
+                  src="/img/movielog/movielog-capture1.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
+              <a href="/img/movielog/movielog-capture2.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={styles['project-capture']}
+                  src="/img/movielog/movielog-capture2.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
+
               <p className={styles['description-title']}>디테일한 영화 정보 제공</p>
               <ul className={styles['description']}>
                 <li>
@@ -121,20 +119,24 @@ export default function Page() {
               </ul>
             </div>
             <div className={styles['page-element']}>
-              <Image
-                className={styles['project-capture']}
-                src="/img/movielog/movielog-capture4.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/movielog-capture5.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a href="/img/movielog/movielog-capture4.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={styles['project-capture']}
+                  src="/img/movielog/movielog-capture4.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
+              <a href="/img/movielog/movielog-capture5.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/movielog/movielog-capture5.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>
                 자유로운 영화 평가를 위한 리뷰 작성 기능 구현
               </p>
@@ -150,20 +152,15 @@ export default function Page() {
               </ul>
             </div>
             <div className={styles['page-element']}>
-              <Image
-                className={styles['project-capture']}
-                src="/img/movielog/movielog-capture6.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/movielog-capture7.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a href="/img/movielog/movielog-capture7.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/movielog/movielog-capture7.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>페이지네이션 기능 구현</p>
 
               <ul className={styles['description']}>
@@ -174,30 +171,20 @@ export default function Page() {
                   열람에 대한 선택권을 주는 페이지네이션 방식을 선택했습니다.
                 </li>
               </ul>
-
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://zonbin.notion.site/c108f169fe014408a2c1ad3f465cd557?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글: 영화 리뷰 페이지네이션으로 처리하기
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
-              </div>
             </div>
           </div>
           <div className={styles['page-container']}>
             <h1 className={styles['page-title']}>검색 페이지</h1>
             <div className={styles['page-element']}>
-              <Image
-                className={`${styles['project-capture']} ${styles['last-capture']}`}
-                src="/img/movielog/movielog-capture8.png"
-                width={1300}
-                height={650}
-                alt="projectCapture"
-              />
+              <a href="/img/movielog/movielog-capture8.png" target="_blank" rel="noreferrer">
+                <Image
+                  className={`${styles['project-capture']} ${styles['last-capture']}`}
+                  src="/img/movielog/movielog-capture8.png"
+                  width={1300}
+                  height={650}
+                  alt="projectCapture"
+                />
+              </a>
               <p className={styles['description-title']}>
                 쿼리 파라미터를 이용한 영화 검색 기능 구현
               </p>
@@ -223,31 +210,6 @@ export default function Page() {
                 <li>AWS S3를 활용하여 정적 웹 사이트 호스팅을 구성하였습니다.</li>
                 <li>Github Actions를 이용하여 CD 파이프라인을 구축하였습니다.</li>
               </ul>
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://zonbin.notion.site/github-actions-9ec6ab0c7bda4f7f8ab274d594988619?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글: github actions으로 프로젝트 자동배포하기
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
-              </div>
-            </div>
-            <div>
-              <p className={styles['description-title']}>프로젝트 회고</p>
-              <div className={styles['blog-link-container']}>
-                <a
-                  href="https://zonbin.notion.site/bec690a507a0454ab66686a5243c5460?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles['blog-link-text']}
-                >
-                  블로그 글: 메인프로젝트 회고
-                </a>
-                <HiOutlineArrowLongRight className={styles['blog-arrow-icon']} />
-              </div>
             </div>
           </div>
         </section>

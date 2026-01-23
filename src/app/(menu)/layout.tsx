@@ -34,6 +34,14 @@ const pretendard = localFont({
       path: '../../../public/font/Pretendard/Pretendard-Medium.woff2',
       weight: '300',
     },
+    {
+      path: '../../../public/font/Pretendard/Pretendard-Regular.woff2',
+      weight: '200',
+    },
+    {
+      path: '../../../public/font/Pretendard/Pretendard-Light.woff2',
+      weight: '100',
+    },
   ],
   display: 'swap',
   variable: '--font-pretendard',
