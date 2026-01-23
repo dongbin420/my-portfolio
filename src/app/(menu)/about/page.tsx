@@ -80,7 +80,7 @@ export default function Page() {
             {/* 이력서 링크 */}
             <div className={styles['resume-link-container']}>
               <a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:ap:c417f932-b051-4d94-bef6-5940bc3e91bc"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:06e7a7f4-e85c-4b12-9756-10d49f1c9d56"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles['resume-link-text']}
